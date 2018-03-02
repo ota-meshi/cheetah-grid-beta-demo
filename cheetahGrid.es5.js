@@ -7692,7 +7692,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						//private methods
 						var _vibrate = function _vibrate(e) {
 							if (navigator.vibrate && isTouchEvent(e)) {
-								navigator.vibrate(300);
+								navigator.vibrate(100);
 							}
 						};
 
