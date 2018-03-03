@@ -110,9 +110,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 			/******/{
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./columns/action/internal/InlineInputElement.css":
-				/*!***********************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/InlineInputElement.css ***!
-      \***********************************************************************************************************************************/
+				/*!**********************************************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/InlineInputElement.css ***!
+      \**********************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsActionInternalInlineInputElementCss(module, exports, __webpack_require__) {
@@ -131,9 +131,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./columns/action/internal/InlineMenuElement.css":
-				/*!**********************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/InlineMenuElement.css ***!
-      \**********************************************************************************************************************************/
+				/*!*********************************************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/InlineMenuElement.css ***!
+      \*********************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsActionInternalInlineMenuElementCss(module, exports, __webpack_require__) {
@@ -152,9 +152,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./columns/action/internal/SmallDialogInputElement.css":
-				/*!****************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/SmallDialogInputElement.css ***!
-      \****************************************************************************************************************************************/
+				/*!***************************************************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/SmallDialogInputElement.css ***!
+      \***************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsActionInternalSmallDialogInputElementCss(module, exports, __webpack_require__) {
@@ -173,9 +173,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./internal/style.css":
-				/*!*******************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./internal/style.css ***!
-      \*******************************************************************************************************/
+				/*!******************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/node_modules/css-loader?minimize!./internal/style.css ***!
+      \******************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeInternalStyleCss(module, exports, __webpack_require__) {
@@ -194,9 +194,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../node_modules/css-loader/lib/css-base.js":
-				/*!*****************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader/lib/css-base.js ***!
-      \*****************************************************************************************/
+				/*!****************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/node_modules/css-loader/lib/css-base.js ***!
+      \****************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderLibCssBaseJs(module, exports) {
@@ -280,9 +280,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../node_modules/style-loader/lib/addStyles.js":
-				/*!********************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/style-loader/lib/addStyles.js ***!
-      \********************************************************************************************/
+				/*!*******************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/node_modules/style-loader/lib/addStyles.js ***!
+      \*******************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesStyleLoaderLibAddStylesJs(module, exports, __webpack_require__) {
@@ -655,9 +655,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../node_modules/style-loader/lib/urls.js":
-				/*!***************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/style-loader/lib/urls.js ***!
-      \***************************************************************************************/
+				/*!**************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/node_modules/style-loader/lib/urls.js ***!
+      \**************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesStyleLoaderLibUrlsJs(module, exports) {
@@ -754,9 +754,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/content/svg/production/ic_add_48px.svg":
-				/*!*************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/content/svg/production/ic_add_48px.svg ***!
-      \*************************************************************************************************************************************************************************************************************/
+				/*!***********************************************************************************************************************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!/Users/yosuke/Documents/git/cheetah-grid/node_modules/material-design-icons/content/svg/production/ic_add_48px.svg ***!
+      \***********************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsContentSvgProductionIc_add_48pxSvg(module, exports) {
@@ -765,7 +765,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						/*
       original svg
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M38 26H26v12h-4V26H10v-4h12V10h4v12h12v4z"/></svg>
-      @ material-design-icons\content\svg\production\ic_add_48px.svg
+      @ material-design-icons/content/svg/production/ic_add_48px.svg
       */
 						d: 'M38 26H26v12h-4V26H10v-4h12V10h4v12h12v4z',
 						width: 48,
@@ -777,9 +777,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/image/svg/production/ic_edit_48px.svg":
-				/*!************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/image/svg/production/ic_edit_48px.svg ***!
-      \************************************************************************************************************************************************************************************************************/
+				/*!**********************************************************************************************************************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!/Users/yosuke/Documents/git/cheetah-grid/node_modules/material-design-icons/image/svg/production/ic_edit_48px.svg ***!
+      \**********************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsImageSvgProductionIc_edit_48pxSvg(module, exports) {
@@ -788,7 +788,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						/*
       original svg
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M6 34.5V42h7.5l22.13-22.13-7.5-7.5L6 34.5zm35.41-20.41c.78-.78.78-2.05 0-2.83l-4.67-4.67c-.78-.78-2.05-.78-2.83 0l-3.66 3.66 7.5 7.5 3.66-3.66z"/></svg>
-      @ material-design-icons\image\svg\production\ic_edit_48px.svg
+      @ material-design-icons/image/svg/production/ic_edit_48px.svg
       */
 						d: 'M6 34.5V42h7.5l22.13-22.13-7.5-7.5L6 34.5zm35.41-20.41c.78-.78.78-2.05 0-2.83l-4.67-4.67c-.78-.78-2.05-.78-2.83 0l-3.66 3.66 7.5 7.5 3.66-3.66z',
 						width: 48,
@@ -800,9 +800,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/navigation/svg/production/ic_arrow_downward_48px.svg":
-				/*!***************************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/navigation/svg/production/ic_arrow_downward_48px.svg ***!
-      \***************************************************************************************************************************************************************************************************************************/
+				/*!*************************************************************************************************************************************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!/Users/yosuke/Documents/git/cheetah-grid/node_modules/material-design-icons/navigation/svg/production/ic_arrow_downward_48px.svg ***!
+      \*************************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsNavigationSvgProductionIc_arrow_downward_48pxSvg(module, exports) {
@@ -811,7 +811,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						/*
       original svg
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path fill="#010101" d="M40 24l-2.82-2.82L26 32.34V8h-4v24.34L10.84 21.16 8 24l16 16 16-16z"/></svg>
-      @ material-design-icons\navigation\svg\production\ic_arrow_downward_48px.svg
+      @ material-design-icons/navigation/svg/production/ic_arrow_downward_48px.svg
       */
 						d: 'M40 24l-2.82-2.82L26 32.34V8h-4v24.34L10.84 21.16 8 24l16 16 16-16z',
 						width: 48,
@@ -823,9 +823,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/navigation/svg/production/ic_arrow_upward_48px.svg":
-				/*!*************************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/navigation/svg/production/ic_arrow_upward_48px.svg ***!
-      \*************************************************************************************************************************************************************************************************************************/
+				/*!***********************************************************************************************************************************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!/Users/yosuke/Documents/git/cheetah-grid/node_modules/material-design-icons/navigation/svg/production/ic_arrow_upward_48px.svg ***!
+      \***********************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsNavigationSvgProductionIc_arrow_upward_48pxSvg(module, exports) {
@@ -834,7 +834,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						/*
       original svg
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M8 24l2.83 2.83L22 15.66V40h4V15.66l11.17 11.17L40 24 24 8 8 24z"/></svg>
-      @ material-design-icons\navigation\svg\production\ic_arrow_upward_48px.svg
+      @ material-design-icons/navigation/svg/production/ic_arrow_upward_48px.svg
       */
 						d: 'M8 24l2.83 2.83L22 15.66V40h4V15.66l11.17 11.17L40 24 24 8 8 24z',
 						width: 48,
@@ -846,9 +846,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/toggle/svg/production/ic_star_24px.svg":
-				/*!*************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_24px.svg ***!
-      \*************************************************************************************************************************************************************************************************************/
+				/*!***********************************************************************************************************************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!/Users/yosuke/Documents/git/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_24px.svg ***!
+      \***********************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsToggleSvgProductionIc_star_24pxSvg(module, exports) {
@@ -857,7 +857,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						/*
       original svg
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-      @ material-design-icons\toggle\svg\production\ic_star_24px.svg
+      @ material-design-icons/toggle/svg/production/ic_star_24px.svg
       */
 						d: 'M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z',
 						width: 24,
@@ -869,9 +869,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/toggle/svg/production/ic_star_border_24px.svg":
-				/*!********************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_border_24px.svg ***!
-      \********************************************************************************************************************************************************************************************************************/
+				/*!******************************************************************************************************************************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!/Users/yosuke/Documents/git/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_border_24px.svg ***!
+      \******************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsToggleSvgProductionIc_star_border_24pxSvg(module, exports) {
@@ -880,7 +880,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						/*
       original svg
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/></svg>
-      @ material-design-icons\toggle\svg\production\ic_star_border_24px.svg
+      @ material-design-icons/toggle/svg/production/ic_star_border_24px.svg
       */
 						d: 'M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z',
 						width: 24,
@@ -892,9 +892,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/toggle/svg/production/ic_star_half_24px.svg":
-				/*!******************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_half_24px.svg ***!
-      \******************************************************************************************************************************************************************************************************************/
+				/*!****************************************************************************************************************************************************************************************************************!*\
+      !*** /Users/yosuke/Documents/git/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!/Users/yosuke/Documents/git/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_half_24px.svg ***!
+      \****************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsToggleSvgProductionIc_star_half_24pxSvg(module, exports) {
@@ -903,7 +903,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						/*
       original svg
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"/></svg>
-      @ material-design-icons\toggle\svg\production\ic_star_half_24px.svg
+      @ material-design-icons/toggle/svg/production/ic_star_half_24px.svg
       */
 						d: 'M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z',
 						width: 24,
@@ -2962,14 +2962,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											col: cell.col,
 											row: cell.row
 										});
-									}), grid.listen(DBLTAP_CELL, function (cell) {
-										if (!util.isTarget(cell.col, cell.row)) {
+									}), grid.listen(DBLTAP_CELL, function (e) {
+										if (!util.isTarget(e.col, e.row)) {
 											return;
 										}
 										open({
-											col: cell.col,
-											row: cell.row
+											col: e.col,
+											row: e.row
 										});
+
+										e.event.preventDefault();
+										e.event.stopPropagation();
 									}), grid.listen(KEYDOWN, function (keyCode, e) {
 										if (keyCode !== KEY_F2 && keyCode !== KEY_ENTER) {
 											return;
@@ -3255,10 +3258,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									return new Editor(this);
 								}
 							}, {
-								key: 'bindGridEvent',
-								value: function bindGridEvent(grid, col, util) {
-									return [];
-								}
+								key: 'onChangeReadOnlyInternal',
+								value: function onChangeReadOnlyInternal() {}
 							}, {
 								key: 'readOnly',
 								get: function get() {
@@ -3266,6 +3267,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								},
 								set: function set(readOnly) {
 									this._readOnly = !!readOnly;
+									this.onChangeReadOnlyInternal();
 								}
 							}]);
 
@@ -3324,7 +3326,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 							globalElement.attach(grid, editor, cell.col, cell.row, value);
 						}
-						function detachInput(grid) {
+						function detachInput() {
 							if (globalElement) {
 								globalElement.detach();
 							}
@@ -3373,13 +3375,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								key: 'onChangeSelectCellInternal',
 								value: function onChangeSelectCellInternal(grid, cell, selected) {
 									doChangeValue(grid);
-									detachInput(grid);
+									detachInput();
 								}
 							}, {
 								key: 'onGridScrollInternal',
 								value: function onGridScrollInternal(grid) {
 									doChangeValue(grid);
-									detachInput(grid);
+									detachInput();
+								}
+							}, {
+								key: 'onChangeDisabledInternal',
+								value: function onChangeDisabledInternal() {
+									// cancel input
+									detachInput();
+								}
+							}, {
+								key: 'onChangeReadOnlyInternal',
+								value: function onChangeReadOnlyInternal() {
+									// cancel input
+									detachInput();
 								}
 							}, {
 								key: 'onSetInputAttrsInternal',
@@ -3474,7 +3488,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 							globalElement.attach(grid, editor, cell.col, cell.row, value);
 						}
-						function detachMenu(grid) {
+						function detachMenu() {
 							if (globalElement) {
 								globalElement.detach();
 							}
@@ -3505,6 +3519,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								key: 'clone',
 								value: function clone() {
 									return new InlineMenuEditor(this);
+								}
+							}, {
+								key: 'onChangeDisabledInternal',
+								value: function onChangeDisabledInternal() {
+									// cancel input
+									detachMenu();
+								}
+							}, {
+								key: 'onChangeReadOnlyInternal',
+								value: function onChangeReadOnlyInternal() {
+									// cancel input
+									detachMenu();
 								}
 							}, {
 								key: 'bindGridEvent',
@@ -3541,9 +3567,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											row: sel.row
 										});
 									}), grid.listen(SELECTED_CELL, function (cell, selected) {
-										detachMenu(grid);
+										detachMenu();
 									}), grid.listen(SCROLL, function () {
-										detachMenu(grid);
+										detachMenu();
 									}),
 
 									// mouse move
@@ -3645,7 +3671,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 							globalElement.attach(grid, editor, cell.col, cell.row, value);
 						}
-						function detachInput(grid) {
+						function detachInput() {
 							if (globalElement) {
 								globalElement.detach();
 							}
@@ -3704,6 +3730,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: 'onGridScrollInternal',
 								value: function onGridScrollInternal(grid) {
+									// cancel input
+									detachInput();
+								}
+							}, {
+								key: 'onChangeDisabledInternal',
+								value: function onChangeDisabledInternal() {
+									// cancel input
+									detachInput();
+								}
+							}, {
+								key: 'onChangeReadOnlyInternal',
+								value: function onChangeReadOnlyInternal() {
 									// cancel input
 									detachInput();
 								}
@@ -8309,31 +8347,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									grid[_].cellSelector.start(e);
 								}
 							});
-							var doubleTapBefore = false;
+							var doubleTapBefore = null;
 							var longTouchId = null;
 							grid[_].handler.on(grid[_].element, 'touchstart', function (e) {
 
 								if (!doubleTapBefore) {
-									doubleTapBefore = true;
+									doubleTapBefore = getCellEventArgsSet(e).eventArgs;
 									setTimeout(function () {
-										doubleTapBefore = false;
+										doubleTapBefore = null;
 									}, 350);
 								} else {
-									e.preventDefault();
-
 									var _getCellEventArgsSet = getCellEventArgsSet(e),
 									    eventArgs = _getCellEventArgsSet.eventArgs;
 
-									if (eventArgs) {
-										var cell = {
-											col: eventArgs.col,
-											row: eventArgs.row
-										};
-										grid.fireListeners(EVENT_TYPE.DBLTAP_CELL, cell);
+									if (eventArgs && eventArgs.col === doubleTapBefore.col && eventArgs.row === doubleTapBefore.row) {
+										grid.fireListeners(EVENT_TYPE.DBLTAP_CELL, eventArgs);
 									}
 
-									doubleTapBefore = false;
-									return;
+									doubleTapBefore = null;
+
+									if (e.defaultPrevented) {
+										return;
+									}
 								}
 
 								longTouchId = setTimeout(function () {
@@ -9018,13 +9053,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									var keyCode = getKeyCode(e);
 									_this57.fireListeners('keydown', keyCode, e);
 
-									if (_this57._input.value) {
+									if (!_this57._input.readOnly && _this57._input.value) {
 										// for Safari
 										_this57.fireListeners('input', _this57._input.value);
 									}
 
 									setSafeInputValue(_this57._input, '');
 								});
+								var inputClear = function inputClear(e) {
+									if (_this57._isComposition) {
+										return;
+									}
+									setSafeInputValue(_this57._input, '');
+								};
+
+								_this57._handler.on(_this57._input, 'input', inputClear);
+								_this57._handler.on(_this57._input, 'keyup', inputClear);
 								_this57._handler.on(document, 'keydown', function (e) {
 									if (!browser.IE) {
 										return;
