@@ -1001,7 +1001,7 @@ module.exports = {
 		return true;
 	}
 
-	function drawInlines(ctx, inlines, rect, offset, col, row, grid) {
+	function drawInlines(ctx, inlines, rect, offset, offsetTop, offsetBottom, col, row, grid) {
 		function drawInline(inline, offsetLeft, offsetRight) {
 			if (inline.canDraw()) {
 				ctx.save();
@@ -1014,7 +1014,9 @@ module.exports = {
 						rect,
 						offset,
 						offsetLeft,
-						offsetRight
+						offsetRight,
+						offsetTop,
+						offsetBottom
 					});
 				} finally {
 					ctx.restore();
@@ -1058,7 +1060,52 @@ module.exports = {
 		ctx.font = font || ctx.font;
 
 		const actInlines = inlines.buildInlines(icons, inline);
-		drawInlines(ctx, actInlines, rect, offset, col, row, grid);
+		drawInlines(ctx, actInlines, rect, offset, 0, 0, col, row, grid);
+	}
+
+	function _multiInlineRect(grid, ctx, multiInlines, rect, col, row, {
+		offset,
+		color,
+		textAlign,
+		textBaseline,
+		font,
+		lineHeight,
+		icons
+	} = {}) {
+		//文字style
+		ctx.fillStyle = getColor(color, col, row, grid, ctx);
+		ctx.textAlign = textAlign;
+		ctx.textBaseline = textBaseline;
+		ctx.font = font || ctx.font;
+
+		multiInlines = [...multiInlines];
+
+		let paddingTop = 0;
+		let paddingBottom = lineHeight * (multiInlines.length - 1);
+
+		if (ctx.textBaseline === 'top' || ctx.textBaseline === 'hanging') {
+			const em = ctx.measureText('あ').width;
+			const pad = (lineHeight - em) / 2;
+			paddingTop += pad;
+			paddingBottom -= pad;
+		} else if (ctx.textBaseline === 'bottom' || ctx.textBaseline === 'alphabetic' || ctx.textBaseline === 'ideographic') {
+			const em = ctx.measureText('あ').width;
+			const pad = (lineHeight - em) / 2;
+			paddingTop -= pad;
+			paddingBottom += pad;
+		}
+		const line = multiInlines.shift() || '';
+		const actInlines = inlines.buildInlines(icons, line);
+		drawInlines(ctx, actInlines, rect, offset, paddingTop, paddingBottom, col, row, grid);
+		paddingTop += lineHeight;
+		paddingBottom -= lineHeight;
+		while (multiInlines.length) {
+			const line = multiInlines.shift();
+			const actInlines = inlines.buildInlines(undefined, line);
+			drawInlines(ctx, actInlines, rect, offset, paddingTop, paddingBottom, col, row, grid);
+			paddingTop += lineHeight;
+			paddingBottom -= lineHeight;
+		}
 	}
 
 	function drawCheckbox(ctx, rect, check, helper, {
@@ -1309,6 +1356,7 @@ module.exports = {
 
 			this.drawWithClip(context, ctx => {
 				if (padding) {
+					ctx.font = font || ctx.font;
 					padding = this.toBoxPixelArray(padding, context);
 					const left = rect.left + padding[3];
 					const top = rect.top + padding[0];
@@ -1322,6 +1370,52 @@ module.exports = {
 					textAlign,
 					textBaseline,
 					font,
+					icons
+				});
+			});
+		}
+		multilineText(multilines, context, {
+			padding,
+			offset = 2,
+			color,
+			textAlign = 'left',
+			textBaseline = 'middle',
+			font,
+			lineHeight = '1em',
+			icons
+		} = {}) {
+			let rect = context.getRect();
+
+			const { col, row } = context;
+
+			if (!color) {
+				({ color } = this.theme);
+				// header color
+				const isFrozenCell = this._grid.isFrozenCell(col, row);
+				if (isFrozenCell && isFrozenCell.row) {
+					color = this.theme.frozenRowsColor;
+				}
+			}
+
+			this.drawWithClip(context, ctx => {
+				ctx.font = font || ctx.font;
+				if (padding) {
+					padding = this.toBoxPixelArray(padding, context);
+					const left = rect.left + padding[3];
+					const top = rect.top + padding[0];
+					const width = rect.width - padding[1] - padding[3];
+					const height = rect.height - padding[0] - padding[2];
+					rect = new Rect(left, top, width, height);
+				}
+				const calculator = this.createCalculator(context);
+				lineHeight = calculator.calcHeight(lineHeight);
+				_multiInlineRect(this._grid, ctx, multilines, rect, col, row, {
+					offset,
+					color,
+					textAlign,
+					textBaseline,
+					font,
+					lineHeight,
 					icons
 				});
 			});
@@ -4403,7 +4497,7 @@ class InfoMessage extends BaseMessage {
 				boxRect.left = boxRect.right - 24;
 				ctx.fillRect(boxRect.left, boxRect.top, boxRect.width, boxRect.height - 1);
 
-				// draw exclamation mark
+				// draw i mark
 				const fillColor = bgColor;
 				const height = 20;
 				const width = height / 5;
@@ -5294,6 +5388,51 @@ module.exports = BranchGraphStyle;
 
 /***/ }),
 
+/***/ "./columns/style/MultilineTextStyle.js":
+/*!*********************************************!*\
+  !*** ./columns/style/MultilineTextStyle.js ***!
+  \*********************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+{
+	const Style = __webpack_require__(/*! ./Style */ "./columns/style/Style.js");
+
+	function adj(style) {
+		const { textBaseline = 'top' } = style;
+		style.textBaseline = textBaseline;
+		return style;
+	}
+	let defaultStyle;
+	class MultilineTextStyle extends Style {
+		static get DEFAULT() {
+			return defaultStyle ? defaultStyle : defaultStyle = new MultilineTextStyle();
+		}
+		constructor(style = {}) {
+			super(adj(style));
+			this._lineHeight = style.lineHeight || '1em';
+		}
+		clone() {
+			return new MultilineTextStyle(this);
+		}
+		get lineHeight() {
+			return this._lineHeight;
+		}
+		set lineHeight(lineHeight) {
+			this._lineHeight = lineHeight;
+			this.doChangeStyle();
+		}
+	}
+
+	module.exports = MultilineTextStyle;
+}
+
+/***/ }),
+
 /***/ "./columns/style/NumberStyle.js":
 /*!**************************************!*\
   !*** ./columns/style/NumberStyle.js ***!
@@ -5519,6 +5658,7 @@ module.exports = BranchGraphStyle;
 	const IconColumn = __webpack_require__(/*! ./type/IconColumn */ "./columns/type/IconColumn.js");
 	const BranchGraphColumn = __webpack_require__(/*! ./type/BranchGraphColumn */ "./columns/type/BranchGraphColumn.js");
 	const MenuColumn = __webpack_require__(/*! ./type/MenuColumn */ "./columns/type/MenuColumn.js");
+	const MultilineTextColumn = __webpack_require__(/*! ./type/MultilineTextColumn */ "./columns/type/MultilineTextColumn.js");
 
 	/**
   * column types
@@ -5532,7 +5672,8 @@ module.exports = BranchGraphStyle;
 			NUMBER: new NumberColumn(),
 			CHECK: new CheckColumn(),
 			BUTTON: new ButtonColumn(),
-			IMAGE: new ImageColumn()
+			IMAGE: new ImageColumn(),
+			MULTILINETEXT: new MultilineTextColumn()
 		},
 		get Column() {
 			return Column;
@@ -5560,6 +5701,9 @@ module.exports = BranchGraphStyle;
 		},
 		get MenuColumn() {
 			return MenuColumn;
+		},
+		get MultilineTextColumn() {
+			return MultilineTextColumn;
 		},
 		of(columnType) {
 			if (!columnType) {
@@ -6749,6 +6893,67 @@ module.exports = BranchGraphColumn;
 	}
 
 	module.exports = MenuColumn;
+}
+
+/***/ }),
+
+/***/ "./columns/type/MultilineTextColumn.js":
+/*!*********************************************!*\
+  !*** ./columns/type/MultilineTextColumn.js ***!
+  \*********************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+{
+	const MultilineTextStyle = __webpack_require__(/*! ../style/MultilineTextStyle */ "./columns/style/MultilineTextStyle.js");
+	const BaseColumn = __webpack_require__(/*! ./BaseColumn */ "./columns/type/BaseColumn.js");
+	const utils = __webpack_require__(/*! ./columnUtils */ "./columns/type/columnUtils.js");
+	class MultilineTextColumn extends BaseColumn {
+		constructor(option = {}) {
+			super(option);
+		}
+		get StyleClass() {
+			return MultilineTextStyle;
+		}
+		clone() {
+			return new MultilineTextColumn(this);
+		}
+		drawInternal(value, context, style, helper, grid, { drawCellBase, getIcon }) {
+			const {
+				textAlign,
+				textBaseline,
+				color,
+				font,
+				bgColor,
+				padding,
+				lineHeight
+			} = style;
+			if (bgColor) {
+				drawCellBase({
+					bgColor
+				});
+			}
+			const multilines = value.replace(/\r?\n/g, '\n').replace(/\r/g, '\n').split('\n');
+			helper.testFontLoad(font, value, context);
+			utils.loadIcons(getIcon(), context, helper, (icons, context) => {
+				helper.multilineText(multilines, context, {
+					textAlign,
+					textBaseline,
+					color,
+					font,
+					icons,
+					padding,
+					lineHeight
+				});
+			});
+		}
+	}
+
+	module.exports = MultilineTextColumn;
 }
 
 /***/ }),
@@ -9517,13 +9722,17 @@ class Inline {
 		rect,
 		offset,
 		offsetLeft,
-		offsetRight
+		offsetRight,
+		offsetTop,
+		offsetBottom
 	}) {
 		canvashelper.fillTextRect(ctx, this._content, rect.left, rect.top, rect.width, rect.height, {
 			offset: offset + 1,
 			padding: {
 				left: offsetLeft,
-				right: offsetRight
+				right: offsetRight,
+				top: offsetTop,
+				bottom: offsetBottom
 			}
 		});
 	}
@@ -9578,7 +9787,9 @@ class InlineDrawer extends Inline {
 		rect,
 		offset,
 		offsetLeft,
-		offsetRight
+		offsetRight,
+		offsetTop,
+		offsetBottom
 	}) {
 		this._draw({
 			ctx,
@@ -9586,7 +9797,9 @@ class InlineDrawer extends Inline {
 			rect,
 			offset,
 			offsetLeft,
-			offsetRight
+			offsetRight,
+			offsetTop,
+			offsetBottom
 		});
 	}
 }
@@ -9652,7 +9865,9 @@ class InlineIcon extends Inline {
 		rect,
 		offset,
 		offsetLeft,
-		offsetRight
+		offsetRight,
+		offsetTop,
+		offsetBottom
 	}) {
 		const icon = this._icon;
 		if (icon.content) {
@@ -9660,7 +9875,9 @@ class InlineIcon extends Inline {
 				offset: offset + 1,
 				padding: {
 					left: offsetLeft,
-					right: offsetRight
+					right: offsetRight,
+					top: offsetTop,
+					bottom: offsetBottom
 				}
 			});
 		}
@@ -9753,14 +9970,18 @@ class InlineImage extends Inline {
 		rect,
 		offset,
 		offsetLeft,
-		offsetRight
+		offsetRight,
+		offsetTop,
+		offsetBottom
 	}) {
 		const img = this._inlineImg;
 		canvashelper.drawInlineImageRect(ctx, img, this._imageLeft || 0, this._imageTop || 0, this._imageWidth || img.width, this._imageHeight || img.height, this._width || img.width, this._height || img.height, rect.left, rect.top, rect.width, rect.height, {
 			offset: offset + 1,
 			padding: {
 				left: offsetLeft,
-				right: offsetRight
+				right: offsetRight,
+				top: offsetTop,
+				bottom: offsetBottom
 			}
 		});
 	}
@@ -9818,12 +10039,16 @@ class InlinePath2D extends Inline {
 		rect,
 		offset,
 		offsetLeft,
-		offsetRight
+		offsetRight,
+		offsetTop,
+		offsetBottom
 	}) {
 		offset++;
 		const padding = {
 			left: offsetLeft,
-			right: offsetRight
+			right: offsetRight,
+			top: offsetTop,
+			bottom: offsetBottom
 		};
 		ctx.save();
 		try {
@@ -10000,13 +10225,17 @@ module.exports = {
 					rect,
 					offset,
 					offsetLeft,
-					offsetRight
+					offsetRight,
+					offsetTop,
+					offsetBottom
 				}) {
 					drawRegisteredIcon(ctx, regedIcon, width, width, rect.left, rect.top, rect.width, rect.height, {
 						offset: offset + 1,
 						padding: {
 							left: offsetLeft,
-							right: offsetRight
+							right: offsetRight,
+							top: offsetTop,
+							bottom: offsetBottom
 						}
 					});
 				},
@@ -11125,7 +11354,9 @@ module.exports = {
 		offset = 0,
 		padding: {
 			left: paddingLeft = 0,
-			right: paddingRight = 0
+			right: paddingRight = 0,
+			top: paddingTop = 0,
+			bottom: paddingBottom = 0
 		} = {}
 	} = {}) {
 		// const textAlign = ctx.textAlign || 'left';
@@ -11150,7 +11381,9 @@ module.exports = {
 			offset,
 			padding: {
 				left: paddingLeft,
-				right: paddingRight
+				right: paddingRight,
+				top: paddingTop,
+				bottom: paddingBottom
 			}
 		});
 	}
@@ -11158,7 +11391,9 @@ module.exports = {
 		offset = 0,
 		padding: {
 			left: paddingLeft = 0,
-			right: paddingRight = 0
+			right: paddingRight = 0,
+			top: paddingTop = 0,
+			bottom: paddingBottom = 0
 		} = {}
 	} = {}) {
 		const textAlign = ctx.textAlign || 'left';
@@ -11172,11 +11407,11 @@ module.exports = {
 		} else if (textAlign === 'center') {
 			x = rect.left + (rect.width - width + paddingLeft - paddingRight) / 2;
 		}
-		let y = rect.top + offset;
+		let y = rect.top + offset + paddingTop;
 		if (textBaseline === 'bottom' || textBaseline === 'alphabetic' || textBaseline === 'ideographic') {
-			y = rect.bottom - height - offset;
+			y = rect.bottom - height - offset - paddingBottom;
 		} else if (textBaseline === 'middle') {
-			y = rect.top + (rect.height - height) / 2;
+			y = rect.top + (rect.height - height + paddingTop - paddingBottom) / 2;
 		}
 		return { x, y };
 	}

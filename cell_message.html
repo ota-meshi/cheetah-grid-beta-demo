@@ -108,6 +108,7 @@
     <div class="contents">
         
 <h2 id="cell-message">Cell Message</h2>
+<p>Define the message to display in each cell of the column by using <code>message</code> property.  </p>
 
 <div id="sample1" class="demo-grid small">
 </div>
@@ -124,14 +125,17 @@ var displayOptions = [{ value: '', caption: 'Choose your option' }, { value: '1'
 /*global cheetahGrid*/
 var grid = new cheetahGrid.ListGrid({
 	parentElement: document.querySelector('#sample1'),
-	header: [
-	//message text
-	{ field: 'text1', caption: 'message field', width: 150, message: 'msg' },
-	//message function
-	{
+	header: [{
+		field: 'text1',
+		caption: 'message field',
+		width: 150,
+		//message field
+		message: 'msg'
+	}, {
 		field: 'text2',
 		caption: 'input',
 		width: 150,
+		//message function
 		message: function message(rec) {
 			return rec.text2.match(/^[a-zA-Z]*$/) ? null : 'Please only alphabet.';
 		},
@@ -172,6 +176,7 @@ var grid = new cheetahGrid.ListGrid({
 		width: 150,
 		message: function message(rec) {
 			return {
+				//info message
 				type: 'info',
 				message: 'Info Message.'
 			};
@@ -182,6 +187,7 @@ var grid = new cheetahGrid.ListGrid({
 		width: 150,
 		message: function message(rec) {
 			return {
+				//warning message
 				type: 'warning',
 				message: 'Warning Message.'
 			};
@@ -197,13 +203,18 @@ grid.records = [{ text1: 'text', text2: '123', text3: '123', val4: '', check5: f
 <span class="hljs-keyword">const</span> grid = <span class="hljs-keyword">new</span> cheetahGrid.ListGrid({
 	<span class="hljs-attr">parentElement</span>: <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#sample1'</span>),
 	<span class="hljs-attr">header</span>: [
-		<span class="hljs-comment">//message text</span>
-		{<span class="hljs-attr">field</span>: <span class="hljs-string">'text1'</span>, <span class="hljs-attr">caption</span>: <span class="hljs-string">'message field'</span>, <span class="hljs-attr">width</span>: <span class="hljs-number">150</span>, <span class="hljs-attr">message</span>: <span class="hljs-string">'msg'</span>},
-		<span class="hljs-comment">//message function</span>
+		{
+			<span class="hljs-attr">field</span>: <span class="hljs-string">'text1'</span>,
+			<span class="hljs-attr">caption</span>: <span class="hljs-string">'message field'</span>,
+			<span class="hljs-attr">width</span>: <span class="hljs-number">150</span>,
+			<span class="hljs-comment">//message field</span>
+			message: <span class="hljs-string">'msg'</span>
+		},
 		{
 			<span class="hljs-attr">field</span>: <span class="hljs-string">'text2'</span>,
 			<span class="hljs-attr">caption</span>: <span class="hljs-string">'input'</span>,
 			<span class="hljs-attr">width</span>: <span class="hljs-number">150</span>,
+			<span class="hljs-comment">//message function</span>
 			message(rec) {
 				<span class="hljs-keyword">return</span> rec.text2.match(<span class="hljs-regexp">/^[a-zA-Z]*$/</span>) ? <span class="hljs-literal">null</span> : <span class="hljs-string">'Please only alphabet.'</span>;
 			},
@@ -244,7 +255,8 @@ grid.records = [{ text1: 'text', text2: '123', text3: '123', val4: '', check5: f
 			<span class="hljs-attr">width</span>: <span class="hljs-number">150</span>,
 			message(rec) {
 				<span class="hljs-keyword">return</span> {
-					<span class="hljs-attr">type</span>:<span class="hljs-string">'info'</span>,
+					<span class="hljs-comment">//info message</span>
+					type:<span class="hljs-string">'info'</span>,
 					<span class="hljs-attr">message</span>: <span class="hljs-string">'Info Message.'</span>
 				};
 			},
@@ -255,7 +267,8 @@ grid.records = [{ text1: 'text', text2: '123', text3: '123', val4: '', check5: f
 			<span class="hljs-attr">width</span>: <span class="hljs-number">150</span>,
 			message(rec) {
 				<span class="hljs-keyword">return</span> {
-					<span class="hljs-attr">type</span>:<span class="hljs-string">'warning'</span>,
+					<span class="hljs-comment">//warning message</span>
+					type:<span class="hljs-string">'warning'</span>,
 					<span class="hljs-attr">message</span>: <span class="hljs-string">'Warning Message.'</span>
 				};
 			},
