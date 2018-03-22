@@ -5,8 +5,8 @@
     <meta name="author" content="Cheetah Grid">
     <meta name="keywords" content="spreadsheet,grid,canvas,table,web-components">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cheetah Grid</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./../icon_512x512.ico">
+    <title>Cheetah Grid BETA</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://future-architect.github.io/cheetah-grid/icon_512x512.ico">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     
 </head>
@@ -26,66 +26,12 @@
 	</div>
 	<script type="text/javascript" src="./js/share_buttons.js"></script>	<nav class="header primary" id="header-nav">
 		<div class="nav-wrapper">
+			<img src="https://future-architect.github.io/cheetah-grid/logo.png" style="width: 100px;padding: 5px;vertical-align: middle;" alt="Cheetah Grid">
 		</div>
 	</nav>
-	
-	<script type="text/javascript">
-		'use strict';
-		////babel
-	'use strict';
-	
-	function getVersions(callback) {
-		var xhr = new XMLHttpRequest();
-		function onError() {
-			callback(['.devdoc', '0.0.1']);
-		}
-		xhr.onload = function () {
-			var versions = JSON.parse(xhr.responseText);
-			callback(versions);
-		};
-		xhr.onerror = onError;
-		xhr.onabort = onError;
-		try {
-			xhr.open('GET', './../versions.json');
-			xhr.send();
-		} catch (e) {
-			onError();
-		}
-	}
-	
-	//
-	getVersions(function (versions) {
-		var myVersion = '.devdoc';
-		function getVerLocation(v) {
-			return location.href.replace(myVersion, v).replace('.devdoc', v);
-		}
-		var latest = versions[0];
-		var versEl = document.getElementById('versions');
-		versEl.innerHTML = versions.map(function (v, i) {
-			return '<li><a href="' + getVerLocation(v) + '" class="primary">' + v + (i === 0 ? ' (latest)' : '') + '</a></li>';
-		}).join('');
-	
-		if (latest !== myVersion) {
-			var header = document.getElementById('header-nav');
-			var a = document.createElement('a');
-			header.parentElement.insertBefore(a, header.nextSibling);
-			a.href = getVerLocation(latest);
-			a.textContent = '<goto the latest version(' + latest + ') document>';
-		}
-	});
-	//
-	</script>    
-    
-<h1 id="cheetah-grid-docoments">Cheetah Grid Docoments</h1>
-<h1 id="sample-demo-amp-documents">SAMPLE DEMO &amp; DOCUMENTS</h1>
+<h1 id="cheetah-grid-docoments">Cheetah Grid BETA</h1>
 <ul>
-	<li><strong>Usage</strong>
-		<ul>
-			<li><a href="./SmallDialogInputEditor.html">SmallDialogInputEditor</a>
-			<li><a href="./InlineInputEditor.html">InlineInputEditor</a></li>
-			<li><a href="./InlineMenuEditor.html">InlineMenuEditor</a></li>
-		</ul>
-	</li>
+	<li><a href="./cell_message.html">cell_message</a></li>
 </ul>
 
 </body></html>

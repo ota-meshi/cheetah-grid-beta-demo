@@ -1,4 +1,4 @@
-/*! Cheetah Grid v0.1.3 | license MIT */
+/*! Cheetah Grid v0.2.0 | license MIT */
 (function(){
 'use strict';
 
@@ -143,7 +143,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 					// module
-					exports.push([module.i, ".cheetah-grid__inline-menu{position:absolute;color:rgba(0,0,0,.87);box-sizing:content-box;margin:-1px auto auto -1px;padding:0;background-color:#fafafa;list-style-type:none;border-radius:2px;max-height:calc(100vh - 40px);overflow-y:auto}.cheetah-grid__inline-menu--hidden{padding:0;transform:scale(.9);box-shadow:none;opacity:0;pointer-events:none;transition:padding 50ms ease-out,transform 50ms ease-out,box-shadow 50ms ease-out,opacity 50ms ease-out}.cheetah-grid__inline-menu--hidden *{pointer-events:none}.cheetah-grid__inline-menu--shown{padding:8px 0;transform:translateY(-7px);box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);opacity:1;transition:padding .15s ease-out,transform .15s ease-out,box-shadow .15s ease-out,opacity .15s ease-out}.cheetah-grid__inline-menu__menu-item{background-color:#fafafa;height:100%;box-sizing:border-box;display:flex;align-items:center;justify-content:flex-start;outline:none;cursor:pointer;position:relative;overflow:hidden;padding:0 16px}.cheetah-grid__inline-menu__menu-item--empty{color:rgba(0,0,0,.38)}.cheetah-grid__inline-menu__menu-item:before{content:\"\";position:absolute;top:-50%;left:-50%;width:200%;height:200%;background-color:#000;opacity:0;pointer-events:none;transition:opacity 15ms linear}.cheetah-grid__inline-menu__menu-item:hover:before,.cheetah-grid__inline-menu__menu-item[data-select]:before{opacity:.04}.cheetah-grid__inline-menu__menu-item:focus:before{opacity:.12}", ""]);
+					exports.push([module.i, ".cheetah-grid__inline-menu{position:absolute;color:rgba(0,0,0,.87);box-sizing:content-box;margin:-1px auto auto -1px;padding:8px 0;background-color:#fafafa;list-style-type:none;border-radius:2px;max-height:calc(100vh - 40px);overflow-y:auto}.cheetah-grid__inline-menu--hidden{transform:scale(.9);box-shadow:none;opacity:0;pointer-events:none;transition:all 50ms ease-out}.cheetah-grid__inline-menu--hidden *{pointer-events:none}.cheetah-grid__inline-menu--shown{transform:translateY(-7px);box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);opacity:1;transition:all .15s ease-out}.cheetah-grid__inline-menu__menu-item{height:100%;box-sizing:border-box;display:flex;align-items:center;justify-content:flex-start;outline:none;cursor:pointer;position:relative;overflow:hidden;padding:0 16px}.cheetah-grid__inline-menu__menu-item--empty{color:rgba(0,0,0,.38)}.cheetah-grid__inline-menu__menu-item:before{content:\"\";position:absolute;top:-50%;left:-50%;width:200%;height:200%;background-color:#000;opacity:0;pointer-events:none;transition:opacity 15ms linear}.cheetah-grid__inline-menu__menu-item:hover:before,.cheetah-grid__inline-menu__menu-item[data-select]:before{opacity:.04}.cheetah-grid__inline-menu__menu-item:focus:before{opacity:.12}", ""]);
 
 					// exports
 
@@ -164,7 +164,70 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 					// module
-					exports.push([module.i, ".cheetah-grid__small-dialog-input__input::-ms-clear{visibility:hidden}@keyframes cheetah-grid__small-dialog-input--hidden-animation{0%{opacity:1}99%{opacity:1}to{opacity:0}}.cheetah-grid__small-dialog-input{position:absolute;box-sizing:content-box;margin:-1px auto auto -1px;border-radius:3px;background-color:#fafafa;transition:padding .15s ease-out,box-shadow .15s ease-out}.cheetah-grid__small-dialog-input--hidden{box-shadow:none;padding:0;pointer-events:none;animation:cheetah-grid__small-dialog-input--hidden-animation .15s ease-out;opacity:0}.cheetah-grid__small-dialog-input--shown{box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);padding:8px 24px 26px}.cheetah-grid__small-dialog-input__input{width:100%;height:100%;box-sizing:border-box;padding:3px 2px 0 4px;border:none;border-bottom:1px solid rgba(0,0,0,.87);outline:none;background-color:transparent;transition:all .3s ease-out}.cheetah-grid__small-dialog-input__input:focus{border-bottom:1px solid #2196f3;box-shadow:0 1px 0 0 #2196f3}.cheetah-grid__small-dialog-input.helper-text--right-justified:after{text-align:right}.cheetah-grid__small-dialog-input[data-error-message]:after,.cheetah-grid__small-dialog-input[data-helper-text]:after{font-size:12px;line-height:1;display:block;width:100%;padding-top:8px}.cheetah-grid__small-dialog-input[data-helper-text]:after{content:attr(data-helper-text);color:rgba(0,0,0,.87)}.cheetah-grid__small-dialog-input[data-error-message] input{border-bottom:1px solid #dd2c00;box-shadow:0 1px 0 0 #dd2c00}.cheetah-grid__small-dialog-input[data-error-message]:after{content:attr(data-error-message);color:#dd2c00;text-align:left}", ""]);
+					exports.push([module.i, ".cheetah-grid__small-dialog-input__input::-ms-clear{visibility:hidden}@keyframes cheetah-grid__small-dialog-input--hidden-animation{0%{opacity:1}99%{opacity:1}to{opacity:0}}.cheetah-grid__small-dialog-input{position:absolute;box-sizing:content-box;margin:-1px auto auto -1px;border-radius:3px;background-color:#fafafa;transition:padding .15s ease-out,box-shadow .15s ease-out}.cheetah-grid__small-dialog-input--hidden{box-shadow:none;padding:0;pointer-events:none;animation:cheetah-grid__small-dialog-input--hidden-animation .15s ease-out;opacity:0}.cheetah-grid__small-dialog-input--shown{box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);padding:8px 24px}.cheetah-grid__small-dialog-input__input{width:100%;height:100%;box-sizing:border-box;padding:3px 2px 0 4px;border:none;border-bottom:1px solid rgba(0,0,0,.87);outline:none;background-color:transparent;transition:all .3s ease-out}.cheetah-grid__small-dialog-input__input:focus{border-bottom:1px solid #2196f3;box-shadow:0 1px 0 0 #2196f3}.cheetah-grid__small-dialog-input:after{content:\"\";font-family:Roboto;font-size:12px;font-size:.75rem;min-height:1em;line-height:1;display:block;width:100%;padding-top:8px}.cheetah-grid__small-dialog-input.helper-text--right-justified:after{text-align:right}.cheetah-grid__small-dialog-input[data-helper-text]:after{content:attr(data-helper-text);color:rgba(0,0,0,.87)}.cheetah-grid__small-dialog-input[data-error-message] input{border-bottom:1px solid #ff1744;box-shadow:0 1px 0 0 #ff1744}.cheetah-grid__small-dialog-input[data-error-message]:after{content:attr(data-error-message);color:#ff1744;text-align:left}", ""]);
+
+					// exports
+
+
+					/***/
+				},
+
+				/***/"../../node_modules/css-loader/index.js?minimize!./columns/message/internal/ErrorMessageElement.css":
+				/*!*************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/message/internal/ErrorMessageElement.css ***!
+      \*************************************************************************************************************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsMessageInternalErrorMessageElementCss(module, exports, __webpack_require__) {
+
+					exports = module.exports = __webpack_require__( /*! ../../../../../node_modules/css-loader/lib/css-base.js */"../../node_modules/css-loader/lib/css-base.js")(false);
+					// imports
+
+
+					// module
+					exports.push([module.i, ".cheetah-grid__error-message-element{border-top:1px solid #ff1744;color:#ff1744}", ""]);
+
+					// exports
+
+
+					/***/
+				},
+
+				/***/"../../node_modules/css-loader/index.js?minimize!./columns/message/internal/MessageElement.css":
+				/*!********************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/message/internal/MessageElement.css ***!
+      \********************************************************************************************************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsMessageInternalMessageElementCss(module, exports, __webpack_require__) {
+
+					exports = module.exports = __webpack_require__( /*! ../../../../../node_modules/css-loader/lib/css-base.js */"../../node_modules/css-loader/lib/css-base.js")(false);
+					// imports
+
+
+					// module
+					exports.push([module.i, ".cheetah-grid__message-element{position:absolute;margin-top:-2px;box-sizing:border-box;border-radius:0 0 3px 3px;background-color:hsla(0,0%,98%,.85);padding:8px 2px;pointer-events:none;user-select:none}.cheetah-grid__message-element--hidden{opacity:0;display:none}.cheetah-grid__message-element__message{font-family:Roboto;font-size:12px;font-size:.75rem;min-height:1em;line-height:1;display:block;width:100%}.cheetah-grid__message-element{border-top:1px solid rgba(0,0,0,.87);color:rgba(0,0,0,.87)}.cheetah-grid__message-element.helper-text--right-justified{text-align:right}", ""]);
+
+					// exports
+
+
+					/***/
+				},
+
+				/***/"../../node_modules/css-loader/index.js?minimize!./columns/message/internal/WarningMessageElement.css":
+				/*!***************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/message/internal/WarningMessageElement.css ***!
+      \***************************************************************************************************************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsMessageInternalWarningMessageElementCss(module, exports, __webpack_require__) {
+
+					exports = module.exports = __webpack_require__( /*! ../../../../../node_modules/css-loader/lib/css-base.js */"../../node_modules/css-loader/lib/css-base.js")(false);
+					// imports
+
+
+					// module
+					exports.push([module.i, ".cheetah-grid__warning-message-element{border-top:1px solid #dd2c00;color:#dd2c00}", ""]);
 
 					// exports
 
@@ -1355,8 +1418,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 										if (!color) {
-											color = this.theme.color;
 											// header color
+											color = this.theme.color;
 											var isFrozenCell = this._grid.isFrozenCell(col, row);
 											if (isFrozenCell && isFrozenCell.row) {
 												color = this.theme.frozenRowsColor;
@@ -1383,13 +1446,48 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										});
 									}
 								}, {
+									key: 'fillText',
+									value: function fillText(text, x, y, context) {
+										var _ref4 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {},
+										    color = _ref4.color,
+										    _ref4$textAlign = _ref4.textAlign,
+										    textAlign = _ref4$textAlign === undefined ? 'left' : _ref4$textAlign,
+										    _ref4$textBaseline = _ref4.textBaseline,
+										    textBaseline = _ref4$textBaseline === undefined ? 'top' : _ref4$textBaseline,
+										    font = _ref4.font;
+
+										var col = context.col,
+										    row = context.row;
+
+
+										if (!color) {
+											// header color
+											color = this.theme.color;
+											var isFrozenCell = this._grid.isFrozenCell(col, row);
+											if (isFrozenCell && isFrozenCell.row) {
+												color = this.theme.frozenRowsColor;
+											}
+										}
+										var ctx = context.getContext();
+										ctx.save();
+										try {
+											ctx.fillStyle = _getColor(color, col, row, this._grid, ctx);
+											ctx.textAlign = textAlign;
+											ctx.textBaseline = textBaseline;
+											ctx.font = font || ctx.font;
+											ctx.fillText(text, x, y);
+										} finally {
+											ctx.restore();
+										}
+									}
+								}, {
 									key: 'fillCell',
 									value: function fillCell(context) {
 										var _this2 = this;
 
-										var _ref4 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
-										    _ref4$fillColor = _ref4.fillColor,
-										    fillColor = _ref4$fillColor === undefined ? this.theme.defaultBgColor : _ref4$fillColor;
+										var _ref5 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
+										    _ref5$fillColor = _ref5.fillColor,
+										    fillColor = _ref5$fillColor === undefined ? this.theme.defaultBgColor : _ref5$fillColor;
 
 										var rect = context.getRect();
 
@@ -1407,39 +1505,71 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}, {
 									key: 'fillCellWithState',
 									value: function fillCellWithState(context) {
-										var _this3 = this;
+										var option = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
+										option.fillColor = this.getFillColorState(context, option);
+										this.fillCell(context, option);
+									}
+								}, {
+									key: 'fillRect',
+									value: function fillRect(rect, context) {
+										var _ref6 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {},
+										    _ref6$fillColor = _ref6.fillColor,
+										    fillColor = _ref6$fillColor === undefined ? this.theme.defaultBgColor : _ref6$fillColor;
+
+										var ctx = context.getContext();
+										ctx.save();
+										try {
+											var col = context.col,
+											    row = context.row;
+
+											ctx.fillStyle = _getColor(fillColor, col, row, this._grid, ctx);
+
+											ctx.beginPath();
+											ctx.rect(rect.left, rect.top, rect.width, rect.height);
+											ctx.fill();
+										} finally {
+											ctx.restore();
+										}
+									}
+								}, {
+									key: 'fillRectWithState',
+									value: function fillRectWithState(rect, context) {
+										var option = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
+										option.fillColor = this.getFillColorState(context, option);
+
+										this.fillRect(rect, context, option);
+									}
+								}, {
+									key: 'getFillColorState',
+									value: function getFillColorState(context) {
 										var option = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
 										var state = context.getSelectState();
 										var col = context.col,
 										    row = context.row;
 
-
-										option.fillColor = function () {
-											if (!state.selected && state.selection) {
-												return _this3.theme.selectionBgColor;
-											} else {
-												var isFrozenCell = _this3._grid.isFrozenCell(col, row);
-												if (isFrozenCell && isFrozenCell.row) {
-													return _this3.theme.frozenRowsBgColor;
-												}
+										if (!state.selected && state.selection) {
+											return this.theme.selectionBgColor;
+										} else {
+											var isFrozenCell = this._grid.isFrozenCell(col, row);
+											if (isFrozenCell && isFrozenCell.row) {
+												return this.theme.frozenRowsBgColor;
 											}
-											return option.fillColor || _this3.theme.defaultBgColor;
-										}();
-
-										this.fillCell(context, option);
+										}
+										return option.fillColor || this.theme.defaultBgColor;
 									}
 								}, {
 									key: 'border',
 									value: function border(context) {
-										var _this4 = this;
+										var _this3 = this;
 
-										var _ref5 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
-										    _ref5$borderColor = _ref5.borderColor,
-										    borderColor = _ref5$borderColor === undefined ? this.theme.borderColor : _ref5$borderColor,
-										    _ref5$lineWidth = _ref5.lineWidth,
-										    lineWidth = _ref5$lineWidth === undefined ? 1 : _ref5$lineWidth;
+										var _ref7 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
+										    _ref7$borderColor = _ref7.borderColor,
+										    borderColor = _ref7$borderColor === undefined ? this.theme.borderColor : _ref7$borderColor,
+										    _ref7$lineWidth = _ref7.lineWidth,
+										    lineWidth = _ref7$lineWidth === undefined ? 1 : _ref7$lineWidth;
 
 										var rect = context.getRect();
 
@@ -1447,7 +1577,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											var col = context.col,
 											    row = context.row;
 
-											var borderColors = _getColor(borderColor, col, row, _this4._grid, ctx);
+											var borderColors = _getColor(borderColor, col, row, _this3._grid, ctx);
 
 											if (lineWidth === 1) {
 												ctx.lineWidth = 1;
@@ -1465,7 +1595,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}, {
 									key: 'borderWithState',
 									value: function borderWithState(context) {
-										var _this5 = this;
+										var _this4 = this;
 
 										var option = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
@@ -1495,7 +1625,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											if (sel.col + 1 === col && sel.row === row) {
 												//右が選択されている
 												this.drawBorderWithClip(context, function (ctx) {
-													var borderColors = _toBoxArray(_getColor(_this5.theme.hiliteBorderColor, sel.col, sel.row, _this5._grid, ctx));
+													var borderColors = _toBoxArray(_getColor(_this4.theme.hiliteBorderColor, sel.col, sel.row, _this4._grid, ctx));
 													ctx.lineWidth = 1;
 													ctx.strokeStyle = borderColors[1];
 													ctx.beginPath();
@@ -1506,7 +1636,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											} else if (sel.col === col && sel.row + 1 === row) {
 												//上が選択されている
 												this.drawBorderWithClip(context, function (ctx) {
-													var borderColors = _toBoxArray(_getColor(_this5.theme.hiliteBorderColor, sel.col, sel.row, _this5._grid, ctx));
+													var borderColors = _toBoxArray(_getColor(_this4.theme.hiliteBorderColor, sel.col, sel.row, _this4._grid, ctx));
 													ctx.lineWidth = 1;
 													ctx.strokeStyle = borderColors[0];
 													ctx.beginPath();
@@ -1520,34 +1650,34 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}, {
 									key: 'checkbox',
 									value: function checkbox(check, context) {
-										var _this6 = this;
+										var _this5 = this;
 
 										var option = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
 
 										this.drawWithClip(context, function (ctx) {
-											drawCheckbox(ctx, context.getRect(), check, _this6, option);
+											drawCheckbox(ctx, context.getRect(), check, _this5, option);
 										});
 									}
 								}, {
 									key: 'button',
 									value: function button(caption, context) {
-										var _this7 = this;
+										var _this6 = this;
 
-										var _ref6 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {},
-										    _ref6$bgColor = _ref6.bgColor,
-										    bgColor = _ref6$bgColor === undefined ? this.theme.button.bgColor : _ref6$bgColor,
-										    padding = _ref6.padding,
-										    _ref6$offset = _ref6.offset,
-										    offset = _ref6$offset === undefined ? 2 : _ref6$offset,
-										    _ref6$color = _ref6.color,
-										    color = _ref6$color === undefined ? this.theme.button.color : _ref6$color,
-										    _ref6$textAlign = _ref6.textAlign,
-										    textAlign = _ref6$textAlign === undefined ? 'center' : _ref6$textAlign,
-										    _ref6$textBaseline = _ref6.textBaseline,
-										    textBaseline = _ref6$textBaseline === undefined ? 'middle' : _ref6$textBaseline,
-										    shadow = _ref6.shadow,
-										    font = _ref6.font,
-										    icons = _ref6.icons;
+										var _ref8 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {},
+										    _ref8$bgColor = _ref8.bgColor,
+										    bgColor = _ref8$bgColor === undefined ? this.theme.button.bgColor : _ref8$bgColor,
+										    padding = _ref8.padding,
+										    _ref8$offset = _ref8.offset,
+										    offset = _ref8$offset === undefined ? 2 : _ref8$offset,
+										    _ref8$color = _ref8.color,
+										    color = _ref8$color === undefined ? this.theme.button.color : _ref8$color,
+										    _ref8$textAlign = _ref8.textAlign,
+										    textAlign = _ref8$textAlign === undefined ? 'center' : _ref8$textAlign,
+										    _ref8$textBaseline = _ref8.textBaseline,
+										    textBaseline = _ref8$textBaseline === undefined ? 'middle' : _ref8$textBaseline,
+										    shadow = _ref8.shadow,
+										    font = _ref8.font,
+										    icons = _ref8.icons;
 
 										var rect = context.getRect();
 
@@ -1555,7 +1685,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											var col = context.col,
 											    row = context.row;
 
-											padding = _this7.toBoxPixelArray(padding || rect.height / 8, context);
+											padding = _this6.toBoxPixelArray(padding || rect.height / 8, context);
 											var left = rect.left + padding[3];
 											var top = rect.top + padding[0];
 											var width = rect.width - padding[1] - padding[3];
@@ -1567,7 +1697,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 												offset: offset,
 												shadow: shadow
 											});
-											_inlineRect(_this7._grid, ctx, caption, new Rect(left, top, width, height), col, row, {
+											_inlineRect(_this6._grid, ctx, caption, new Rect(left, top, width, height), col, row, {
 												offset: offset,
 												color: color,
 												textAlign: textAlign,
@@ -1665,15 +1795,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									if (isObject(field) && field.get && field.set) {
 										field = field.set;
 									}
-									if (grid.hasListeners(EVENT_TYPE.SET_VALUE)) {
-										var ret = grid.fireListeners(EVENT_TYPE.SET_VALUE, grid.getRowRecord(row), field, value);
-										grid[_].dataSource.clearCache();
-										return arrayFind(ret, isDef);
-									} else {
-										var index = _getRowRecordIndex(grid, row);
-										var res = grid[_].dataSource.setField(index, field, value);
-										return isPromise(res) ? res : true;
+									var index = _getRowRecordIndex(grid, row);
+									var res = grid[_].dataSource.setField(index, field, value);
+									return isPromise(res) ? res : true;
+								}
+							};
+
+							var _getCellMessage = function _getCellMessage(grid, col, row) {
+								if (row < grid[_].headerMap.rowCount) {
+									return null;
+								} else {
+									var message = grid[_].headerMap.columns[col].message;
+
+									if (!message) {
+										return null;
 									}
+									return _getField(grid, message, row);
 								}
 							};
 
@@ -1705,8 +1842,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								return retIcon;
 							};
 
-							var _getCellIcon = function _getCellIcon(grid, col, row, name) {
-								var icon = grid[_].headerMap.columns[col][name];
+							var _getCellIcon = function _getCellIcon(grid, col, row) {
+								var icon = grid[_].headerMap.columns[col].icon;
 
 								return _getCellIcon0(grid, icon, row);
 							};
@@ -1735,21 +1872,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}
 							};
 
-							var _onDrawValue = function _onDrawValue(grid, cellValue, context, _ref7, style, draw) {
-								var col = _ref7.col,
-								    row = _ref7.row;
+							var _onDrawValue = function _onDrawValue(grid, cellValue, context, _ref9, style, draw) {
+								var col = _ref9.col,
+								    row = _ref9.row;
 
 								var helper = grid[_].gridCanvasHelper;
 
-								var drawCellBase = function drawCellBase() {
-									var _ref8 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-									    bgColor = _ref8.bgColor;
+								var drawCellBg = function drawCellBg() {
+									var _ref10 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+									    bgColor = _ref10.bgColor;
 
 									var fillOpt = {
 										fillColor: bgColor
 									};
 									//cell全体を描画
 									helper.fillCellWithState(context, fillOpt);
+								};
+								var drawCellBorder = function drawCellBorder() {
 
 									if (context.col === grid.frozenColCount - 1) {
 										//固定列罫線
@@ -1775,15 +1914,29 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										helper.borderWithState(context);
 									}
 								};
+
+								var drawCellBase = function drawCellBase() {
+									var _ref11 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+									    bgColor = _ref11.bgColor;
+
+									drawCellBg({ bgColor: bgColor });
+									drawCellBorder();
+								};
 								var info = {
 									getRecord: function getRecord() {
 										return grid.getRowRecord(row);
 									},
 									getIcon: function getIcon() {
-										return _getCellIcon(grid, col, row, 'icon');
+										return _getCellIcon(grid, col, row);
 									},
+									getMessage: function getMessage() {
+										return _getCellMessage(grid, col, row);
+									},
+									messageHandler: grid[_].messageHandler,
 									style: style,
-									drawCellBase: drawCellBase
+									drawCellBase: drawCellBase,
+									drawCellBg: drawCellBg,
+									drawCellBorder: drawCellBorder
 								};
 
 								return draw(cellValue, info, context, grid);
@@ -1912,15 +2065,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								grid.frozenRowCount = grid[_].headerMap.rowCount;
 								for (var col = 0; col < grid[_].headerMap.columns.length; col++) {
 									var column = grid[_].headerMap.columns[col];
-									var width = column.width;
+									var width = column.width,
+									    minWidth = column.minWidth,
+									    maxWidth = column.maxWidth;
+
 									if (width && (width > 0 || typeof width === 'string')) {
 										grid.setColWidth(col, width);
 									}
-									var minWidth = column.minWidth;
 									if (minWidth && (minWidth > 0 || typeof minWidth === 'string')) {
 										grid.setMinColWidth(col, minWidth);
 									}
-									var maxWidth = column.maxWidth;
 									if (maxWidth && (maxWidth > 0 || typeof maxWidth === 'string')) {
 										grid.setMaxColWidth(col, maxWidth);
 									}
@@ -2000,11 +2154,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								return options;
 							};
 
+							/**
+        * ListGrid
+        * @classdesc cheetahGrid.ListGrid
+        * @extends cheetahGrid.core.DrawGrid
+        * @memberof cheetahGrid
+        */
+
+
 							var _webpack_require__4 = __webpack_require__( /*! ./internal/utils */"./internal/utils.js"),
-							    extend = _webpack_require__4.extend,
-							    arrayFind = _webpack_require__4.array.find,
 							    isDef = _webpack_require__4.isDef,
 							    isPromise = _webpack_require__4.isPromise,
+							    then = _webpack_require__4.then,
 							    isObject = _webpack_require__4.obj.isObject;
 
 							var GridCanvasHelper = __webpack_require__( /*! ./GridCanvasHelper */"./GridCanvasHelper.js");
@@ -2024,6 +2185,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 							var themes = __webpack_require__( /*! ./themes */"./themes.js");
 							var icons = __webpack_require__( /*! ./internal/icons */"./internal/icons.js");
+							var MessageHandler = __webpack_require__( /*! ./columns/message/MessageHandler */"./columns/message/MessageHandler.js");
+							var EVENT_TYPE = __webpack_require__( /*! ./list-grid/EVENT_TYPE */"./list-grid/EVENT_TYPE.js");
+
 							//protected symbol
 
 							var _webpack_require__7 = __webpack_require__( /*! ./internal/symbolManager */"./internal/symbolManager.js"),
@@ -2104,38 +2268,39 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}, {
 									key: '_addHeaders',
 									value: function _addHeaders(row, header, roots) {
-										var _this8 = this;
+										var _this7 = this;
 
 										var rowCells = this._headerCells[row] || this._newRow(row);
 										header.forEach(function (hd) {
-											var col = _this8._columns.length;
+											var col = _this7._columns.length;
 											var cell = {
 												id: headerId++,
 												caption: hd.caption,
 												style: hd.headerStyle,
 												sort: hd.sort
 											};
-											_this8._headerObjects.push(cell);
+											_this7._headerObjects.push(cell);
 											rowCells[col] = cell;
 											for (var r = row - 1; r >= 0; r--) {
-												_this8._headerCells[r][col] = roots[r];
+												_this7._headerCells[r][col] = roots[r];
 											}
 											if (hd.columns) {
-												_this8._addHeaders(row + 1, hd.columns, [].concat(_toConsumableArray(roots), [cell]));
+												_this7._addHeaders(row + 1, hd.columns, [].concat(_toConsumableArray(roots), [cell]));
 											} else {
-												_this8._columns.push({
+												_this7._columns.push({
 													width: hd.width,
 													minWidth: hd.minWidth,
 													maxWidth: hd.maxWidth,
 													field: hd.field,
 													icon: hd.icon,
+													message: hd.message,
 													columnType: columns.type.of(hd.columnType),
 													action: columns.action.of(hd.action),
 													style: hd.style,
 													define: hd
 												});
-												for (var _r3 = row + 1; _r3 < _this8._headerCells.length; _r3++) {
-													_this8._headerCells[_r3][col] = cell;
+												for (var _r3 = row + 1; _r3 < _this7._headerCells.length; _r3++) {
+													_this7._headerCells[_r3][col] = cell;
 												}
 											}
 										});
@@ -2143,10 +2308,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}, {
 									key: '_setupHeaderType',
 									value: function _setupHeaderType() {
-										var _this9 = this;
+										var _this8 = this;
 
 										this._headerObjects.forEach(function (cell) {
-											cell.range = _this9.getHeaderCellRangeById(cell.id);
+											cell.range = _this8.getHeaderCellRangeById(cell.id);
 											cell.headerType = headerType.create(cell);
 										});
 									}
@@ -2182,17 +2347,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								return HeaderMap;
 							}();
-
-							var EVENT_TYPE = extend(DrawGrid.EVENT_TYPE, {
-								SET_VALUE: 'set_value'
-							});
-
-							/**
-        * ListGrid
-        * @classdesc cheetahGrid.ListGrid
-        * @extends cheetahGrid.core.DrawGrid
-        * @memberof cheetahGrid
-        */
 
 							var ListGrid = function (_DrawGrid) {
 								_inherits(ListGrid, _DrawGrid);
@@ -2231,37 +2385,46 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 									_classCallCheck(this, ListGrid);
 
-									var _this10 = _possibleConstructorReturn(this, (ListGrid.__proto__ || Object.getPrototypeOf(ListGrid)).call(this, adjustListGridOption(options)));
+									var _this9 = _possibleConstructorReturn(this, (ListGrid.__proto__ || Object.getPrototypeOf(ListGrid)).call(this, adjustListGridOption(options)));
 
-									_this10[_].header = options.header || [];
-									_this10[_].headerRowHeight = options.headerRowHeight || [];
+									_this9[_].header = options.header || [];
+									_this9[_].headerRowHeight = options.headerRowHeight || [];
 									if (options.dataSource) {
-										_setDataSource(_this10, options.dataSource);
+										_setDataSource(_this9, options.dataSource);
 									} else {
-										_setRecords(_this10, options.records);
+										_setRecords(_this9, options.records);
 									}
-									_refreshHeader(_this10);
-									_this10[_].sortState = {
+									_refreshHeader(_this9);
+									_this9[_].sortState = {
 										col: -1,
 										order: undefined
 									};
-									_this10[_].gridCanvasHelper = new GridCanvasHelper(_this10);
-									_this10[_].theme = themes.of(options.theme);
-									_this10.invalidate();
-									_this10[_].handler.on(window, 'resize', function () {
-										_this10.updateSize();
-										_this10.updateScroll();
-										_this10.invalidate();
+									_this9[_].gridCanvasHelper = new GridCanvasHelper(_this9);
+									_this9[_].theme = themes.of(options.theme);
+									_this9[_].messageHandler = new MessageHandler(_this9, function (col, row) {
+										return _getCellMessage(_this9, col, row);
 									});
-									return _this10;
+									_this9.invalidate();
+									_this9[_].handler.on(window, 'resize', function () {
+										_this9.updateSize();
+										_this9.updateScroll();
+										_this9.invalidate();
+									});
+									return _this9;
 								}
-								/**
-         * header define
-         * @type {Array}
-         */
-
 
 								_createClass(ListGrid, [{
+									key: 'dispose',
+									value: function dispose() {
+										this[_].messageHandler.dispose();
+										_get(ListGrid.prototype.__proto__ || Object.getPrototypeOf(ListGrid.prototype), 'dispose', this).call(this);
+									}
+									/**
+          * header define
+          * @type {Array}
+          */
+
+								}, {
 									key: 'getField',
 									value: function getField(col) {
 										return this[_].headerMap.columns[col].field;
@@ -2305,6 +2468,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											var hd = this[_].headerMap.getCell(col, row);
 											draw = hd.headerType.onDrawCell;
 											style = hd.style;
+
 											_updateRect(this, col, row, context);
 										} else {
 											draw = column.columnType.onDrawCell;
@@ -2332,6 +2496,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}, {
 									key: 'doChangeValue',
 									value: function doChangeValue(col, row, changeValueCallback) {
+										var _this10 = this;
+
 										if (row < this[_].headerMap.rowCount) {
 											// nop
 											return false;
@@ -2345,7 +2511,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											if (after === undefined) {
 												return false;
 											}
-											return _setCellValue(this, col, row, after);
+											return then(_setCellValue(this, col, row, after), function (ret) {
+												if (ret) {
+													var field = _this10[_].headerMap.columns[col].field;
+
+													var self = _this10;
+													_this10.fireListeners(EVENT_TYPE.CHANGED_VALUE, {
+														col: col,
+														row: row,
+														get record() {
+															return self.getRowRecord(row);
+														},
+														field: field,
+														value: after
+													});
+												}
+												return ret;
+											});
 										}
 									}
 								}, {
@@ -2353,9 +2535,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									value: function bindEventsInternal() {
 										var _this11 = this;
 
-										this.listen(EVENT_TYPE.SELECTED_CELL, function (cell, selected) {
-											if (cell.row < _this11[_].headerMap.rowCount) {
-												var _getHeaderCellRange4 = _getHeaderCellRange(_this11, cell.col, cell.row),
+										this.listen(EVENT_TYPE.SELECTED_CELL, function (e) {
+											if (e.row < _this11[_].headerMap.rowCount) {
+												var _getHeaderCellRange4 = _getHeaderCellRange(_this11, e.col, e.row),
 												    startCol = _getHeaderCellRange4.startCol,
 												    endCol = _getHeaderCellRange4.endCol,
 												    startRow = _getHeaderCellRange4.startRow,
@@ -2369,9 +2551,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									}
 								}, {
 									key: 'getMoveLeftColByKeyDownInternal',
-									value: function getMoveLeftColByKeyDownInternal(_ref9) {
-										var col = _ref9.col,
-										    row = _ref9.row;
+									value: function getMoveLeftColByKeyDownInternal(_ref12) {
+										var col = _ref12.col,
+										    row = _ref12.row;
 
 										if (row < this[_].headerMap.rowCount) {
 											var _getHeaderCellRange5 = _getHeaderCellRange(this, col, row),
@@ -2383,9 +2565,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									}
 								}, {
 									key: 'getMoveRightColByKeyDownInternal',
-									value: function getMoveRightColByKeyDownInternal(_ref10) {
-										var col = _ref10.col,
-										    row = _ref10.row;
+									value: function getMoveRightColByKeyDownInternal(_ref13) {
+										var col = _ref13.col,
+										    row = _ref13.row;
 
 										if (row < this[_].headerMap.rowCount) {
 											var _getHeaderCellRange6 = _getHeaderCellRange(this, col, row),
@@ -2397,9 +2579,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									}
 								}, {
 									key: 'getMoveUpRowByKeyDownInternal',
-									value: function getMoveUpRowByKeyDownInternal(_ref11) {
-										var col = _ref11.col,
-										    row = _ref11.row;
+									value: function getMoveUpRowByKeyDownInternal(_ref14) {
+										var col = _ref14.col,
+										    row = _ref14.row;
 
 										if (row < this[_].headerMap.rowCount) {
 											var _getHeaderCellRange7 = _getHeaderCellRange(this, col, row),
@@ -2411,9 +2593,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									}
 								}, {
 									key: 'getMoveDownRowByKeyDownInternal',
-									value: function getMoveDownRowByKeyDownInternal(_ref12) {
-										var col = _ref12.col,
-										    row = _ref12.row;
+									value: function getMoveDownRowByKeyDownInternal(_ref15) {
+										var col = _ref15.col,
+										    row = _ref15.row;
 
 										if (row < this[_].headerMap.rowCount) {
 											var _getHeaderCellRange8 = _getHeaderCellRange(this, col, row),
@@ -2478,9 +2660,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * caption: header caption
           * field: field name
           * width: column width
+          * minWidth: column min width
+          * maxWidth: column max width
+          * icon: icon name
+          * message: message key name
           * columnType: ColumnType
           * action: ColumnAction
-          * style
+          * style: ColumnStyle
+          * sort: define sort setting
           * -----
           *
           * multiline header
@@ -2694,6 +2881,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								return SmallDialogInputEditor;
 							},
 							get InlineInputEditor() {
+								console.warn('InlineInputEditor is an experiment stage');
 								return InlineInputEditor;
 							},
 							get InlineMenuEditor() {
@@ -2841,12 +3029,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									return [];
 								}
 							}, {
+								key: 'onChangeDisabledInternal',
+								value: function onChangeDisabledInternal() {}
+							}, {
 								key: 'disabled',
 								get: function get() {
 									return this._disabled;
 								},
 								set: function set(disabled) {
 									this._disabled = !!disabled;
+									this.onChangeDisabledInternal();
 								}
 							}]);
 
@@ -2962,14 +3154,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											col: cell.col,
 											row: cell.row
 										});
-									}), grid.listen(DBLTAP_CELL, function (cell) {
-										if (!util.isTarget(cell.col, cell.row)) {
+									}), grid.listen(DBLTAP_CELL, function (e) {
+										if (!util.isTarget(e.col, e.row)) {
 											return;
 										}
 										open({
-											col: cell.col,
-											row: cell.row
+											col: e.col,
+											row: e.row
 										});
+
+										e.event.preventDefault();
+										e.event.stopPropagation();
 									}), grid.listen(KEYDOWN, function (keyCode, e) {
 										if (keyCode !== KEY_F2 && keyCode !== KEY_ENTER) {
 											return;
@@ -2982,8 +3177,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											col: sel.col,
 											row: sel.row
 										});
-									}), grid.listen(SELECTED_CELL, function (cell, selected) {
-										_this17.onChangeSelectCellInternal(grid, cell, selected);
+									}), grid.listen(SELECTED_CELL, function (e) {
+										_this17.onChangeSelectCellInternal(grid, { col: e.col, row: e.row }, e.selected);
 									}), grid.listen(SCROLL, function () {
 										_this17.onGridScrollInternal(grid);
 									}), grid.listen(EDITABLEINPUT_CELL, function (cell) {
@@ -3255,10 +3450,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									return new Editor(this);
 								}
 							}, {
-								key: 'bindGridEvent',
-								value: function bindGridEvent(grid, col, util) {
-									return [];
-								}
+								key: 'onChangeReadOnlyInternal',
+								value: function onChangeReadOnlyInternal() {}
 							}, {
 								key: 'readOnly',
 								get: function get() {
@@ -3266,6 +3459,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								},
 								set: function set(readOnly) {
 									this._readOnly = !!readOnly;
+									this.onChangeReadOnlyInternal();
 								}
 							}]);
 
@@ -3324,9 +3518,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 							globalElement.attach(grid, editor, cell.col, cell.row, value);
 						}
-						function detachInput(grid) {
+						function detachInput(gridFocus) {
 							if (globalElement) {
-								globalElement.detach();
+								globalElement.detach(gridFocus);
 							}
 						}
 						function doChangeValue(grid) {
@@ -3373,13 +3567,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								key: 'onChangeSelectCellInternal',
 								value: function onChangeSelectCellInternal(grid, cell, selected) {
 									doChangeValue(grid);
-									detachInput(grid);
+									detachInput();
 								}
 							}, {
 								key: 'onGridScrollInternal',
 								value: function onGridScrollInternal(grid) {
 									doChangeValue(grid);
-									detachInput(grid);
+									detachInput(true);
+								}
+							}, {
+								key: 'onChangeDisabledInternal',
+								value: function onChangeDisabledInternal() {
+									// cancel input
+									detachInput(true);
+								}
+							}, {
+								key: 'onChangeReadOnlyInternal',
+								value: function onChangeReadOnlyInternal() {
+									// cancel input
+									detachInput(true);
 								}
 							}, {
 								key: 'onSetInputAttrsInternal',
@@ -3474,9 +3680,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 							globalElement.attach(grid, editor, cell.col, cell.row, value);
 						}
-						function detachMenu(grid) {
+						function detachMenu(gridFocus) {
 							if (globalElement) {
-								globalElement.detach();
+								globalElement.detach(gridFocus);
 							}
 						}
 
@@ -3505,6 +3711,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								key: 'clone',
 								value: function clone() {
 									return new InlineMenuEditor(this);
+								}
+							}, {
+								key: 'onChangeDisabledInternal',
+								value: function onChangeDisabledInternal() {
+									// cancel input
+									detachMenu(true);
+								}
+							}, {
+								key: 'onChangeReadOnlyInternal',
+								value: function onChangeReadOnlyInternal() {
+									// cancel input
+									detachMenu(true);
 								}
 							}, {
 								key: 'bindGridEvent',
@@ -3540,10 +3758,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											col: sel.col,
 											row: sel.row
 										});
-									}), grid.listen(SELECTED_CELL, function (cell, selected) {
-										detachMenu(grid);
+									}), grid.listen(SELECTED_CELL, function (e) {
+										detachMenu();
 									}), grid.listen(SCROLL, function () {
-										detachMenu(grid);
+										detachMenu(true);
 									}),
 
 									// mouse move
@@ -3645,9 +3863,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 							globalElement.attach(grid, editor, cell.col, cell.row, value);
 						}
-						function detachInput(grid) {
+						function detachInput(gridFocus) {
 							if (globalElement) {
-								globalElement.detach();
+								globalElement.detach(gridFocus);
 							}
 						}
 						var BaseInputEditor = __webpack_require__( /*! ./BaseInputEditor */"./columns/action/BaseInputEditor.js");
@@ -3705,7 +3923,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								key: 'onGridScrollInternal',
 								value: function onGridScrollInternal(grid) {
 									// cancel input
-									detachInput();
+									detachInput(true);
+								}
+							}, {
+								key: 'onChangeDisabledInternal',
+								value: function onChangeDisabledInternal() {
+									// cancel input
+									detachInput(true);
+								}
+							}, {
+								key: 'onChangeReadOnlyInternal',
+								value: function onChangeReadOnlyInternal() {
+									// cancel input
+									detachInput(true);
 								}
 							}, {
 								key: 'onSetInputAttrsInternal',
@@ -3766,10 +3996,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					"use strict";
 
 					{
-						var bindCellClickAction = function bindCellClickAction(grid, col, util, _ref13) {
-							var action = _ref13.action,
-							    mouseOver = _ref13.mouseOver,
-							    mouseOut = _ref13.mouseOut;
+						var bindCellClickAction = function bindCellClickAction(grid, col, util, _ref16) {
+							var action = _ref16.action,
+							    mouseOver = _ref16.mouseOver,
+							    mouseOut = _ref16.mouseOut;
 
 							return [
 							// click
@@ -3816,10 +4046,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							})];
 						};
 
-						var bindCellKeyAction = function bindCellKeyAction(grid, col, util, _ref14) {
-							var action = _ref14.action,
-							    _ref14$acceptKeys = _ref14.acceptKeys,
-							    acceptKeys = _ref14$acceptKeys === undefined ? [] : _ref14$acceptKeys;
+						var bindCellKeyAction = function bindCellKeyAction(grid, col, util, _ref17) {
+							var action = _ref17.action,
+							    _ref17$acceptKeys = _ref17.acceptKeys,
+							    acceptKeys = _ref17$acceptKeys === undefined ? [] : _ref17$acceptKeys;
 
 							acceptKeys = [].concat(_toConsumableArray(acceptKeys), [KEY_ENTER]);
 							return [
@@ -3912,7 +4142,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 					var EventHandler = __webpack_require__( /*! ../../../internal/EventHandler */"./internal/EventHandler.js");
 
-					var _webpack_require__26 = __webpack_require__( /*! ./dom */"./columns/action/internal/dom.js"),
+					var _webpack_require__26 = __webpack_require__( /*! ../../../internal/dom */"./internal/dom.js"),
 					    createElement = _webpack_require__26.createElement;
 
 					var KEY_ENTER = 13;
@@ -4021,7 +4251,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}
 						}, {
 							key: 'detach',
-							value: function detach() {
+							value: function detach(gridFocus) {
 								if (this._isActive()) {
 									var _activeData = this._activeData,
 									    grid = _activeData.grid,
@@ -4033,6 +4263,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										input.parentElement.removeChild(input);
 									});
 									grid.invalidateCell(col, row);
+									if (gridFocus) {
+										grid.focus();
+									}
 								}
 								this._activeData = null;
 							}
@@ -4168,7 +4401,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 						var EventHandler = __webpack_require__( /*! ../../../internal/EventHandler */"./internal/EventHandler.js");
 
-						var _webpack_require__28 = __webpack_require__( /*! ./dom */"./columns/action/internal/dom.js"),
+						var _webpack_require__28 = __webpack_require__( /*! ../../../internal/dom */"./internal/dom.js"),
 						    createElement = _webpack_require__28.createElement,
 						    appendHtml = _webpack_require__28.appendHtml,
 						    empty = _webpack_require__28.empty,
@@ -4212,11 +4445,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							element.appendChild(menu);
 						}
 
-						function optionToLi(_ref15, index) {
-							var classList = _ref15.classList,
-							    caption = _ref15.caption,
-							    value = _ref15.value,
-							    html = _ref15.html;
+						function optionToLi(_ref18, index) {
+							var classList = _ref18.classList,
+							    caption = _ref18.caption,
+							    value = _ref18.value,
+							    html = _ref18.html;
 
 							var item = createElement('li', { classList: ITEM_CLASSNAME });
 							item.tabIndex = 0;
@@ -4326,7 +4559,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							menu.classList.add(SHOWN_CLASSNAME);
 						}
 
-						function closeMenu(grid, col, row, menu, valueindex) {
+						function closeMenu(grid, col, row, menu) {
 							menu.classList.remove(SHOWN_CLASSNAME);
 							menu.classList.add(HIDDEN_CLASSNAME);
 							disableFocus(menu);
@@ -4344,10 +4577,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							_createClass(InlineMenuElement, [{
 								key: 'dispose',
 								value: function dispose() {
+									var menu = this._menu;
 									this.detach();
 									this._handler.dispose();
 									this._menu = null;
 									this._beforePropEditor = null;
+									if (menu.parentElement) {
+										menu.parentElement.removeChild(menu);
+									}
 								}
 							}, {
 								key: 'attach',
@@ -4370,7 +4607,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}
 							}, {
 								key: 'detach',
-								value: function detach(gridFocus, valueindex) {
+								value: function detach(gridFocus) {
 									if (this._isActive()) {
 										var _activeData3 = this._activeData,
 										    grid = _activeData3.grid,
@@ -4378,7 +4615,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										    row = _activeData3.row;
 
 										var menu = this._menu;
-										closeMenu(grid, col, row, menu, valueindex);
+										closeMenu(grid, col, row, menu);
 
 										grid.invalidateCell(col, row);
 										if (gridFocus) {
@@ -4398,8 +4635,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									    col = _activeData4.col,
 									    row = _activeData4.row,
 									    editor = _activeData4.editor;
-
 									var value = editor.options[valueindex].value;
+
 									grid.doChangeValue(col, row, function () {
 										return value;
 									});
@@ -4440,7 +4677,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										}
 										var valueindex = item.dataset.valueindex;
 										_this29._doChangeValue(item.dataset.valueindex);
-										_this29.detach(true, valueindex);
+										_this29.detach(true);
 									});
 									handler.on(menu, 'keydown', function (e) {
 										var item = findItemParents(e.target);
@@ -4451,7 +4688,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										if (keyCode === KEY_ENTER) {
 											var valueindex = item.dataset.valueindex;
 											_this29._doChangeValue(valueindex);
-											_this29.detach(true, valueindex);
+											_this29.detach(true);
 											cancelEvent(e);
 										} else if (keyCode === KEY_ESC) {
 											_this29.detach(true);
@@ -4550,11 +4787,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					var _webpack_require__29 = __webpack_require__( /*! ../../../internal/utils */"./internal/utils.js"),
 					    _webpack_require__29$ = _webpack_require__29.event,
 					    getKeyCode = _webpack_require__29$.getKeyCode,
-					    cancelEvent = _webpack_require__29$.cancel;
+					    cancelEvent = _webpack_require__29$.cancel,
+					    then = _webpack_require__29.then;
 
 					var EventHandler = __webpack_require__( /*! ../../../internal/EventHandler */"./internal/EventHandler.js");
 
-					var _webpack_require__30 = __webpack_require__( /*! ./dom */"./columns/action/internal/dom.js"),
+					var _webpack_require__30 = __webpack_require__( /*! ../../../internal/dom */"./internal/dom.js"),
 					    createElement = _webpack_require__30.createElement;
 
 					var CLASSNAME = 'cheetah-grid__small-dialog-input';
@@ -4655,11 +4893,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						_createClass(SmallDialogInputElement, [{
 							key: 'dispose',
 							value: function dispose() {
+								var dialog = this._dialog;
 								this.detach();
 								this._handler.dispose();
 								this._dialog = null;
 								this._input = null;
 								this._beforePropEditor = null;
+								if (dialog.parentElement) {
+									dialog.parentElement.removeChild(dialog);
+								}
 							}
 						}, {
 							key: 'attach',
@@ -4685,7 +4927,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								dialog.style.top = rect.top.toFixed() + 'px';
 								dialog.style.left = rect.left.toFixed() + 'px';
 								dialog.style.width = rect.width.toFixed() + 'px';
-								dialog.style.height = rect.height.toFixed() + 'px';
+								input.style.height = rect.height.toFixed() + 'px';
 								element.appendChild(dialog);
 
 								input.value = value;
@@ -4731,23 +4973,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						}, {
 							key: '_doChangeValue',
 							value: function _doChangeValue() {
+								var _this30 = this;
+
 								if (!this._isActive()) {
 									return false;
 								}
 								var input = this._input;
 								var value = input.value;
-								if (!this._validate(value)) {
-									return false;
-								}
-								var _activeData6 = this._activeData,
-								    grid = _activeData6.grid,
-								    col = _activeData6.col,
-								    row = _activeData6.row;
 
-								grid.doChangeValue(col, row, function () {
-									return value;
+								return then(this._validate(value), function (res) {
+									if (res && value === input.value) {
+										var _activeData6 = _this30._activeData,
+										    grid = _activeData6.grid,
+										    col = _activeData6.col,
+										    row = _activeData6.row;
+
+										grid.doChangeValue(col, row, function () {
+											return value;
+										});
+										return true;
+									}
+									return false;
 								});
-								return true;
 							}
 						}, {
 							key: '_isActive',
@@ -4764,7 +5011,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						}, {
 							key: '_bindDialogEvents',
 							value: function _bindDialogEvents() {
-								var _this30 = this;
+								var _this31 = this;
 
 								var handler = this._handler;
 								var dialog = this._dialog;
@@ -4782,13 +5029,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								});
 								handler.on(input, 'compositionend', function (e) {
 									input.classList.remove('composition');
-									_this30._onInputValue(input);
+									_this31._onInputValue(input);
 								});
 								var onKeyupAndPress = function onKeyupAndPress(e) {
 									if (input.classList.contains('composition')) {
 										return;
 									}
-									_this30._onInputValue(input);
+									_this31._onInputValue(input);
 								};
 								handler.on(input, 'keyup', onKeyupAndPress);
 								handler.on(input, 'keypress', onKeyupAndPress);
@@ -4798,15 +5045,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									}
 									var keyCode = getKeyCode(e);
 									if (keyCode === KEY_ESC) {
-										_this30.detach(true);
+										_this31.detach(true);
 										cancelEvent(e);
 									} else if (keyCode === KEY_ENTER) {
-										if (_this30._doChangeValue()) {
-											_this30.detach(true);
-										}
+										var _input = _this31._input;
+										var value = _input.value;
+
+										then(_this31._doChangeValue(), function (r) {
+											if (r && value === _input.value) {
+												_this31.detach(true);
+											}
+										});
 										cancelEvent(e);
 									} else {
-										_this30._onInputValue(input);
+										_this31._onInputValue(input);
 									}
 								});
 							}
@@ -4815,6 +5067,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							value: function _onInputValue(input, activeData) {
 								var before = this._beforeValue;
 								var value = input.value;
+
 								if (before !== value) {
 									this._onInputValueChange(value, before, activeData);
 								}
@@ -4847,6 +5100,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							key: '_validate',
 							value: function _validate(value, inputOnly) {
 								var dialog = this._dialog;
+								var input = this._input;
 								var _activeData8 = this._activeData,
 								    grid = _activeData8.grid,
 								    col = _activeData8.col,
@@ -4857,16 +5111,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								if (editor.inputValidator) {
 									message = editor.inputValidator(value, { grid: grid, col: col, row: row });
 								}
-								if (!message && editor.validator && !inputOnly) {
-									message = editor.validator(value, { grid: grid, col: col, row: row });
-								}
-								if (message) {
-									dialog.dataset.errorMessage = message;
-									return false;
-								} else {
-									delete dialog.dataset.errorMessage;
-									return true;
-								}
+								return then(message, function (message) {
+									if (!message && editor.validator && !inputOnly) {
+										message = editor.validator(value, { grid: grid, col: col, row: row });
+									}
+									return then(message, function (message) {
+										if (message && value === input.value) {
+											dialog.dataset.errorMessage = message;
+										} else {
+											delete dialog.dataset.errorMessage;
+										}
+										return !message;
+									});
+								});
 							}
 						}]);
 
@@ -4878,123 +5135,761 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					/***/
 				},
 
-				/***/"./columns/action/internal/dom.js":
+				/***/"./columns/message/BaseMessage.js":
 				/*!****************************************!*\
-      !*** ./columns/action/internal/dom.js ***!
+      !*** ./columns/message/BaseMessage.js ***!
       \****************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
-				/***/function columnsActionInternalDomJs(module, exports, __webpack_require__) {
+				/***/function columnsMessageBaseMessageJs(module, exports, __webpack_require__) {
 
 					"use strict";
-					/* WEBPACK VAR INJECTION */
-					(function (__webpack_provided_Array_dot_isArray) {
-						var _webpack_require__31 = __webpack_require__( /*! ../../../internal/utils */"./internal/utils.js"),
-						    isDef = _webpack_require__31.isDef;
 
-						function createElement(tagName) {
-							var _ref16 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
-							    classList = _ref16.classList,
-							    text = _ref16.text,
-							    html = _ref16.html;
+					var BaseMessage = function () {
+						function BaseMessage(grid) {
+							_classCallCheck(this, BaseMessage);
 
-							var element = document.createElement(tagName);
-							if (classList) {
-								if (__webpack_provided_Array_dot_isArray(classList)) {
-									var _element$classList;
+							this._grid = grid;
+						}
 
-									(_element$classList = element.classList).add.apply(_element$classList, _toConsumableArray(classList));
-								} else {
-									element.classList.add(classList);
+						_createClass(BaseMessage, [{
+							key: 'dispose',
+							value: function dispose() {
+								this.detachMessageElement();
+								if (this._messageElement) {
+									this._messageElement.dispose();
 								}
+								this._messageElement = null;
 							}
-							if (text) {
-								element.textContent = text;
-							} else if (html) {
-								element.innerHTML = html;
+						}, {
+							key: '_getMessageElement',
+							value: function _getMessageElement() {
+								return this._messageElement || (this._messageElement = this.createMessageElementInternal());
 							}
-							return element;
+						}, {
+							key: 'createMessageElementInternal',
+							value: function createMessageElementInternal() {}
+						}, {
+							key: 'drawCellMessageInternal',
+							value: function drawCellMessageInternal(message, context, style, helper, info) {}
+						}, {
+							key: 'attachMessageElement',
+							value: function attachMessageElement(col, row, message) {
+								var messageElement = this._getMessageElement();
+								messageElement.attach(this._grid, col, row, message);
+							}
+						}, {
+							key: 'moveMessageElement',
+							value: function moveMessageElement(col, row) {
+								var messageElement = this._getMessageElement();
+								messageElement.move(this._grid, col, row);
+							}
+						}, {
+							key: 'detachMessageElement',
+							value: function detachMessageElement() {
+								var messageElement = this._getMessageElement();
+								messageElement._detach();
+							}
+						}, {
+							key: 'drawCellMessage',
+							value: function drawCellMessage(message, context, style, helper, info) {
+								this.drawCellMessageInternal(message, context, style, helper, info);
+							}
+						}]);
+
+						return BaseMessage;
+					}();
+
+					module.exports = BaseMessage;
+
+					/***/
+				},
+
+				/***/"./columns/message/ErrorMessage.js":
+				/*!*****************************************!*\
+      !*** ./columns/message/ErrorMessage.js ***!
+      \*****************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageErrorMessageJs(module, exports, __webpack_require__) {
+
+					"use strict";
+
+					var Rect = __webpack_require__( /*! ../../internal/Rect */"./internal/Rect.js");
+					var BaseMessage = __webpack_require__( /*! ./BaseMessage */"./columns/message/BaseMessage.js");
+					var ErrorMessageElement = __webpack_require__( /*! ./internal/ErrorMessageElement */"./columns/message/internal/ErrorMessageElement.js");
+
+					var RED_A100 = '#ff8a80';
+					// const RED_A400 = '#FF1744';
+
+					var ErrorMessage = function (_BaseMessage) {
+						_inherits(ErrorMessage, _BaseMessage);
+
+						function ErrorMessage() {
+							_classCallCheck(this, ErrorMessage);
+
+							return _possibleConstructorReturn(this, (ErrorMessage.__proto__ || Object.getPrototypeOf(ErrorMessage)).apply(this, arguments));
 						}
 
-						function empty(dom) {
-							var c = void 0;
-							while (c = dom.firstChild) {
-								dom.removeChild(c);
+						_createClass(ErrorMessage, [{
+							key: 'createMessageElementInternal',
+							value: function createMessageElementInternal() {
+								return new ErrorMessageElement();
 							}
-						}
-						function isNode(arg) {
-							return !!(arg.nodeType && arg.nodeName);
-						}
-						function toNode(arg) {
-							if (isNode(arg)) {
-								return arg;
-							}
-							var dom = createElement('div', { html: arg });
-							return Array.prototype.slice.call(dom.childNodes);
-						}
-						function toNodeList(arg) {
-							if (window.jQuery && arg instanceof window.jQuery) {
-								return Array.prototype.map.call(arg, function (a) {
-									return a;
+						}, {
+							key: 'drawCellMessageInternal',
+							value: function drawCellMessageInternal(message, context, style, helper, info) {
+								var bgColor = style.bgColor;
+
+								var _context$getSelectSta = context.getSelectState(),
+								    selected = _context$getSelectSta.selected;
+
+								var rect = context.getRect();
+
+								helper.drawBorderWithClip(context, function (ctx) {
+									if (!selected) {
+										// draw box
+										ctx.fillStyle = RED_A100;
+										var boxRect = rect.copy();
+										boxRect.left = boxRect.right - 24;
+										ctx.fillRect(boxRect.left, boxRect.top, boxRect.width, boxRect.height - 1);
+
+										// draw exclamation mark
+										var fillColor = bgColor;
+										var height = 20;
+										var width = height / 5;
+										var left = boxRect.left + (boxRect.width - width) / 2;
+										var top = boxRect.top + (boxRect.height - height) / 2;
+										helper.fillRectWithState(new Rect(left, top, width, height / 5 * 3), context, { fillColor: fillColor });
+										helper.fillRectWithState(new Rect(left, top + height / 5 * 4, width, height / 5), context, { fillColor: fillColor });
+									}
 								});
 							}
-							if (__webpack_provided_Array_dot_isArray(arg)) {
-								return arg.map(toNode);
-							}
-							return [toNode(arg)];
+						}]);
+
+						return ErrorMessage;
+					}(BaseMessage);
+
+					module.exports = ErrorMessage;
+
+					/***/
+				},
+
+				/***/"./columns/message/InfoMessage.js":
+				/*!****************************************!*\
+      !*** ./columns/message/InfoMessage.js ***!
+      \****************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageInfoMessageJs(module, exports, __webpack_require__) {
+
+					"use strict";
+
+					var BaseMessage = __webpack_require__( /*! ./BaseMessage */"./columns/message/BaseMessage.js");
+					var MessageElement = __webpack_require__( /*! ./internal/MessageElement */"./columns/message/internal/MessageElement.js");
+
+					var Rect = __webpack_require__( /*! ../../internal/Rect */"./internal/Rect.js");
+
+					var GREY_L2 = '#e0e0e0';
+					// const GREY_L1 = '#bdbdbd';
+
+					var InfoMessage = function (_BaseMessage2) {
+						_inherits(InfoMessage, _BaseMessage2);
+
+						function InfoMessage() {
+							_classCallCheck(this, InfoMessage);
+
+							return _possibleConstructorReturn(this, (InfoMessage.__proto__ || Object.getPrototypeOf(InfoMessage)).apply(this, arguments));
 						}
 
-						function appendHtml(dom, inner) {
-							toNodeList(inner).forEach(function (node) {
-								dom.appendChild(node);
-							});
+						_createClass(InfoMessage, [{
+							key: 'createMessageElementInternal',
+							value: function createMessageElementInternal() {
+								return new MessageElement();
+							}
+						}, {
+							key: 'drawCellMessageInternal',
+							value: function drawCellMessageInternal(message, context, style, helper, info) {
+								var bgColor = style.bgColor;
+
+								var _context$getSelectSta2 = context.getSelectState(),
+								    selected = _context$getSelectSta2.selected;
+
+								var rect = context.getRect();
+
+								helper.drawBorderWithClip(context, function (ctx) {
+									if (!selected) {
+										// draw box
+										ctx.fillStyle = GREY_L2;
+										var boxRect = rect.copy();
+										boxRect.left = boxRect.right - 24;
+										ctx.fillRect(boxRect.left, boxRect.top, boxRect.width, boxRect.height - 1);
+
+										// draw exclamation mark
+										var fillColor = bgColor;
+										var height = 20;
+										var width = height / 5;
+										var left = boxRect.left + (boxRect.width - width) / 2;
+										var top = boxRect.top + (boxRect.height - height) / 2;
+										helper.fillRectWithState(new Rect(left, top, width, height / 5), context, { fillColor: fillColor });
+										helper.fillRectWithState(new Rect(left, top + height / 5 * 2, width, height / 5 * 3), context, { fillColor: fillColor });
+									}
+								});
+							}
+						}]);
+
+						return InfoMessage;
+					}(BaseMessage);
+
+					module.exports = InfoMessage;
+
+					/***/
+				},
+
+				/***/"./columns/message/MessageHandler.js":
+				/*!*******************************************!*\
+      !*** ./columns/message/MessageHandler.js ***!
+      \*******************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageMessageHandlerJs(module, exports, __webpack_require__) {
+
+					"use strict";
+
+					var _webpack_require__31 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
+					    isPromise = _webpack_require__31.isPromise;
+
+					var _webpack_require__32 = __webpack_require__( /*! ../../list-grid/EVENT_TYPE */"./list-grid/EVENT_TYPE.js"),
+					    SELECTED_CELL = _webpack_require__32.SELECTED_CELL,
+					    SCROLL = _webpack_require__32.SCROLL,
+					    CHANGED_VALUE = _webpack_require__32.CHANGED_VALUE;
+
+					var ErrorMessage = __webpack_require__( /*! ./ErrorMessage */"./columns/message/ErrorMessage.js");
+					var WarningMessage = __webpack_require__( /*! ./WarningMessage */"./columns/message/WarningMessage.js");
+					var InfoMessage = __webpack_require__( /*! ./InfoMessage */"./columns/message/InfoMessage.js");
+
+					var MessageHandler = function () {
+						function MessageHandler(grid, getMessage) {
+							_classCallCheck(this, MessageHandler);
+
+							this._grid = grid;
+							this._messageInstances = {};
+							this._bindGridEvent(grid, getMessage);
 						}
 
-						function disableFocus(el) {
-							el.dataset.disableBeforeTabIndex = el.tabIndex;
-							el.tabIndex = -1;
-							Array.prototype.slice.call(el.children, 0).forEach(disableFocus);
-						}
-						function enableFocus(el) {
-							if ('disableBeforeTabIndex' in el.dataset) {
-								el.tabIndex = el.dataset.disableBeforeTabIndex;
+						_createClass(MessageHandler, [{
+							key: 'dispose',
+							value: function dispose() {
+								var messageInstances = this._messageInstances;
+								for (var k in messageInstances) {
+									messageInstances[k].dispose();
+								}
+								this._messageInstances = null;
 							}
-							Array.prototype.slice.call(el.children, 0).forEach(enableFocus);
+						}, {
+							key: 'drawCellMessage',
+							value: function drawCellMessage(message, context, style, helper, info) {
+
+								if (!message || isPromise(message)) {
+									return;
+								}
+								var instance = this._getMessageInstanceOfMessage(message);
+								instance.drawCellMessage(message, context, style, helper, info);
+							}
+						}, {
+							key: '_attach',
+							value: function _attach(col, row, message) {
+								var info = this._attachInfo;
+								var instance = this._getMessageInstanceOfMessage(message);
+								if (info && info.instance !== instance) {
+									info.instance.detachMessageElement();
+								}
+								instance.attachMessageElement(col, row, this._toMessageText(message));
+								this._attachInfo = { col: col, row: row, instance: instance };
+							}
+						}, {
+							key: '_move',
+							value: function _move(col, row) {
+								var info = this._attachInfo;
+								if (!info || info.col !== col || info.row !== row) {
+									return;
+								}
+								var instance = info.instance;
+
+								instance.moveMessageElement(col, row);
+							}
+						}, {
+							key: '_detach',
+							value: function _detach() {
+								var info = this._attachInfo;
+								if (!info) {
+									return;
+								}
+								var instance = info.instance;
+
+								instance.detachMessageElement();
+								this._attachInfo = null;
+							}
+						}, {
+							key: '_bindGridEvent',
+							value: function _bindGridEvent(grid, getMessage) {
+								var _this34 = this;
+
+								var onSelectMessage = function onSelectMessage(sel) {
+									var message = getMessage(sel.col, sel.row);
+									if (!message || isPromise(message)) {
+										_this34._detach();
+									} else {
+										_this34._attach(sel.col, sel.row, message);
+									}
+								};
+								grid.listen(SELECTED_CELL, function (e) {
+									if (!e.selected) {
+										return;
+									}
+									if (e.before.col === e.col && e.before.row === e.row) {
+										return;
+									}
+									onSelectMessage(e);
+								});
+								grid.listen(SCROLL, function () {
+									var sel = grid.selection.select;
+									_this34._move(sel.col, sel.row);
+								});
+								grid.listen(CHANGED_VALUE, function (e) {
+									var sel = grid.selection.select;
+									if (sel.col !== e.col || sel.row !== e.row) {
+										return;
+									}
+									onSelectMessage(e);
+								});
+							}
+						}, {
+							key: '_getMessageInstanceOfMessage',
+							value: function _getMessageInstanceOfMessage(message) {
+								message = message || '';
+								if (typeof message === 'string') {
+									return this._createMessageInstance('error', ErrorMessage);
+								}
+								var type = ('' + message.type).toLowerCase();
+								if (type === 'info') {
+									return this._createMessageInstance('info', InfoMessage);
+								} else if (type === 'warning') {
+									return this._createMessageInstance('warning', WarningMessage);
+								}
+								return this._createMessageInstance('error', ErrorMessage);
+							}
+						}, {
+							key: '_toMessageText',
+							value: function _toMessageText(message) {
+								message = message || '';
+								if (typeof message === 'string') {
+									return message;
+								}
+								if (message.message) {
+									return message.message;
+								}
+								return '' + message;
+							}
+						}, {
+							key: '_createMessageInstance',
+							value: function _createMessageInstance(name, Message) {
+								var messageInstances = this._messageInstances;
+								return messageInstances[name] || (messageInstances[name] = new Message(this._grid));
+							}
+						}]);
+
+						return MessageHandler;
+					}();
+
+					module.exports = MessageHandler;
+
+					/***/
+				},
+
+				/***/"./columns/message/WarningMessage.js":
+				/*!*******************************************!*\
+      !*** ./columns/message/WarningMessage.js ***!
+      \*******************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageWarningMessageJs(module, exports, __webpack_require__) {
+
+					"use strict";
+
+					var Rect = __webpack_require__( /*! ../../internal/Rect */"./internal/Rect.js");
+					var BaseMessage = __webpack_require__( /*! ./BaseMessage */"./columns/message/BaseMessage.js");
+					var WarningMessageElement = __webpack_require__( /*! ./internal/WarningMessageElement */"./columns/message/internal/WarningMessageElement.js");
+
+					var DEEP_ORANGE_A100 = '#ff9e80';
+
+					var WarningMessage = function (_BaseMessage3) {
+						_inherits(WarningMessage, _BaseMessage3);
+
+						function WarningMessage() {
+							_classCallCheck(this, WarningMessage);
+
+							return _possibleConstructorReturn(this, (WarningMessage.__proto__ || Object.getPrototypeOf(WarningMessage)).apply(this, arguments));
 						}
 
-						function isFocusable(el) {
-							return isDef(el.tabIndex) && el.tabIndex > -1;
-						}
-						function findPrevSiblingFocusable(el) {
-							var n = el.previousSibling;
-							while (n && !isFocusable(n)) {
-								n = n.previousSibling;
+						_createClass(WarningMessage, [{
+							key: 'createMessageElementInternal',
+							value: function createMessageElementInternal() {
+								return new WarningMessageElement();
 							}
-							return n;
-						}
-						function findNextSiblingFocusable(el) {
-							var n = el.nextSibling;
-							while (n && !isFocusable(n)) {
-								n = n.nextSibling;
+						}, {
+							key: 'drawCellMessageInternal',
+							value: function drawCellMessageInternal(message, context, style, helper, info) {
+								var bgColor = style.bgColor;
+
+								var _context$getSelectSta3 = context.getSelectState(),
+								    selected = _context$getSelectSta3.selected;
+
+								var rect = context.getRect();
+
+								helper.drawBorderWithClip(context, function (ctx) {
+									if (!selected) {
+										// draw box
+										ctx.fillStyle = DEEP_ORANGE_A100;
+										var boxRect = rect.copy();
+										boxRect.left = boxRect.right - 24;
+										ctx.fillRect(boxRect.left, boxRect.top, boxRect.width, boxRect.height - 1);
+
+										// draw exclamation mark
+										var fillColor = bgColor;
+										var height = 20;
+										var width = height / 5;
+										var left = boxRect.left + (boxRect.width - width) / 2;
+										var top = boxRect.top + (boxRect.height - height) / 2;
+										helper.fillRectWithState(new Rect(left, top, width, height / 5 * 3), context, { fillColor: fillColor });
+										helper.fillRectWithState(new Rect(left, top + height / 5 * 4, width, height / 5), context, { fillColor: fillColor });
+									}
+								});
 							}
-							return n;
+						}]);
+
+						return WarningMessage;
+					}(BaseMessage);
+
+					module.exports = WarningMessage;
+
+					/***/
+				},
+
+				/***/"./columns/message/internal/ErrorMessageElement.css":
+				/*!**********************************************************!*\
+      !*** ./columns/message/internal/ErrorMessageElement.css ***!
+      \**********************************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageInternalErrorMessageElementCss(module, exports, __webpack_require__) {
+
+					var content = __webpack_require__( /*! !../../../../../node_modules/css-loader?minimize!./ErrorMessageElement.css */"../../node_modules/css-loader/index.js?minimize!./columns/message/internal/ErrorMessageElement.css");
+
+					if (typeof content === 'string') content = [[module.i, content, '']];
+
+					var transform;
+					var insertInto;
+
+					var options = { "hmr": true };
+
+					options.transform = transform;
+					options.insertInto = undefined;
+
+					var update = __webpack_require__( /*! ../../../../../node_modules/style-loader/lib/addStyles.js */"../../node_modules/style-loader/lib/addStyles.js")(content, options);
+
+					if (content.locals) module.exports = content.locals;
+
+					if (false) {}
+
+					/***/
+				},
+
+				/***/"./columns/message/internal/ErrorMessageElement.js":
+				/*!*********************************************************!*\
+      !*** ./columns/message/internal/ErrorMessageElement.js ***!
+      \*********************************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageInternalErrorMessageElementJs(module, exports, __webpack_require__) {
+
+					"use strict";
+
+					var MessageElement = __webpack_require__( /*! ./MessageElement */"./columns/message/internal/MessageElement.js");
+
+					var CLASSNAME = 'cheetah-grid__error-message-element';
+					var MESSAGE_CLASSNAME = CLASSNAME + '__message';
+
+					var ErrorMessageElement = function (_MessageElement) {
+						_inherits(ErrorMessageElement, _MessageElement);
+
+						function ErrorMessageElement() {
+							_classCallCheck(this, ErrorMessageElement);
+
+							var _this36 = _possibleConstructorReturn(this, (ErrorMessageElement.__proto__ || Object.getPrototypeOf(ErrorMessageElement)).call(this));
+
+							__webpack_require__( /*! ./ErrorMessageElement.css */"./columns/message/internal/ErrorMessageElement.css");
+							_this36._rootElement.classList.add(CLASSNAME);
+							_this36._messageElement.classList.add(MESSAGE_CLASSNAME);
+							return _this36;
 						}
 
-						module.exports = {
-							createElement: createElement,
-							empty: empty,
-							isNode: isNode,
-							toNode: toNode,
-							toNodeList: toNodeList,
-							appendHtml: appendHtml,
-							disableFocus: disableFocus,
-							enableFocus: enableFocus,
-							isFocusable: isFocusable,
-							findPrevSiblingFocusable: findPrevSiblingFocusable,
-							findNextSiblingFocusable: findNextSiblingFocusable
-						};
-						/* WEBPACK VAR INJECTION */
-					}).call(this, __webpack_require__( /*! @/internal/com.js */"./internal/com.js")["Array_isArray"]);
+						return ErrorMessageElement;
+					}(MessageElement);
+
+					module.exports = ErrorMessageElement;
+
+					/***/
+				},
+
+				/***/"./columns/message/internal/MessageElement.css":
+				/*!*****************************************************!*\
+      !*** ./columns/message/internal/MessageElement.css ***!
+      \*****************************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageInternalMessageElementCss(module, exports, __webpack_require__) {
+
+					var content = __webpack_require__( /*! !../../../../../node_modules/css-loader?minimize!./MessageElement.css */"../../node_modules/css-loader/index.js?minimize!./columns/message/internal/MessageElement.css");
+
+					if (typeof content === 'string') content = [[module.i, content, '']];
+
+					var transform;
+					var insertInto;
+
+					var options = { "hmr": true };
+
+					options.transform = transform;
+					options.insertInto = undefined;
+
+					var update = __webpack_require__( /*! ../../../../../node_modules/style-loader/lib/addStyles.js */"../../node_modules/style-loader/lib/addStyles.js")(content, options);
+
+					if (content.locals) module.exports = content.locals;
+
+					if (false) {}
+
+					/***/
+				},
+
+				/***/"./columns/message/internal/MessageElement.js":
+				/*!****************************************************!*\
+      !*** ./columns/message/internal/MessageElement.js ***!
+      \****************************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageInternalMessageElementJs(module, exports, __webpack_require__) {
+
+					"use strict";
+
+					var EventHandler = __webpack_require__( /*! ../../../internal/EventHandler */"./internal/EventHandler.js");
+
+					var _webpack_require__33 = __webpack_require__( /*! ../../../internal/dom */"./internal/dom.js"),
+					    createElement = _webpack_require__33.createElement;
+
+					var CLASSNAME = 'cheetah-grid__message-element';
+					var MESSAGE_CLASSNAME = CLASSNAME + '__message';
+					var HIDDEN_CLASSNAME = CLASSNAME + '--hidden';
+					var SHOWN_CLASSNAME = CLASSNAME + '--shown';
+
+					function createrootElement() {
+						__webpack_require__( /*! ./MessageElement.css */"./columns/message/internal/MessageElement.css");
+						var element = createElement('div', { classList: [CLASSNAME, HIDDEN_CLASSNAME] });
+						var message = createElement('span', { classList: [MESSAGE_CLASSNAME] });
+						element.appendChild(message);
+						return element;
+					}
+
+					var MessageElement = function () {
+						function MessageElement() {
+							_classCallCheck(this, MessageElement);
+
+							this._handler = new EventHandler();
+							var rootElement = this._rootElement = createrootElement();
+							this._messageElement = rootElement.querySelector('.' + MESSAGE_CLASSNAME);
+						}
+
+						_createClass(MessageElement, [{
+							key: 'dispose',
+							value: function dispose() {
+								this.detach();
+								this._handler.dispose();
+								this._rootElement = null;
+								this._messageElement = null;
+							}
+						}, {
+							key: 'attach',
+							value: function attach(grid, col, row, message) {
+								var rootElement = this._rootElement;
+								var messageElement = this._messageElement;
+
+								rootElement.classList.remove(SHOWN_CLASSNAME);
+								rootElement.classList.add(HIDDEN_CLASSNAME);
+
+								if (this._attachCell(grid, col, row)) {
+									rootElement.classList.add(SHOWN_CLASSNAME);
+									rootElement.classList.remove(HIDDEN_CLASSNAME);
+
+									messageElement.textContent = message;
+								} else {
+									this._detach();
+								}
+							}
+						}, {
+							key: 'move',
+							value: function move(grid, col, row) {
+								var rootElement = this._rootElement;
+								if (this._attachCell(grid, col, row)) {
+
+									rootElement.classList.add(SHOWN_CLASSNAME);
+									rootElement.classList.remove(HIDDEN_CLASSNAME);
+								} else {
+									this._detach();
+								}
+							}
+						}, {
+							key: 'detach',
+							value: function detach() {
+								this._detach();
+							}
+						}, {
+							key: '_detach',
+							value: function _detach() {
+								var rootElement = this._rootElement;
+								if (rootElement.parentElement) {
+									rootElement.parentElement.removeChild(rootElement);
+									rootElement.classList.remove(SHOWN_CLASSNAME);
+									rootElement.classList.add(HIDDEN_CLASSNAME);
+								}
+							}
+						}, {
+							key: '_attachCell',
+							value: function _attachCell(grid, col, row) {
+								var rootElement = this._rootElement;
+
+								var _grid$getAttachCellAr4 = grid.getAttachCellArea(col, row),
+								    element = _grid$getAttachCellAr4.element,
+								    rect = _grid$getAttachCellAr4.rect;
+
+								var top = rect.bottom,
+								    left = rect.left,
+								    width = rect.width;
+								var frozenRowCount = grid.frozenRowCount,
+								    frozenColCount = grid.frozenColCount;
+
+								if (row >= frozenRowCount && frozenRowCount > 0) {
+									var _grid$getAttachCellAr5 = grid.getAttachCellArea(col, frozenRowCount - 1),
+									    frozenRect = _grid$getAttachCellAr5.rect;
+
+									if (top < frozenRect.bottom) {
+										return false;
+									}
+								} else {
+									if (top < 0) {
+										return false;
+									}
+								}
+								if (col >= frozenColCount && frozenColCount > 0) {
+									var _grid$getAttachCellAr6 = grid.getAttachCellArea(frozenColCount - 1, row),
+									    _frozenRect = _grid$getAttachCellAr6.rect;
+
+									if (left < _frozenRect.right) {
+										return false;
+									}
+								} else {
+									if (left < 0) {
+										return false;
+									}
+								}
+								var offsetHeight = element.offsetHeight,
+								    offsetWidth = element.offsetWidth;
+
+								if (offsetHeight < top) {
+									return false;
+								}
+								if (offsetWidth < left) {
+									return false;
+								}
+
+								rootElement.style.top = top.toFixed() + 'px';
+								rootElement.style.left = left.toFixed() + 'px';
+								rootElement.style.width = width.toFixed() + 'px';
+								if (rootElement.parentElement !== element) {
+									element.appendChild(rootElement);
+								}
+								return true;
+							}
+						}]);
+
+						return MessageElement;
+					}();
+
+					module.exports = MessageElement;
+
+					/***/
+				},
+
+				/***/"./columns/message/internal/WarningMessageElement.css":
+				/*!************************************************************!*\
+      !*** ./columns/message/internal/WarningMessageElement.css ***!
+      \************************************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageInternalWarningMessageElementCss(module, exports, __webpack_require__) {
+
+					var content = __webpack_require__( /*! !../../../../../node_modules/css-loader?minimize!./WarningMessageElement.css */"../../node_modules/css-loader/index.js?minimize!./columns/message/internal/WarningMessageElement.css");
+
+					if (typeof content === 'string') content = [[module.i, content, '']];
+
+					var transform;
+					var insertInto;
+
+					var options = { "hmr": true };
+
+					options.transform = transform;
+					options.insertInto = undefined;
+
+					var update = __webpack_require__( /*! ../../../../../node_modules/style-loader/lib/addStyles.js */"../../node_modules/style-loader/lib/addStyles.js")(content, options);
+
+					if (content.locals) module.exports = content.locals;
+
+					if (false) {}
+
+					/***/
+				},
+
+				/***/"./columns/message/internal/WarningMessageElement.js":
+				/*!***********************************************************!*\
+      !*** ./columns/message/internal/WarningMessageElement.js ***!
+      \***********************************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageInternalWarningMessageElementJs(module, exports, __webpack_require__) {
+
+					"use strict";
+
+					var MessageElement = __webpack_require__( /*! ./MessageElement */"./columns/message/internal/MessageElement.js");
+
+					var CLASSNAME = 'cheetah-grid__warning-message-element';
+					var MESSAGE_CLASSNAME = CLASSNAME + '__message';
+
+					var WarningMessageElement = function (_MessageElement2) {
+						_inherits(WarningMessageElement, _MessageElement2);
+
+						function WarningMessageElement() {
+							_classCallCheck(this, WarningMessageElement);
+
+							var _this37 = _possibleConstructorReturn(this, (WarningMessageElement.__proto__ || Object.getPrototypeOf(WarningMessageElement)).call(this));
+
+							__webpack_require__( /*! ./WarningMessageElement.css */"./columns/message/internal/WarningMessageElement.css");
+							_this37._rootElement.classList.add(CLASSNAME);
+							_this37._messageElement.classList.add(MESSAGE_CLASSNAME);
+							return _this37;
+						}
+
+						return WarningMessageElement;
+					}(MessageElement);
+
+					module.exports = WarningMessageElement;
 
 					/***/
 				},
@@ -5109,15 +6004,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}]);
 
 							function BaseStyle() {
-								var _ref17 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-								    bgColor = _ref17.bgColor;
+								var _ref19 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+								    bgColor = _ref19.bgColor;
 
 								_classCallCheck(this, BaseStyle);
 
-								var _this31 = _possibleConstructorReturn(this, (BaseStyle.__proto__ || Object.getPrototypeOf(BaseStyle)).call(this));
+								var _this38 = _possibleConstructorReturn(this, (BaseStyle.__proto__ || Object.getPrototypeOf(BaseStyle)).call(this));
 
-								_this31._bgColor = bgColor;
-								return _this31;
+								_this38._bgColor = bgColor;
+								return _this38;
 							}
 
 							_createClass(BaseStyle, [{
@@ -5197,14 +6092,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 							_classCallCheck(this, BranchGraphStyle);
 
-							var _this32 = _possibleConstructorReturn(this, (BranchGraphStyle.__proto__ || Object.getPrototypeOf(BranchGraphStyle)).call(this, adj(style)));
+							var _this39 = _possibleConstructorReturn(this, (BranchGraphStyle.__proto__ || Object.getPrototypeOf(BranchGraphStyle)).call(this, adj(style)));
 
-							_this32._branchColors = style.branchColors || DEFAULT_BRANCH_COLORS;
-							_this32._margin = style.margin || 4;
-							_this32._circleSize = style.circleSize || 16;
-							_this32._branchLineWidth = style.branchLineWidth || 4;
-							_this32._mergeStyle = style.mergeStyle === 'straight' ? 'straight' : 'bezier';
-							return _this32;
+							_this39._branchColors = style.branchColors || DEFAULT_BRANCH_COLORS;
+							_this39._margin = style.margin || 4;
+							_this39._circleSize = style.circleSize || 16;
+							_this39._branchLineWidth = style.branchLineWidth || 4;
+							_this39._mergeStyle = style.mergeStyle === 'straight' ? 'straight' : 'bezier';
+							return _this39;
 						}
 
 						_createClass(BranchGraphStyle, [{
@@ -5305,12 +6200,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, ButtonStyle);
 
-								var _this33 = _possibleConstructorReturn(this, (ButtonStyle.__proto__ || Object.getPrototypeOf(ButtonStyle)).call(this, adj(style)));
+								var _this40 = _possibleConstructorReturn(this, (ButtonStyle.__proto__ || Object.getPrototypeOf(ButtonStyle)).call(this, adj(style)));
 
 								var buttonBgColor = style.buttonBgColor;
 
-								_this33._buttonBgColor = buttonBgColor;
-								return _this33;
+								_this40._buttonBgColor = buttonBgColor;
+								return _this40;
 							}
 
 							_createClass(ButtonStyle, [{
@@ -5376,16 +6271,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, CheckStyle);
 
-								var _this34 = _possibleConstructorReturn(this, (CheckStyle.__proto__ || Object.getPrototypeOf(CheckStyle)).call(this, adj(style)));
+								var _this41 = _possibleConstructorReturn(this, (CheckStyle.__proto__ || Object.getPrototypeOf(CheckStyle)).call(this, adj(style)));
 
 								var uncheckBgColor = style.uncheckBgColor,
 								    checkBgColor = style.checkBgColor,
 								    borderColor = style.borderColor;
 
-								_this34._uncheckBgColor = uncheckBgColor;
-								_this34._checkBgColor = checkBgColor;
-								_this34._borderColor = borderColor;
-								return _this34;
+								_this41._uncheckBgColor = uncheckBgColor;
+								_this41._checkBgColor = checkBgColor;
+								_this41._borderColor = borderColor;
+								return _this41;
 							}
 
 							_createClass(CheckStyle, [{
@@ -5525,11 +6420,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, ImageStyle);
 
-								var _this36 = _possibleConstructorReturn(this, (ImageStyle.__proto__ || Object.getPrototypeOf(ImageStyle)).call(this, adj(style)));
+								var _this43 = _possibleConstructorReturn(this, (ImageStyle.__proto__ || Object.getPrototypeOf(ImageStyle)).call(this, adj(style)));
 
-								_this36._imageSizing = style.imageSizing;
-								_this36._margin = style.margin || 4;
-								return _this36;
+								_this43._imageSizing = style.imageSizing;
+								_this43._margin = style.margin || 4;
+								return _this43;
 							}
 
 							_createClass(ImageStyle, [{
@@ -5664,12 +6559,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, PercentCompleteBarStyle);
 
-								var _this38 = _possibleConstructorReturn(this, (PercentCompleteBarStyle.__proto__ || Object.getPrototypeOf(PercentCompleteBarStyle)).call(this, style));
+								var _this45 = _possibleConstructorReturn(this, (PercentCompleteBarStyle.__proto__ || Object.getPrototypeOf(PercentCompleteBarStyle)).call(this, style));
 
-								_this38._barColor = style.barColor || DEFAULT_BAR_COLOR;
-								_this38._barBgColor = style.barBgColor || '#f0f3f5';
-								_this38._barHeight = style.barHeight || 3;
-								return _this38;
+								_this45._barColor = style.barColor || DEFAULT_BAR_COLOR;
+								_this45._barBgColor = style.barBgColor || '#f0f3f5';
+								_this45._barHeight = style.barHeight || 3;
+								return _this45;
 							}
 
 							_createClass(PercentCompleteBarStyle, [{
@@ -5745,11 +6640,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, StdBaseStyle);
 
-								var _this39 = _possibleConstructorReturn(this, (StdBaseStyle.__proto__ || Object.getPrototypeOf(StdBaseStyle)).call(this, style));
+								var _this46 = _possibleConstructorReturn(this, (StdBaseStyle.__proto__ || Object.getPrototypeOf(StdBaseStyle)).call(this, style));
 
-								_this39._textAlign = style.textAlign || 'left';
-								_this39._textBaseline = style.textBaseline || 'middle';
-								return _this39;
+								_this46._textAlign = style.textAlign || 'left';
+								_this46._textBaseline = style.textBaseline || 'middle';
+								return _this46;
 							}
 
 							_createClass(StdBaseStyle, [{
@@ -5815,12 +6710,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, Style);
 
-								var _this40 = _possibleConstructorReturn(this, (Style.__proto__ || Object.getPrototypeOf(Style)).call(this, style));
+								var _this47 = _possibleConstructorReturn(this, (Style.__proto__ || Object.getPrototypeOf(Style)).call(this, style));
 
-								_this40._color = style.color;
-								_this40._font = style.font;
-								_this40._padding = style.padding;
-								return _this40;
+								_this47._color = style.color;
+								_this47._font = style.font;
+								_this47._padding = style.padding;
+								return _this47;
 							}
 
 							_createClass(Style, [{
@@ -6000,16 +6895,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 						var styleContents = __webpack_require__( /*! ../style */"./columns/style.js");
 
-						var _webpack_require__32 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
-						    isPromise = _webpack_require__32.isPromise,
-						    isDef = _webpack_require__32.isDef,
-						    setReadonly = _webpack_require__32.obj.setReadonly;
+						var _webpack_require__34 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
+						    isPromise = _webpack_require__34.isPromise,
+						    isDef = _webpack_require__34.isDef,
+						    setReadonly = _webpack_require__34.obj.setReadonly;
 
 						var _animate = __webpack_require__( /*! ../../internal/animate */"./internal/animate.js");
 						var BaseStyle = __webpack_require__( /*! ../style/Style */"./columns/style/Style.js");
 
-						var _webpack_require__33 = __webpack_require__( /*! ../../internal/symbolManager */"./internal/symbolManager.js"),
-						    COLUMN_FADEIN_STATE_ID = _webpack_require__33.COLUMN_FADEIN_STATE_ID;
+						var _webpack_require__35 = __webpack_require__( /*! ../../internal/symbolManager */"./internal/symbolManager.js"),
+						    COLUMN_FADEIN_STATE_ID = _webpack_require__35.COLUMN_FADEIN_STATE_ID;
 
 						var fadinMgr = {
 							animate: function animate(grid, col, row, context, drawInternal, drawCellBase) {
@@ -6053,7 +6948,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							_createClass(BaseColumn, [{
 								key: 'onDrawCell',
 								value: function onDrawCell(cellValue, info, context, grid) {
-									var _this41 = this;
+									var _this48 = this;
 
 									var style = info.style,
 									    getRecord = info.getRecord,
@@ -6084,10 +6979,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 												if (!drawRect) {
 													return;
 												}
-												_this41.drawInternal(_this41.convertInternal(val), currentContext, styleContents.of(style, getRecord(), _this41.StyleClass), helper, grid, info);
+												var actStyle = styleContents.of(style, getRecord(), _this48.StyleClass);
+												_this48.drawInternal(_this48.convertInternal(val), currentContext, actStyle, helper, grid, info);
+												_this48.drawMessageInternal(info.getMessage(), context, actStyle, helper, grid, info);
 											};
 
-											if (!isFadeinWhenCallbackInPromise(_this41, grid)) {
+											if (!isFadeinWhenCallbackInPromise(_this48, grid)) {
 												drawInternal(); //単純な描画
 											} else {
 												var col = context.col,
@@ -6103,7 +7000,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 											}
 										});
 									} else {
-										this.drawInternal(this.convertInternal(cellValue), context, styleContents.of(style, getRecord(), this.StyleClass), helper, grid, info);
+										var actStyle = styleContents.of(style, getRecord(), this.StyleClass);
+										this.drawInternal(this.convertInternal(cellValue), context, actStyle, helper, grid, info);
+										this.drawMessageInternal(info.getMessage(), context, actStyle, helper, grid, info);
 										//フェードインの場合透過するため背景を透過で上書き
 										var col = context.col,
 										    row = context.row;
@@ -6136,6 +7035,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								key: 'drawInternal',
 								value: function drawInternal(value, context, style, helper, grid, info) {}
 							}, {
+								key: 'drawMessageInternal',
+								value: function drawMessageInternal(message, context, style, helper, grid, info) {
+									info.messageHandler.drawCellMessage(message, context, style, helper, info);
+								}
+							}, {
 								key: 'bindGridEvent',
 								value: function bindGridEvent(grid, col, util) {
 									return [];
@@ -6167,17 +7071,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					"use strict";
 					/* WEBPACK VAR INJECTION */
 					(function (__webpack_provided_Array_dot_isArray) {
-						var _webpack_require__34 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
-						    isDef = _webpack_require__34.isDef,
-						    getOrApply = _webpack_require__34.getOrApply,
-						    isPromise = _webpack_require__34.isPromise,
-						    isObject = _webpack_require__34.obj.isObject;
+						var _webpack_require__36 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
+						    isDef = _webpack_require__36.isDef,
+						    getOrApply = _webpack_require__36.getOrApply,
+						    isPromise = _webpack_require__36.isPromise,
+						    isObject = _webpack_require__36.obj.isObject;
 
 						var BranchGraphStyle = __webpack_require__( /*! ../style/BranchGraphStyle */"./columns/style/BranchGraphStyle.js");
 						var BaseColumn = __webpack_require__( /*! ./BaseColumn */"./columns/type/BaseColumn.js");
 
-						var _webpack_require__35 = __webpack_require__( /*! ../../internal/symbolManager */"./internal/symbolManager.js"),
-						    _ = _webpack_require__35.BRANCH_GRAPH_COLUMN_STATE_ID;
+						var _webpack_require__37 = __webpack_require__( /*! ../../internal/symbolManager */"./internal/symbolManager.js"),
+						    _ = _webpack_require__37.BRANCH_GRAPH_COLUMN_STATE_ID;
 
 						function getAllColumnData(grid, col, callback) {
 							var dataSource = grid.dataSource;
@@ -6222,11 +7126,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}
 						}
 
-						var BranchLine = function BranchLine(_ref18) {
-							var fromIndex = _ref18.fromIndex,
-							    toIndex = _ref18.toIndex,
-							    colorIndex = _ref18.colorIndex,
-							    point = _ref18.point;
+						var BranchLine = function BranchLine(_ref20) {
+							var fromIndex = _ref20.fromIndex,
+							    toIndex = _ref20.toIndex,
+							    colorIndex = _ref20.colorIndex,
+							    point = _ref20.point;
 
 							_classCallCheck(this, BranchLine);
 
@@ -6237,13 +7141,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						};
 
 						var BranchPoint = function () {
-							function BranchPoint(_ref19) {
-								var index = _ref19.index,
-								    _ref19$commit = _ref19.commit,
-								    commit = _ref19$commit === undefined ? false : _ref19$commit,
-								    _ref19$lines = _ref19.lines,
-								    lines = _ref19$lines === undefined ? [] : _ref19$lines,
-								    tag = _ref19.tag;
+							function BranchPoint(_ref21) {
+								var index = _ref21.index,
+								    _ref21$commit = _ref21.commit,
+								    commit = _ref21$commit === undefined ? false : _ref21$commit,
+								    _ref21$lines = _ref21.lines,
+								    lines = _ref21$lines === undefined ? [] : _ref21$lines,
+								    tag = _ref21.tag;
 
 								_classCallCheck(this, BranchPoint);
 
@@ -6330,9 +7234,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							return false;
 						}
 
-						function branch(_ref20, from, to) {
-							var timeline = _ref20.timeline,
-							    branches = _ref20.branches;
+						function branch(_ref22, from, to) {
+							var timeline = _ref22.timeline,
+							    branches = _ref22.branches;
 
 							var fromIndex = branches.indexOf(from);
 							var toIndex = branches.indexOf(to);
@@ -6388,9 +7292,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}
 						}
 
-						function commit(_ref21, name) {
-							var timeline = _ref21.timeline,
-							    branches = _ref21.branches;
+						function commit(_ref23, name) {
+							var timeline = _ref23.timeline,
+							    branches = _ref23.branches;
 
 							var index = branches.indexOf(name);
 							if (index < 0) {
@@ -6410,9 +7314,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							return result;
 						}
 
-						function commitTag(_ref22, name, tag) {
-							var timeline = _ref22.timeline,
-							    branches = _ref22.branches;
+						function commitTag(_ref24, name, tag) {
+							var timeline = _ref24.timeline,
+							    branches = _ref24.branches;
 
 							var index = branches.indexOf(name);
 							if (index < 0) {
@@ -6425,9 +7329,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							});
 						}
 
-						function commitMerge(_ref23, from, to) {
-							var timeline = _ref23.timeline,
-							    branches = _ref23.branches;
+						function commitMerge(_ref25, from, to) {
+							var timeline = _ref25.timeline,
+							    branches = _ref25.branches;
 
 							var fromIndex = branches.indexOf(from);
 							var toIndex = branches.indexOf(to);
@@ -6487,8 +7391,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 									point = commit(info, _branch);
 								} else if (cmd.command === 'merge') {
-									var _from3 = cmd.branch.from;
-									var _to = cmd.branch.to;
+									var _cmd$branch = cmd.branch,
+									    _from3 = _cmd$branch.from,
+									    _to = _cmd$branch.to;
+
 									point = commitMerge(info, _from3, _to);
 								} else if (cmd.command === 'tag') {
 									var _branch2 = cmd.branch,
@@ -6544,16 +7450,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							return result;
 						}
 
-						function renderMerge(grid, ctx, x, y, upLineIndex, downLineIndex, colorIndex, _ref24, _ref25) {
-							var branchXPoints = _ref24.branchXPoints,
-							    margin = _ref24.margin,
-							    branchColors = _ref24.branchColors,
-							    branchLineWidth = _ref24.branchLineWidth,
-							    mergeStyle = _ref24.mergeStyle;
-							var width = _ref25.width,
-							    col = _ref25.col,
-							    row = _ref25.row,
-							    branches = _ref25.branches;
+						function renderMerge(grid, ctx, x, y, upLineIndex, downLineIndex, colorIndex, _ref26, _ref27) {
+							var branchXPoints = _ref26.branchXPoints,
+							    margin = _ref26.margin,
+							    branchColors = _ref26.branchColors,
+							    branchLineWidth = _ref26.branchLineWidth,
+							    mergeStyle = _ref26.mergeStyle;
+							var width = _ref27.width,
+							    col = _ref27.col,
+							    row = _ref27.row,
+							    branches = _ref27.branches;
 
 							if (isDef(upLineIndex) || isDef(downLineIndex)) {
 								ctx.strokeStyle = getOrApply(branchColors, branches[colorIndex], colorIndex);
@@ -6649,11 +7555,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, BranchGraphColumn);
 
-								var _this42 = _possibleConstructorReturn(this, (BranchGraphColumn.__proto__ || Object.getPrototypeOf(BranchGraphColumn)).call(this, option));
+								var _this49 = _possibleConstructorReturn(this, (BranchGraphColumn.__proto__ || Object.getPrototypeOf(BranchGraphColumn)).call(this, option));
 
-								_this42._start = option.start || 'bottom';
-								_this42._cache = isDef(option.cache) ? option.cache : false;
-								return _this42;
+								_this49._start = option.start || 'bottom';
+								_this49._cache = isDef(option.cache) ? option.cache : false;
+								return _this49;
 							}
 
 							_createClass(BranchGraphColumn, [{
@@ -6681,18 +7587,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}
 							}, {
 								key: 'drawInternal',
-								value: function drawInternal(value, context, style, helper, grid, _ref26) {
-									var drawCellBase = _ref26.drawCellBase;
+								value: function drawInternal(value, context, style, helper, grid, _ref28) {
+									var drawCellBase = _ref28.drawCellBase;
 									var col = context.col,
 									    row = context.row;
 
-									var _ref27 = this._cache && grid[_] ? grid[_][col] : calcBranchesInfo(this._start, grid, col),
-									    timeline = _ref27.timeline,
-									    branches = _ref27.branches;
+									var _ref29 = this._cache && grid[_] ? grid[_][col] : calcBranchesInfo(this._start, grid, col),
+									    timeline = _ref29.timeline,
+									    branches = _ref29.branches;
 
-									var _ref28 = this._start !== 'top' ? { upLineIndexKey: 'toIndex', downLineIndexKey: 'fromIndex' } : { upLineIndexKey: 'fromIndex', downLineIndexKey: 'toIndex' },
-									    upLineIndexKey = _ref28.upLineIndexKey,
-									    downLineIndexKey = _ref28.downLineIndexKey;
+									var _ref30 = this._start !== 'top' ? { upLineIndexKey: 'toIndex', downLineIndexKey: 'fromIndex' } : { upLineIndexKey: 'fromIndex', downLineIndexKey: 'toIndex' },
+									    upLineIndexKey = _ref30.upLineIndexKey,
+									    downLineIndexKey = _ref30.downLineIndexKey;
 
 									var data = this._start !== 'top' ? timeline[timeline.length - (row - grid.frozenRowCount) - 1] : timeline[row - grid.frozenRowCount];
 
@@ -6799,8 +7705,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						var Column = __webpack_require__( /*! ./Column */"./columns/type/Column.js");
 						var ButtonStyle = __webpack_require__( /*! ../style/ButtonStyle */"./columns/style/ButtonStyle.js");
 
-						var _webpack_require__36 = __webpack_require__( /*! ../../internal/symbolManager */"./internal/symbolManager.js"),
-						    BUTTON_COLUMN_STATE_ID = _webpack_require__36.BUTTON_COLUMN_STATE_ID;
+						var _webpack_require__38 = __webpack_require__( /*! ../../internal/symbolManager */"./internal/symbolManager.js"),
+						    BUTTON_COLUMN_STATE_ID = _webpack_require__38.BUTTON_COLUMN_STATE_ID;
 
 						var utils = __webpack_require__( /*! ./columnUtils */"./columns/type/columnUtils.js");
 
@@ -6812,10 +7718,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, ButtonColumn);
 
-								var _this43 = _possibleConstructorReturn(this, (ButtonColumn.__proto__ || Object.getPrototypeOf(ButtonColumn)).call(this, option));
+								var _this50 = _possibleConstructorReturn(this, (ButtonColumn.__proto__ || Object.getPrototypeOf(ButtonColumn)).call(this, option));
 
-								_this43._caption = option.caption;
-								return _this43;
+								_this50._caption = option.caption;
+								return _this50;
 							}
 
 							_createClass(ButtonColumn, [{
@@ -6837,9 +7743,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}
 							}, {
 								key: 'drawInternal',
-								value: function drawInternal(value, context, style, helper, grid, _ref29) {
-									var drawCellBase = _ref29.drawCellBase,
-									    getIcon = _ref29.getIcon;
+								value: function drawInternal(value, context, style, helper, grid, _ref31) {
+									var drawCellBase = _ref31.drawCellBase,
+									    getIcon = _ref31.getIcon;
 									var textAlign = style.textAlign,
 									    textBaseline = style.textBaseline,
 									    bgColor = style.bgColor,
@@ -6932,8 +7838,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						var BaseColumn = __webpack_require__( /*! ./BaseColumn */"./columns/type/BaseColumn.js");
 						var CheckStyle = __webpack_require__( /*! ../style/CheckStyle */"./columns/style/CheckStyle.js");
 
-						var _webpack_require__37 = __webpack_require__( /*! ../../internal/symbolManager */"./internal/symbolManager.js"),
-						    CHECK_COLUMN_STATE_ID = _webpack_require__37.CHECK_COLUMN_STATE_ID;
+						var _webpack_require__39 = __webpack_require__( /*! ../../internal/symbolManager */"./internal/symbolManager.js"),
+						    CHECK_COLUMN_STATE_ID = _webpack_require__39.CHECK_COLUMN_STATE_ID;
 
 						var CheckColumn = function (_BaseColumn2) {
 							_inherits(CheckColumn, _BaseColumn2);
@@ -6956,8 +7862,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}
 							}, {
 								key: 'drawInternal',
-								value: function drawInternal(value, context, style, helper, grid, _ref30) {
-									var drawCellBase = _ref30.drawCellBase;
+								value: function drawInternal(value, context, style, helper, grid, _ref32) {
+									var drawCellBase = _ref32.drawCellBase;
 									var textAlign = style.textAlign,
 									    textBaseline = style.textBaseline,
 									    borderColor = style.borderColor,
@@ -7041,9 +7947,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}
 							}, {
 								key: 'drawInternal',
-								value: function drawInternal(value, context, style, helper, grid, _ref31) {
-									var drawCellBase = _ref31.drawCellBase,
-									    getIcon = _ref31.getIcon;
+								value: function drawInternal(value, context, style, helper, grid, _ref33) {
+									var drawCellBase = _ref33.drawCellBase,
+									    getIcon = _ref33.getIcon;
 									var textAlign = style.textAlign,
 									    textBaseline = style.textBaseline,
 									    color = style.color,
@@ -7118,14 +8024,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, IconColumn);
 
-								var _this46 = _possibleConstructorReturn(this, (IconColumn.__proto__ || Object.getPrototypeOf(IconColumn)).call(this, option));
+								var _this53 = _possibleConstructorReturn(this, (IconColumn.__proto__ || Object.getPrototypeOf(IconColumn)).call(this, option));
 
-								_this46._tagName = option.tagName || 'i';
-								_this46._className = option.className;
-								_this46._content = option.content;
-								_this46._name = option.name;
-								_this46._iconWidth = option.iconWidth;
-								return _this46;
+								_this53._tagName = option.tagName || 'i';
+								_this53._className = option.className;
+								_this53._content = option.content;
+								_this53._name = option.name;
+								_this53._iconWidth = option.iconWidth;
+								return _this53;
 							}
 
 							_createClass(IconColumn, [{
@@ -7210,11 +8116,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 						var ImageStyle = __webpack_require__( /*! ../style/ImageStyle */"./columns/style/ImageStyle.js");
 
-						var _webpack_require__38 = __webpack_require__( /*! ../../internal/imgs */"./internal/imgs.js"),
-						    getCacheOrLoad = _webpack_require__38.getCacheOrLoad;
+						var _webpack_require__40 = __webpack_require__( /*! ../../internal/imgs */"./internal/imgs.js"),
+						    getCacheOrLoad = _webpack_require__40.getCacheOrLoad;
 
-						var _webpack_require__39 = __webpack_require__( /*! ../../internal/canvases */"./internal/canvases.js"),
-						    calcStartPosition = _webpack_require__39.calcStartPosition;
+						var _webpack_require__41 = __webpack_require__( /*! ../../internal/canvases */"./internal/canvases.js"),
+						    calcStartPosition = _webpack_require__41.calcStartPosition;
 
 						var BaseColumn = __webpack_require__( /*! ./BaseColumn */"./columns/type/BaseColumn.js");
 
@@ -7241,8 +8147,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}
 							}, {
 								key: 'drawInternal',
-								value: function drawInternal(value, context, style, helper, grid, _ref32) {
-									var drawCellBase = _ref32.drawCellBase;
+								value: function drawInternal(value, context, style, helper, grid, _ref34) {
+									var drawCellBase = _ref34.drawCellBase;
 
 									if (value) {
 										var textAlign = style.textAlign,
@@ -7302,11 +8208,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					"use strict";
 
 					{
-						var _webpack_require__40 = __webpack_require__( /*! ../../internal/menu-items */"./internal/menu-items.js"),
-						    normalize = _webpack_require__40.normalize;
+						var _webpack_require__42 = __webpack_require__( /*! ../../internal/menu-items */"./internal/menu-items.js"),
+						    normalize = _webpack_require__42.normalize;
 
-						var _webpack_require__41 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
-						    isDef = _webpack_require__41.isDef;
+						var _webpack_require__43 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
+						    isDef = _webpack_require__43.isDef;
 
 						var BaseColumn = __webpack_require__( /*! ./BaseColumn */"./columns/type/BaseColumn.js");
 						var Style = __webpack_require__( /*! ../style/Style */"./columns/style/Style.js");
@@ -7320,10 +8226,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, MenuColumn);
 
-								var _this48 = _possibleConstructorReturn(this, (MenuColumn.__proto__ || Object.getPrototypeOf(MenuColumn)).call(this, option));
+								var _this55 = _possibleConstructorReturn(this, (MenuColumn.__proto__ || Object.getPrototypeOf(MenuColumn)).call(this, option));
 
-								_this48._options = normalize(option.options);
-								return _this48;
+								_this55._options = normalize(option.options);
+								return _this55;
 							}
 
 							_createClass(MenuColumn, [{
@@ -7340,9 +8246,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}
 							}, {
 								key: 'drawInternal',
-								value: function drawInternal(value, context, style, helper, grid, _ref33) {
-									var drawCellBase = _ref33.drawCellBase,
-									    getIcon = _ref33.getIcon;
+								value: function drawInternal(value, context, style, helper, grid, _ref35) {
+									var drawCellBase = _ref35.drawCellBase,
+									    getIcon = _ref35.getIcon;
 									var textAlign = style.textAlign,
 									    textBaseline = style.textBaseline,
 									    font = style.font,
@@ -7461,10 +8367,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, NumberColumn);
 
-								var _this49 = _possibleConstructorReturn(this, (NumberColumn.__proto__ || Object.getPrototypeOf(NumberColumn)).call(this, option));
+								var _this56 = _possibleConstructorReturn(this, (NumberColumn.__proto__ || Object.getPrototypeOf(NumberColumn)).call(this, option));
 
-								_this49._format = option.format;
-								return _this49;
+								_this56._format = option.format;
+								return _this56;
 							}
 
 							_createClass(NumberColumn, [{
@@ -7522,9 +8428,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					{
 						var PercentCompleteBarStyle = __webpack_require__( /*! ../style/PercentCompleteBarStyle */"./columns/style/PercentCompleteBarStyle.js");
 
-						var _webpack_require__42 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
-						    getOrApply = _webpack_require__42.getOrApply,
-						    str = _webpack_require__42.str;
+						var _webpack_require__44 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
+						    getOrApply = _webpack_require__44.getOrApply,
+						    str = _webpack_require__44.str;
 
 						var Column = __webpack_require__( /*! ./Column */"./columns/type/Column.js");
 
@@ -7538,14 +8444,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, PercentCompleteBarColumn);
 
-								var _this50 = _possibleConstructorReturn(this, (PercentCompleteBarColumn.__proto__ || Object.getPrototypeOf(PercentCompleteBarColumn)).call(this, option));
+								var _this57 = _possibleConstructorReturn(this, (PercentCompleteBarColumn.__proto__ || Object.getPrototypeOf(PercentCompleteBarColumn)).call(this, option));
 
-								_this50._min = option.min || 0;
-								_this50._max = option.max || _this50._min + 100;
-								_this50._formatter = option.formatter || function (v) {
+								_this57._min = option.min || 0;
+								_this57._max = option.max || _this57._min + 100;
+								_this57._formatter = option.formatter || function (v) {
 									return v;
 								};
-								return _this50;
+								return _this57;
 							}
 
 							_createClass(PercentCompleteBarColumn, [{
@@ -7614,19 +8520,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					"use strict";
 
 					{
-						var _webpack_require__43 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
-						    isPromise = _webpack_require__43.isPromise;
+						var _webpack_require__45 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
+						    isPromise = _webpack_require__45.isPromise;
 
 						var icons = __webpack_require__( /*! ../../internal/icons */"./internal/icons.js");
-
 						module.exports = {
 							loadIcons: function loadIcons(icon, context, helper, callback) {
-								var _this51 = this;
+								var _this58 = this;
 
 								if (icon) {
 									if (isPromise(icon)) {
 										icon.then(function (i) {
-											_this51.loadIcon(i, context.toCurrentContext(), callback);
+											_this58.loadIcon(i, context.toCurrentContext(), callback);
 										});
 										icon = null;
 									} else {
@@ -7719,6 +8624,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							var findAfter = function findAfter(startRow, startBottom) {
 								var top = startBottom - _getRowHeight(grid, startRow);
 								var rowCount = grid[_].rowCount;
+
 								for (var row = startRow; row < rowCount; row++) {
 									var height = _getRowHeight(grid, row);
 									var _bottom = top + height;
@@ -7744,6 +8650,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						var _getTargetColAt = function _getTargetColAt(grid, absoluteX) {
 							var left = 0;
 							var colCount = grid[_].colCount;
+
 							for (var col = 0; col < colCount; col++) {
 								var width = _getColWidth(grid, col);
 								var right = left + width;
@@ -7763,6 +8670,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								return null;
 							}
 							var top = grid[_].scroll.top;
+
 							var rowCount = grid[_].frozenRowCount;
 							for (var row = 0; row < rowCount; row++) {
 								var height = _getRowHeight(grid, row);
@@ -7783,6 +8691,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								return null;
 							}
 							var left = grid[_].scroll.left;
+
 							var colCount = grid[_].frozenColCount;
 							for (var col = 0; col < colCount; col++) {
 								var width = _getColWidth(grid, col);
@@ -7803,6 +8712,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								return null;
 							}
 							var top = grid[_].scroll.top;
+
 							var height = 0;
 							var rowCount = grid[_].frozenRowCount;
 							for (var row = 0; row < rowCount; row++) {
@@ -7816,6 +8726,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								return null;
 							}
 							var left = grid[_].scroll.left;
+
 							var width = 0;
 							var colCount = grid[_].frozenColCount;
 							for (var col = 0; col < colCount; col++) {
@@ -7848,33 +8759,37 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}
 						};
 
-						var _drawCell = function _drawCell(grid, ctx, col, absoluteLeft, width, row, absoluteTop, height, visibleRect, skipAbsoluteTop, skipAbsoluteLeft) {
+						var _drawCell = function _drawCell(grid, ctx, col, absoluteLeft, width, row, absoluteTop, height, visibleRect, skipAbsoluteTop, skipAbsoluteLeft, drawLayers) {
 							var rect = new Rect(absoluteLeft - visibleRect.left, absoluteTop - visibleRect.top, width, height);
 
 							var drawRect = Rect.bounds(Math.max(absoluteLeft, skipAbsoluteLeft) - visibleRect.left, Math.max(absoluteTop, skipAbsoluteTop) - visibleRect.top, rect.right, rect.bottom);
 
 							if (drawRect.height > 0 && drawRect.width > 0) {
 								ctx.save();
-								var dcContext = new DrawCellContext(col, row, ctx, rect, drawRect, _isCellDrawing(grid, col, row), grid[_].selection);
-								var p = grid.onDrawCell(col, row, dcContext);
-								if (isPromise(p)) {
-									//遅延描画
-									_putCellDrawing(grid, col, row, dcContext);
+								try {
+									var dcContext = new DrawCellContext(col, row, ctx, rect, drawRect, _isCellDrawing(grid, col, row), grid[_].selection, drawLayers);
+									var p = grid.onDrawCell(col, row, dcContext);
+									if (isPromise(p)) {
+										//遅延描画
+										_putCellDrawing(grid, col, row, dcContext);
 
-									var pCol = col;
-									dcContext._delayMode(grid, function () {
-										_removeCellDrawing(grid, pCol, row);
-									});
-									p.then(function () {
-										dcContext.terminate();
-									});
+										var pCol = col;
+										dcContext._delayMode(grid, function () {
+											_removeCellDrawing(grid, pCol, row);
+										});
+										p.then(function () {
+											dcContext.terminate();
+										});
+									}
+								} finally {
+									ctx.restore();
 								}
-								ctx.restore();
 							}
 						};
 
-						var _drawRow = function _drawRow(grid, ctx, initFrozenCol, initCol, drawRight, row, absoluteTop, height, visibleRect, skipAbsoluteTop) {
+						var _drawRow = function _drawRow(grid, ctx, initFrozenCol, initCol, drawRight, row, absoluteTop, height, visibleRect, skipAbsoluteTop, drawLayers) {
 							var colCount = grid[_].colCount;
+
 							var drawOuter = function drawOuter(col, absoluteLeft) {
 								//データ範囲外の描画
 								if (col >= colCount - 1 && grid[_].canvas.width > absoluteLeft - visibleRect.left) {
@@ -7895,7 +8810,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								for (var col = initFrozenCol.col; col < count; col++) {
 									var width = _getColWidth(grid, col);
 
-									_drawCell(grid, ctx, col, _absoluteLeft, width, row, absoluteTop, height, visibleRect, skipAbsoluteTop, 0);
+									_drawCell(grid, ctx, col, _absoluteLeft, width, row, absoluteTop, height, visibleRect, skipAbsoluteTop, 0, drawLayers);
 
 									_absoluteLeft += width;
 									if (drawRight <= _absoluteLeft) {
@@ -7910,7 +8825,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							var absoluteLeft = initCol.left;
 							for (var _col = initCol.col; _col < colCount; _col++) {
 								var _width = _getColWidth(grid, _col);
-								_drawCell(grid, ctx, _col, absoluteLeft, _width, row, absoluteTop, height, visibleRect, skipAbsoluteTop, skipAbsoluteLeft);
+								_drawCell(grid, ctx, _col, absoluteLeft, _width, row, absoluteTop, height, visibleRect, skipAbsoluteTop, skipAbsoluteLeft, drawLayers);
 
 								absoluteLeft += _width;
 								if (drawRight <= absoluteLeft) {
@@ -7925,6 +8840,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						var _invalidateRect = function _invalidateRect(grid, drawRect) {
 							var visibleRect = _getVisibleRect(grid);
 							var rowCount = grid[_].rowCount;
+
 							var ctx = grid._getInitContext();
 
 							var initRow = _getTargetRowAt(grid, Math.max(visibleRect.top, drawRect.top)) || {
@@ -7940,6 +8856,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 							var initFrozenRow = _getTargetFrozenRowAt(grid, Math.max(visibleRect.top, drawRect.top));
 							var initFrozenCol = _getTargetFrozenColAt(grid, Math.max(visibleRect.left, drawRect.left));
+
+							var drawLayers = new DrawLayers();
 
 							var drawOuter = function drawOuter(row, absoluteTop) {
 								//データ範囲外の描画
@@ -7960,11 +8878,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								var count = grid[_].frozenRowCount;
 								for (var row = initFrozenRow.row; row < count; row++) {
 									var height = _getRowHeight(grid, row);
-									_drawRow(grid, ctx, initFrozenCol, initCol, drawRight, row, _absoluteTop, height, visibleRect, 0);
+									_drawRow(grid, ctx, initFrozenCol, initCol, drawRight, row, _absoluteTop, height, visibleRect, 0, drawLayers);
 									_absoluteTop += height;
 									if (drawBottom <= _absoluteTop) {
 										//描画範囲外（終了）
 										drawOuter(row, _absoluteTop);
+										drawLayers.draw(ctx);
 										return;
 									}
 								}
@@ -7976,16 +8895,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								var _height = _getRowHeight(grid, _row);
 
 								//行の描画
-								_drawRow(grid, ctx, initFrozenCol, initCol, drawRight, _row, absoluteTop, _height, visibleRect, skipAbsoluteTop);
+								_drawRow(grid, ctx, initFrozenCol, initCol, drawRight, _row, absoluteTop, _height, visibleRect, skipAbsoluteTop, drawLayers);
 
 								absoluteTop += _height;
 								if (drawBottom <= absoluteTop) {
 									//描画範囲外（終了）
 									drawOuter(_row, absoluteTop);
+									drawLayers.draw(ctx);
 									return;
 								}
 							}
 							drawOuter(rowCount - 1, absoluteTop);
+
+							drawLayers.draw(ctx);
 						};
 
 						var _toPxWidth = function _toPxWidth(grid, width) {
@@ -8137,8 +9059,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										_redrawRect.height = -moveY;
 										if (grid[_].frozenRowCount > 0) {
 											//固定行がある場合固定行分描画
-											var _frozenRect = _getFrozenRowsRect(grid);
-											_redrawRect.height += _frozenRect.height;
+											var _frozenRect2 = _getFrozenRowsRect(grid);
+											_redrawRect.height += _frozenRect2.height;
 										}
 									} else if (moveY > 0) {
 										_redrawRect.top = _redrawRect.bottom - moveY;
@@ -8159,6 +9081,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 						var _onKeyDownMove = function _onKeyDownMove(grid, e) {
 							var shiftKey = e.shiftKey;
+
 							var keyCode = getKeyCode(e);
 							var focusCell = shiftKey ? grid.selection._focus : grid.selection._sel;
 							if (keyCode === KEY_LEFT) {
@@ -8309,31 +9232,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									grid[_].cellSelector.start(e);
 								}
 							});
-							var doubleTapBefore = false;
+							var doubleTapBefore = null;
 							var longTouchId = null;
 							grid[_].handler.on(grid[_].element, 'touchstart', function (e) {
 
 								if (!doubleTapBefore) {
-									doubleTapBefore = true;
+									doubleTapBefore = getCellEventArgsSet(e).eventArgs;
 									setTimeout(function () {
-										doubleTapBefore = false;
+										doubleTapBefore = null;
 									}, 350);
 								} else {
-									e.preventDefault();
-
 									var _getCellEventArgsSet = getCellEventArgsSet(e),
 									    eventArgs = _getCellEventArgsSet.eventArgs;
 
-									if (eventArgs) {
-										var cell = {
-											col: eventArgs.col,
-											row: eventArgs.row
-										};
-										grid.fireListeners(EVENT_TYPE.DBLTAP_CELL, cell);
+									if (eventArgs && eventArgs.col === doubleTapBefore.col && eventArgs.row === doubleTapBefore.row) {
+										grid.fireListeners(EVENT_TYPE.DBLTAP_CELL, eventArgs);
 									}
 
-									doubleTapBefore = false;
-									return;
+									doubleTapBefore = null;
+
+									if (e.defaultPrevented) {
+										return;
+									}
 								}
 
 								longTouchId = setTimeout(function () {
@@ -8460,6 +9380,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									return;
 								}
 								var style = grid[_].element.style;
+
 								if (!abstractPos) {
 									if (style.cursor === 'col-resize') {
 										style.cursor = '';
@@ -8508,10 +9429,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								grid.fireListeners(EVENT_TYPE.KEYDOWN, keyCode, e);
 							});
 							grid[_].selection.listen(EVENT_TYPE.SELECTED_CELL, function (data) {
-								grid.fireListeners(EVENT_TYPE.SELECTED_CELL, {
-									col: data.col,
-									row: data.row
-								}, data.selected);
+								grid.fireListeners(EVENT_TYPE.SELECTED_CELL, data, data.selected);
 							});
 
 							grid[_].scrollable.onScroll(function (e) {
@@ -8593,8 +9511,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							var frozenRowsHeight = 0;
 							if (grid[_].frozenRowCount > 0) {
 								//固定列がある場合固定列分描画
-								var _frozenRect2 = _getFrozenRowsRect(grid);
-								frozenRowsHeight = _frozenRect2.height;
+								var _frozenRect3 = _getFrozenRowsRect(grid);
+								frozenRowsHeight = _frozenRect3.height;
 							}
 							return new Rect(grid[_].scroll.left + frozenColsWidth, grid[_].scroll.top + frozenRowsHeight, grid[_].canvas.width - frozenColsWidth, grid[_].canvas.height - frozenRowsHeight);
 						};
@@ -8621,6 +9539,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 						var setSafeInputValue = function setSafeInputValue(input, value) {
 							var type = input.type;
+
 							input.type = '';
 							input.value = value;
 							if (type) {
@@ -8634,17 +9553,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        */
 
 
-						var _webpack_require__44 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    isDef = _webpack_require__44.isDef,
-						    browser = _webpack_require__44.browser,
-						    isDescendantElement = _webpack_require__44.isDescendantElement,
-						    array = _webpack_require__44.array,
-						    isPromise = _webpack_require__44.isPromise,
-						    _webpack_require__44$ = _webpack_require__44.event,
-						    isTouchEvent = _webpack_require__44$.isTouchEvent,
-						    getMouseButtons = _webpack_require__44$.getMouseButtons,
-						    getKeyCode = _webpack_require__44$.getKeyCode,
-						    cancelEvent = _webpack_require__44$.cancel;
+						var _webpack_require__46 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    isDef = _webpack_require__46.isDef,
+						    browser = _webpack_require__46.browser,
+						    isDescendantElement = _webpack_require__46.isDescendantElement,
+						    array = _webpack_require__46.array,
+						    isPromise = _webpack_require__46.isPromise,
+						    _webpack_require__46$ = _webpack_require__46.event,
+						    isTouchEvent = _webpack_require__46$.isTouchEvent,
+						    getMouseButtons = _webpack_require__46$.getMouseButtons,
+						    getKeyCode = _webpack_require__46$.getKeyCode,
+						    cancelEvent = _webpack_require__46$.cancel;
 
 						var EventTarget = __webpack_require__( /*! ./EventTarget */"./core/EventTarget.js");
 						var Rect = __webpack_require__( /*! ../internal/Rect */"./internal/Rect.js");
@@ -8656,8 +9575,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						var hiDPI = __webpack_require__( /*! ../internal/hiDPI */"./internal/hiDPI.js");
 						//protected symbol
 
-						var _webpack_require__45 = __webpack_require__( /*! ../internal/symbolManager */"./internal/symbolManager.js"),
-						    _ = _webpack_require__45.PROTECTED_SYMBOL;
+						var _webpack_require__47 = __webpack_require__( /*! ../internal/symbolManager */"./internal/symbolManager.js"),
+						    _ = _webpack_require__47.PROTECTED_SYMBOL;
 
 						var KEY_END = 35;
 						var KEY_HOME = 36;
@@ -8719,24 +9638,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: '_bindMoveAndUp',
 								value: function _bindMoveAndUp(e) {
-									var _this52 = this;
+									var _this59 = this;
 
 									if (!isTouchEvent(e)) {
 										this._events.mousemove = this._handler.on(document.body, 'mousemove', function (e) {
-											return _this52._mouseMove(e);
+											return _this59._mouseMove(e);
 										});
 										this._events.mouseup = this._handler.on(document.body, 'mouseup', function (e) {
-											return _this52._mouseUp(e);
+											return _this59._mouseUp(e);
 										});
 									} else {
 										this._events.touchmove = this._handler.on(document.body, 'touchmove', function (e) {
-											return _this52._mouseMove(e);
+											return _this59._mouseMove(e);
 										}, { passive: false });
 										this._events.touchend = this._handler.on(document.body, 'touchend', function (e) {
-											return _this52._mouseUp(e);
+											return _this59._mouseUp(e);
 										});
 										this._events.touchcancel = this._handler.on(document.body, 'touchcancel', function (e) {
-											return _this52._mouseUp(e);
+											return _this59._mouseUp(e);
 										});
 									}
 									this._started = true;
@@ -8763,7 +9682,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: '_mouseUp',
 								value: function _mouseUp(e) {
-									var _this53 = this;
+									var _this60 = this;
 
 									this._handler.off(this._events.mousemove);
 									this._handler.off(this._events.touchmove);
@@ -8781,7 +9700,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										//移動が発生していたら
 										this._mouseEndPoint = _getMouseAbstractPoint(this._grid, e);
 										setTimeout(function () {
-											_this53._mouseEndPoint = null;
+											_this60._mouseEndPoint = null;
 										}, 10);
 									}
 								}
@@ -8844,7 +9763,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: '_moveInternal',
 								value: function _moveInternal(e) {
-									var _this55 = this;
+									var _this62 = this;
 
 									var cell = this._getTargetCell(e);
 									if (!cell || this._cell.col === cell.col && this._cell.row === cell.row) {
@@ -8854,20 +9773,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 									//make visible
 									var makeVisibleCol = function () {
-										if (cell.col < _this55._cell.col && 0 < cell.col) {
+										if (cell.col < _this62._cell.col && 0 < cell.col) {
 											// move left
 											return cell.col - 1;
-										} else if (_this55._cell.col < cell.col && cell.col + 1 < _this55._grid.colCount) {
+										} else if (_this62._cell.col < cell.col && cell.col + 1 < _this62._grid.colCount) {
 											// move right
 											return cell.col + 1;
 										}
 										return cell.col;
 									}();
 									var makeVisibleRow = function () {
-										if (cell.row < _this55._cell.row && 0 < cell.row) {
+										if (cell.row < _this62._cell.row && 0 < cell.row) {
 											// move up
 											return cell.row - 1;
-										} else if (_this55._cell.row < cell.row && cell.row + 1 < _this55._grid.rowCount) {
+										} else if (_this62._cell.row < cell.row && cell.row + 1 < _this62._grid.rowCount) {
 											// move down
 											return cell.row + 1;
 										}
@@ -8908,10 +9827,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							function ColumnResizer(grid) {
 								_classCallCheck(this, ColumnResizer);
 
-								var _this56 = _possibleConstructorReturn(this, (ColumnResizer.__proto__ || Object.getPrototypeOf(ColumnResizer)).call(this, grid));
+								var _this63 = _possibleConstructorReturn(this, (ColumnResizer.__proto__ || Object.getPrototypeOf(ColumnResizer)).call(this, grid));
 
-								_this56._targetCol = -1;
-								return _this56;
+								_this63._targetCol = -1;
+								return _this63;
 							}
 
 							_createClass(ColumnResizer, [{
@@ -8974,82 +9893,93 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							function FocusControl(grid, parentElement, scrollable) {
 								_classCallCheck(this, FocusControl);
 
-								var _this57 = _possibleConstructorReturn(this, (FocusControl.__proto__ || Object.getPrototypeOf(FocusControl)).call(this));
+								var _this64 = _possibleConstructorReturn(this, (FocusControl.__proto__ || Object.getPrototypeOf(FocusControl)).call(this));
 
-								_this57._grid = grid;
-								_this57._scrollable = scrollable;
-								_this57._handler = new EventHandler();
-								_this57._input = document.createElement('input');
-								_this57._input.classList.add('grid-focus-control');
-								_this57._input.readOnly = true;
-								parentElement.appendChild(_this57._input);
+								_this64._grid = grid;
+								_this64._scrollable = scrollable;
+								_this64._handler = new EventHandler();
+								_this64._input = document.createElement('input');
+								_this64._input.classList.add('grid-focus-control');
+								_this64._input.readOnly = true;
+								parentElement.appendChild(_this64._input);
 
-								_this57._handler.on(_this57._input, 'compositionstart', function (e) {
-									_this57._input.classList.add('composition');
-									_this57._isComposition = true;
+								_this64._handler.on(_this64._input, 'compositionstart', function (e) {
+									_this64._input.classList.add('composition');
+									_this64._input.style.font = _this64._grid.font || '16px sans-serif';
+									_this64._isComposition = true;
 									grid.focus();
 								});
-								_this57._handler.on(_this57._input, 'compositionend', function (e) {
-									_this57._isComposition = false;
-									_this57._input.classList.remove('composition');
-									if (!_this57._input.readOnly) {
-										_this57.fireListeners('input', _this57._input.value);
+								_this64._handler.on(_this64._input, 'compositionend', function (e) {
+									_this64._isComposition = false;
+									_this64._input.classList.remove('composition');
+									_this64._input.style.font = '';
+									if (!_this64._input.readOnly) {
+										_this64.fireListeners('input', _this64._input.value);
 									}
-									setSafeInputValue(_this57._input, '');
+									setSafeInputValue(_this64._input, '');
 								});
-								_this57._handler.on(_this57._input, 'keypress', function (e) {
-									if (_this57._isComposition) {
+								_this64._handler.on(_this64._input, 'keypress', function (e) {
+									if (_this64._isComposition) {
 										return;
 									}
-									if (!_this57._input.readOnly && e.key && e.key.length === 1) {
+									if (!_this64._input.readOnly && e.key && e.key.length === 1) {
 										if (e.key === 'c' && (e.ctrlKey || e.metaKey)) {
 											//copy! for Firefox
 										} else {
-											_this57.fireListeners('input', e.key);
+											_this64.fireListeners('input', e.key);
 											cancelEvent(e);
 										}
 									}
-									setSafeInputValue(_this57._input, '');
+									setSafeInputValue(_this64._input, '');
 								});
-								_this57._handler.on(_this57._input, 'keydown', function (e) {
-									if (_this57._isComposition) {
+								_this64._handler.on(_this64._input, 'keydown', function (e) {
+									if (_this64._isComposition) {
 										return;
 									}
 									var keyCode = getKeyCode(e);
-									_this57.fireListeners('keydown', keyCode, e);
+									_this64.fireListeners('keydown', keyCode, e);
 
-									if (_this57._input.value) {
+									if (!_this64._input.readOnly && _this64._input.value) {
 										// for Safari
-										_this57.fireListeners('input', _this57._input.value);
+										_this64.fireListeners('input', _this64._input.value);
 									}
 
-									setSafeInputValue(_this57._input, '');
+									setSafeInputValue(_this64._input, '');
 								});
-								_this57._handler.on(document, 'keydown', function (e) {
+								var inputClear = function inputClear(e) {
+									if (_this64._isComposition) {
+										return;
+									}
+									setSafeInputValue(_this64._input, '');
+								};
+
+								_this64._handler.on(_this64._input, 'input', inputClear);
+								_this64._handler.on(_this64._input, 'keyup', inputClear);
+								_this64._handler.on(document, 'keydown', function (e) {
 									if (!browser.IE) {
 										return;
 									}
-									if (e.target !== _this57._input) {
+									if (e.target !== _this64._input) {
 										return;
 									}
 									var keyCode = getKeyCode(e);
 									if (keyCode === KEY_ALPHA_C && e.ctrlKey) {
-										setSafeInputValue(_this57._input, 'dummy');
-										_this57._input.select();
+										setSafeInputValue(_this64._input, 'dummy');
+										_this64._input.select();
 										setTimeout(function () {
-											setSafeInputValue(_this57._input, '');
+											setSafeInputValue(_this64._input, '');
 										}, 100);
 									}
 								});
-								_this57._handler.on(document, 'copy', function (e) {
-									if (_this57._isComposition) {
+								_this64._handler.on(document, 'copy', function (e) {
+									if (_this64._isComposition) {
 										return;
 									}
 									if (!isDescendantElement(parentElement, e.target)) {
 										return;
 									}
-									setSafeInputValue(_this57._input, '');
-									var data = array.find(_this57.fireListeners('copy'), isDef);
+									setSafeInputValue(_this64._input, '');
+									var data = array.find(_this64.fireListeners('copy'), isDef);
 									if (isDef(data)) {
 										cancelEvent(e);
 										if (browser.IE) {
@@ -9059,16 +9989,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										}
 									}
 								});
-								return _this57;
+								return _this64;
 							}
 
 							_createClass(FocusControl, [{
 								key: 'onKeyDownMove',
 								value: function onKeyDownMove(fn) {
-									var _this58 = this;
+									var _this65 = this;
 
 									this._handler.on(this._input, 'keydown', function (e) {
-										if (_this58._isComposition) {
+										if (_this65._isComposition) {
 											return;
 										}
 										var keyCode = getKeyCode(e);
@@ -9124,6 +10054,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									}
 									if (composition) {
 										el.classList.add('composition');
+										el.style.font = this._grid.font || '16px sans-serif';
 									} else {
 										el.classList.remove('composition');
 									}
@@ -9142,7 +10073,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: 'setDefaultInputStatus',
 								value: function setDefaultInputStatus() {
-									this._input.style.font = this._grid.font || '16px sans-serif';
+									// なぜかスクロールが少しずつずれていくことがあるのでここではセットしない。
+									// this._input.style.font = this._grid.font || '16px sans-serif';
 								}
 							}, {
 								key: 'dispose',
@@ -9179,39 +10111,39 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							function Selection(grid) {
 								_classCallCheck(this, Selection);
 
-								var _this59 = _possibleConstructorReturn(this, (Selection.__proto__ || Object.getPrototypeOf(Selection)).call(this));
+								var _this66 = _possibleConstructorReturn(this, (Selection.__proto__ || Object.getPrototypeOf(Selection)).call(this));
 
-								_this59._grid = grid;
+								_this66._grid = grid;
 
-								_this59._sel = { col: 0, row: 0 };
-								_this59._focus = { col: 0, row: 0 };
+								_this66._sel = { col: 0, row: 0 };
+								_this66._focus = { col: 0, row: 0 };
 
-								_this59._start = { col: 0, row: 0 };
-								_this59._end = { col: 0, row: 0 };
-								return _this59;
+								_this66._start = { col: 0, row: 0 };
+								_this66._end = { col: 0, row: 0 };
+								return _this66;
 							}
 
 							_createClass(Selection, [{
 								key: '_setSelectCell',
 								value: function _setSelectCell(col, row) {
-									var _this60 = this;
+									var _this67 = this;
 
 									this._wrapFireSelectedEvent(function () {
-										_this60._sel = { col: col, row: row };
-										_this60._start = { col: col, row: row };
+										_this67._sel = { col: col, row: row };
+										_this67._start = { col: col, row: row };
 									});
 								}
 							}, {
 								key: '_setFocusCell',
 								value: function _setFocusCell(col, row, keepSelect) {
-									var _this61 = this;
+									var _this68 = this;
 
 									this._wrapFireSelectedEvent(function () {
 										if (!keepSelect) {
-											_this61._setSelectCell(col, row);
+											_this68._setSelectCell(col, row);
 										}
-										_this61._focus = { col: col, row: row };
-										_this61._end = { col: col, row: row };
+										_this68._focus = { col: col, row: row };
+										_this68._end = { col: col, row: row };
 									});
 								}
 							}, {
@@ -9228,12 +10160,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 												selected: false
 											};
 											callback();
-											this.fireListeners(EVENT_TYPE.SELECTED_CELL, before);
-											this.fireListeners(EVENT_TYPE.SELECTED_CELL, {
+											var after = {
 												col: this._sel.col,
 												row: this._sel.row,
-												selected: true
-											});
+												selected: true,
+												before: {
+													col: before.col,
+													row: before.row
+												}
+											};
+											before.after = {
+												col: after.col,
+												row: after.row
+											};
+											this.fireListeners(EVENT_TYPE.SELECTED_CELL, before);
+											this.fireListeners(EVENT_TYPE.SELECTED_CELL, after);
 										} finally {
 											this._isWraped = false;
 										}
@@ -9269,7 +10210,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									};
 								},
 								set: function set() {
-									var _this62 = this;
+									var _this69 = this;
 
 									var cell = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
@@ -9279,8 +10220,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										    _cell$row = cell.row,
 										    row = _cell$row === undefined ? 0 : _cell$row;
 
-										_this62._setSelectCell(col, row);
-										_this62._setFocusCell(col, row, true);
+										_this69._setSelectCell(col, row);
+										_this69._setFocusCell(col, row, true);
 									});
 								}
 							}]);
@@ -9288,6 +10229,77 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							return Selection;
 						}(EventTarget);
 
+						/**
+       * This class manages the drawing process for each layer
+       */
+
+
+						var DrawLayers = function () {
+							function DrawLayers() {
+								_classCallCheck(this, DrawLayers);
+
+								this._layers = {};
+							}
+
+							_createClass(DrawLayers, [{
+								key: 'addDraw',
+								value: function addDraw(level, fn) {
+									var l = this._layers[level] || (this._layers[level] = new DrawLayer(level));
+									l.addDraw(fn);
+								}
+							}, {
+								key: 'draw',
+								value: function draw(ctx) {
+									var list = [];
+									for (var k in this._layers) {
+										list.push(this._layers[k]);
+									}
+									list.sort(function (a, b) {
+										return a.level - b.level;
+									});
+									list.forEach(function (l) {
+										return l.draw(ctx);
+									});
+								}
+							}]);
+
+							return DrawLayers;
+						}();
+
+						var DrawLayer = function () {
+							function DrawLayer(level) {
+								_classCallCheck(this, DrawLayer);
+
+								this._level = level;
+								this._list = [];
+							}
+
+							_createClass(DrawLayer, [{
+								key: 'addDraw',
+								value: function addDraw(fn) {
+									this._list.push(fn);
+								}
+							}, {
+								key: 'draw',
+								value: function draw(ctx) {
+									this._list.forEach(function (fn) {
+										ctx.save();
+										try {
+											fn(ctx);
+										} finally {
+											ctx.restore();
+										}
+									});
+								}
+							}, {
+								key: 'level',
+								get: function get() {
+									return this._level;
+								}
+							}]);
+
+							return DrawLayer;
+						}();
 						/**
        * Context of cell drawing
        */
@@ -9297,7 +10309,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							/**
         * @private
         */
-							function DrawCellContext(col, row, ctx, rect, drawRect, drawing, selection) {
+							function DrawCellContext(col, row, ctx, rect, drawRect, drawing, selection, drawLayers) {
 								_classCallCheck(this, DrawCellContext);
 
 								this._col = col;
@@ -9308,6 +10320,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								this._drawRect = drawRect;
 								this._drawing = drawing;
 								this._selection = selection;
+								this._drawLayers = drawLayers;
 							}
 
 							_createClass(DrawCellContext, [{
@@ -9389,11 +10402,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										var absoluteRect = this._grid.getCellRect(this._col, this._row);
 										var rect = _toRelativeRect(this._grid, absoluteRect);
 										var drawRect = this._toRelativeDrawRect(absoluteRect);
-										var context = new DrawCellContext(this._col, this._row, this.getContext(), rect, drawRect, this.drawing, this._selection);
+										var context = new DrawCellContext(this._col, this._row, this.getContext(), rect, drawRect, this.drawing, this._selection, this._drawLayers);
 										// toCurrentContext は自分の toCurrentContextを呼ばせる
 										context.toCurrentContext = this.toCurrentContext.bind(this);
 										return context;
 									}
+								}
+							}, {
+								key: 'addLayerDraw',
+								value: function addLayerDraw(level, fn) {
+									this._drawLayers.addDraw(level, fn);
 								}
 							}, {
 								key: '_toRelativeDrawRect',
@@ -9508,55 +10526,55 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}]);
 
 							function DrawGrid() {
-								var _ref34 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-								    _ref34$rowCount = _ref34.rowCount,
-								    rowCount = _ref34$rowCount === undefined ? 10 : _ref34$rowCount,
-								    _ref34$colCount = _ref34.colCount,
-								    colCount = _ref34$colCount === undefined ? 10 : _ref34$colCount,
-								    _ref34$frozenColCount = _ref34.frozenColCount,
-								    frozenColCount = _ref34$frozenColCount === undefined ? 0 : _ref34$frozenColCount,
-								    _ref34$frozenRowCount = _ref34.frozenRowCount,
-								    frozenRowCount = _ref34$frozenRowCount === undefined ? 0 : _ref34$frozenRowCount,
-								    _ref34$defaultRowHeig = _ref34.defaultRowHeight,
-								    defaultRowHeight = _ref34$defaultRowHeig === undefined ? 40 : _ref34$defaultRowHeig,
-								    _ref34$defaultColWidt = _ref34.defaultColWidth,
-								    defaultColWidth = _ref34$defaultColWidt === undefined ? 80 : _ref34$defaultColWidt,
-								    font = _ref34.font,
-								    underlayBackgroundColor = _ref34.underlayBackgroundColor,
-								    parentElement = _ref34.parentElement;
+								var _ref36 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+								    _ref36$rowCount = _ref36.rowCount,
+								    rowCount = _ref36$rowCount === undefined ? 10 : _ref36$rowCount,
+								    _ref36$colCount = _ref36.colCount,
+								    colCount = _ref36$colCount === undefined ? 10 : _ref36$colCount,
+								    _ref36$frozenColCount = _ref36.frozenColCount,
+								    frozenColCount = _ref36$frozenColCount === undefined ? 0 : _ref36$frozenColCount,
+								    _ref36$frozenRowCount = _ref36.frozenRowCount,
+								    frozenRowCount = _ref36$frozenRowCount === undefined ? 0 : _ref36$frozenRowCount,
+								    _ref36$defaultRowHeig = _ref36.defaultRowHeight,
+								    defaultRowHeight = _ref36$defaultRowHeig === undefined ? 40 : _ref36$defaultRowHeig,
+								    _ref36$defaultColWidt = _ref36.defaultColWidth,
+								    defaultColWidth = _ref36$defaultColWidt === undefined ? 80 : _ref36$defaultColWidt,
+								    font = _ref36.font,
+								    underlayBackgroundColor = _ref36.underlayBackgroundColor,
+								    parentElement = _ref36.parentElement;
 
 								_classCallCheck(this, DrawGrid);
 
-								var _this63 = _possibleConstructorReturn(this, (DrawGrid.__proto__ || Object.getPrototypeOf(DrawGrid)).call(this));
+								var _this70 = _possibleConstructorReturn(this, (DrawGrid.__proto__ || Object.getPrototypeOf(DrawGrid)).call(this));
 
-								_this63[_] = {};
+								_this70[_] = {};
 								style.initDocument();
-								_this63[_].element = createRootElement();
-								_this63[_].scrollable = new Scrollable();
-								_this63[_].handler = new EventHandler();
-								_this63[_].selection = new Selection(_this63);
-								_this63[_].focusControl = new FocusControl(_this63, _this63[_].scrollable.getElement(), _this63[_].scrollable);
+								_this70[_].element = createRootElement();
+								_this70[_].scrollable = new Scrollable();
+								_this70[_].handler = new EventHandler();
+								_this70[_].selection = new Selection(_this70);
+								_this70[_].focusControl = new FocusControl(_this70, _this70[_].scrollable.getElement(), _this70[_].scrollable);
 
-								_this63[_].canvas = hiDPI.transform(document.createElement('canvas'));
-								_this63[_].context = _this63[_].canvas.getContext('2d', { alpha: false });
+								_this70[_].canvas = hiDPI.transform(document.createElement('canvas'));
+								_this70[_].context = _this70[_].canvas.getContext('2d', { alpha: false });
 
-								_this63[_].rowCount = rowCount;
-								_this63[_].colCount = colCount;
-								_this63[_].frozenColCount = frozenColCount;
-								_this63[_].frozenRowCount = frozenRowCount;
+								_this70[_].rowCount = rowCount;
+								_this70[_].colCount = colCount;
+								_this70[_].frozenColCount = frozenColCount;
+								_this70[_].frozenRowCount = frozenRowCount;
 
-								_this63[_].defaultRowHeight = defaultRowHeight;
-								_this63[_].defaultColWidth = defaultColWidth;
+								_this70[_].defaultRowHeight = defaultRowHeight;
+								_this70[_].defaultColWidth = defaultColWidth;
 
-								_this63[_].font = font;
-								_this63[_].underlayBackgroundColor = underlayBackgroundColor;
+								_this70[_].font = font;
+								_this70[_].underlayBackgroundColor = underlayBackgroundColor;
 
 								/////
-								_this63[_].rowHeightsMap = new NumberMap();
-								_this63[_].colWidthsMap = new NumberMap();
-								_this63[_].colWidthsLimit = {};
-								_this63[_].calcWidthContext = {
-									_: _this63[_],
+								_this70[_].rowHeightsMap = new NumberMap();
+								_this70[_].colWidthsMap = new NumberMap();
+								_this70[_].colWidthsLimit = {};
+								_this70[_].calcWidthContext = {
+									_: _this70[_],
 									get full() {
 										return this._.canvas.width;
 									},
@@ -9565,22 +10583,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									}
 								};
 
-								_this63[_].columnResizer = new ColumnResizer(_this63);
-								_this63[_].cellSelector = new CellSelector(_this63);
+								_this70[_].columnResizer = new ColumnResizer(_this70);
+								_this70[_].cellSelector = new CellSelector(_this70);
 
-								_this63[_].drawCells = {};
+								_this70[_].drawCells = {};
 
-								_this63[_].element.appendChild(_this63[_].canvas);
-								_this63[_].element.appendChild(_this63[_].scrollable.getElement());
-								_this63.updateScroll();
+								_this70[_].element.appendChild(_this70[_].canvas);
+								_this70[_].element.appendChild(_this70[_].scrollable.getElement());
+								_this70.updateScroll();
 								if (parentElement) {
-									parentElement.appendChild(_this63[_].element);
-									_this63.updateSize();
+									parentElement.appendChild(_this70[_].element);
+									_this70.updateSize();
 								} else {
-									_this63.updateSize();
+									_this70.updateSize();
 								}
-								_bindEvents(_this63);
-								return _this63;
+								_bindEvents(_this70);
+								return _this70;
 							}
 
 							_createClass(DrawGrid, [{
@@ -9864,9 +10882,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										}
 
 										if (this[_].frozenRowCount > 0 && endRow >= this[_].frozenRowCount) {
-											var _frozenRect3 = _getFrozenRowsRect(this);
-											if (_frozenRect3.intersection(invalidateTarget)) {
-												invalidateTarget.top = Math.min(_frozenRect3.bottom - 1, invalidateTarget.top);
+											var _frozenRect4 = _getFrozenRowsRect(this);
+											if (_frozenRect4.intersection(invalidateTarget)) {
+												invalidateTarget.top = Math.min(_frozenRect4.bottom - 1, invalidateTarget.top);
 											}
 										}
 
@@ -9940,6 +10958,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									}
 
 									var parentElement = this[_].element.parentElement;
+
 									if (parentElement) {
 										parentElement.removeChild(this[_].element);
 									}
@@ -9979,33 +10998,33 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								}
 							}, {
 								key: 'getMoveLeftColByKeyDownInternal',
-								value: function getMoveLeftColByKeyDownInternal(_ref35) {
-									var col = _ref35.col,
-									    row = _ref35.row;
+								value: function getMoveLeftColByKeyDownInternal(_ref37) {
+									var col = _ref37.col,
+									    row = _ref37.row;
 
 									return col - 1;
 								}
 							}, {
 								key: 'getMoveRightColByKeyDownInternal',
-								value: function getMoveRightColByKeyDownInternal(_ref36) {
-									var col = _ref36.col,
-									    row = _ref36.row;
+								value: function getMoveRightColByKeyDownInternal(_ref38) {
+									var col = _ref38.col,
+									    row = _ref38.row;
 
 									return col + 1;
 								}
 							}, {
 								key: 'getMoveUpRowByKeyDownInternal',
-								value: function getMoveUpRowByKeyDownInternal(_ref37) {
-									var col = _ref37.col,
-									    row = _ref37.row;
+								value: function getMoveUpRowByKeyDownInternal(_ref39) {
+									var col = _ref39.col,
+									    row = _ref39.row;
 
 									return row - 1;
 								}
 							}, {
 								key: 'getMoveDownRowByKeyDownInternal',
-								value: function getMoveDownRowByKeyDownInternal(_ref38) {
-									var col = _ref38.col,
-									    row = _ref38.row;
+								value: function getMoveDownRowByKeyDownInternal(_ref40) {
+									var col = _ref40.col,
+									    row = _ref40.row;
 
 									return row + 1;
 								}
@@ -10127,9 +11146,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					"use strict";
 
 					{
-						var _webpack_require__46 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    isDef = _webpack_require__46.isDef,
-						    each = _webpack_require__46.obj.each;
+						var _webpack_require__48 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    isDef = _webpack_require__48.isDef,
+						    each = _webpack_require__48.obj.each;
 						//private symbol
 
 
@@ -10160,7 +11179,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							_createClass(EventTarget, [{
 								key: 'listen',
 								value: function listen(type, listener) {
-									var _this64 = this;
+									var _this71 = this;
 
 									var list = this[_].listeners[type] || (this[_].listeners[type] = []);
 									list.push(listener);
@@ -10170,11 +11189,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										type: type,
 										listener: listener,
 										remove: function remove() {
-											delete _this64[_].listenerData[id];
+											delete _this71[_].listenerData[id];
 											var index = list.indexOf(listener);
 											list.splice(index, 1);
-											if (!_this64[_].listeners[type].length) {
-												delete _this64[_].listeners[type];
+											if (!_this71[_].listeners[type].length) {
+												delete _this71[_].listeners[type];
 											}
 										}
 									};
@@ -10199,11 +11218,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: 'removeEventListener',
 								value: function removeEventListener(type, listener) {
-									var _this65 = this;
+									var _this72 = this;
 
 									each(this[_].listenerData, function (obj, id) {
 										if (obj.type === type && obj.listener === listener) {
-											_this65.unlisten(id);
+											_this72.unlisten(id);
 										}
 									});
 								}
@@ -10222,7 +11241,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: 'fireListeners',
 								value: function fireListeners(type) {
-									var _this66 = this;
+									var _this73 = this;
 
 									for (var _len3 = arguments.length, args = Array(_len3 > 1 ? _len3 - 1 : 0), _key3 = 1; _key3 < _len3; _key3++) {
 										args[_key3 - 1] = arguments[_key3];
@@ -10233,7 +11252,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										return [];
 									}
 									return list.map(function (listener) {
-										return listener.call.apply(listener, [_this66].concat(args));
+										return listener.call.apply(listener, [_this73].concat(args));
 									}).filter(isDef);
 								}
 							}, {
@@ -10292,8 +11311,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					"use strict";
 
 					{
-						var _setFieldCache = function _setFieldCache(_ref39, index, field, value) {
-							var _fCache = _ref39._fCache;
+						var _setFieldCache = function _setFieldCache(_ref41, index, field, value) {
+							var _fCache = _ref41._fCache;
 
 							var recCache = _fCache[index] || (_fCache[index] = {});
 							recCache[field] = value;
@@ -10307,8 +11326,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        */
 
 
-						var _webpack_require__47 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    getChainSafe = _webpack_require__47.getChainSafe;
+						var _webpack_require__49 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    getChainSafe = _webpack_require__49.getChainSafe;
 
 						var DataSource = __webpack_require__( /*! ./DataSource */"./data/DataSource.js");
 
@@ -10337,11 +11356,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, CachedDataSource);
 
-								var _this67 = _possibleConstructorReturn(this, (CachedDataSource.__proto__ || Object.getPrototypeOf(CachedDataSource)).call(this, opt));
+								var _this74 = _possibleConstructorReturn(this, (CachedDataSource.__proto__ || Object.getPrototypeOf(CachedDataSource)).call(this, opt));
 
-								_this67._rCache = {};
-								_this67._fCache = {};
-								return _this67;
+								_this74._rCache = {};
+								_this74._fCache = {};
+								return _this74;
 							}
 
 							_createClass(CachedDataSource, [{
@@ -10364,9 +11383,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: 'setOriginalField',
 								value: function setOriginalField(index, field, value) {
-									var cache = getChainSafe(this._fCache, index, field);
-									if (cache) {
-										_setFieldCache(this, index, field, value);
+									var fCache = this._fCache;
+									if (fCache && fCache[index]) {
+										delete fCache[index]; // clear row cache
 									}
 									return _get(CachedDataSource.prototype.__proto__ || Object.getPrototypeOf(CachedDataSource.prototype), 'setOriginalField', this).call(this, index, field, value);
 								}
@@ -10498,13 +11517,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        */
 
 
-						var _webpack_require__48 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    array = _webpack_require__48.array,
-						    isDef = _webpack_require__48.isDef,
-						    isPromise = _webpack_require__48.isPromise,
-						    getOrApply = _webpack_require__48.getOrApply,
-						    applyChainSafe = _webpack_require__48.applyChainSafe,
-						    emptyFn = _webpack_require__48.emptyFn;
+						var _webpack_require__50 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    array = _webpack_require__50.array,
+						    isDef = _webpack_require__50.isDef,
+						    isPromise = _webpack_require__50.isPromise,
+						    getOrApply = _webpack_require__50.getOrApply,
+						    applyChainSafe = _webpack_require__50.applyChainSafe,
+						    emptyFn = _webpack_require__50.emptyFn;
 
 						var _sort = __webpack_require__( /*! ../internal/sort */"./internal/sort.js");
 						var EventTarget = __webpack_require__( /*! ../core/EventTarget */"./core/EventTarget.js");
@@ -10536,19 +11555,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}]);
 
 							function DataSource() {
-								var _ref40 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-								    get = _ref40.get,
-								    _ref40$length = _ref40.length,
-								    length = _ref40$length === undefined ? 0 : _ref40$length;
+								var _ref42 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+								    get = _ref42.get,
+								    _ref42$length = _ref42.length,
+								    length = _ref42$length === undefined ? 0 : _ref42$length;
 
 								_classCallCheck(this, DataSource);
 
-								var _this68 = _possibleConstructorReturn(this, (DataSource.__proto__ || Object.getPrototypeOf(DataSource)).call(this));
+								var _this75 = _possibleConstructorReturn(this, (DataSource.__proto__ || Object.getPrototypeOf(DataSource)).call(this));
 
-								_this68._get = get;
-								_this68._length = length;
-								_this68._sortedIndexMap = false;
-								return _this68;
+								_this75._get = get;
+								_this75._length = length;
+								_this75._sortedIndexMap = false;
+								return _this75;
 							}
 
 							_createClass(DataSource, [{
@@ -10574,7 +11593,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: 'sort',
 								value: function sort(field, order) {
-									var _this69 = this;
+									var _this76 = this;
 
 									var sortedIndexMap = new Array(this._length);
 
@@ -10589,10 +11608,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									}, function (index, rel) {
 										sortedIndexMap[index] = rel;
 									}, this._length, orderFn, function (index) {
-										return _this69.getOriginalField(index, field);
+										return _this76.getOriginalField(index, field);
 									}).then(function () {
-										_this69._sortedIndexMap = sortedIndexMap;
-										_this69.fireListeners(EVENT_TYPE.UPDATED_ORDER);
+										_this76._sortedIndexMap = sortedIndexMap;
+										_this76.fireListeners(EVENT_TYPE.UPDATED_ORDER);
 									});
 								}
 							}, {
@@ -10603,23 +11622,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: 'getOriginal',
 								value: function getOriginal(index) {
-									var _this70 = this;
+									var _this77 = this;
 
 									return getValue(this._get(index), function (val) {
-										_this70.recordPromiseCallBackInternal(index, val);
+										_this77.recordPromiseCallBackInternal(index, val);
 									});
 								}
 							}, {
 								key: 'getOriginalField',
 								value: function getOriginalField(index, field) {
-									var _this71 = this;
+									var _this78 = this;
 
 									if (!isDef(field)) {
 										return undefined;
 									}
 									var record = this.getOriginal(index);
 									return getField(record, field, function (val) {
-										_this71.fieldPromiseCallBackInternal(index, field, val);
+										_this78.fieldPromiseCallBackInternal(index, field, val);
 									});
 								}
 							}, {
@@ -10693,8 +11712,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 					"use strict";
 
-					var _webpack_require__49 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-					    isDef = _webpack_require__49.isDef;
+					var _webpack_require__51 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+					    isDef = _webpack_require__51.isDef;
 
 					var Inline = function () {
 						function Inline(content) {
@@ -10705,8 +11724,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 						_createClass(Inline, [{
 							key: 'width',
-							value: function width(_ref41) {
-								var ctx = _ref41.ctx;
+							value: function width(_ref43) {
+								var ctx = _ref43.ctx;
 
 								return ctx.measureText(this._content).width;
 							}
@@ -10730,13 +11749,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							value: function onReady(fn) {}
 						}, {
 							key: 'draw',
-							value: function draw(_ref42) {
-								var ctx = _ref42.ctx,
-								    canvashelper = _ref42.canvashelper,
-								    rect = _ref42.rect,
-								    offset = _ref42.offset,
-								    offsetLeft = _ref42.offsetLeft,
-								    offsetRight = _ref42.offsetRight;
+							value: function draw(_ref44) {
+								var ctx = _ref44.ctx,
+								    canvashelper = _ref44.canvashelper,
+								    rect = _ref44.rect,
+								    offset = _ref44.offset,
+								    offsetLeft = _ref44.offsetLeft,
+								    offsetRight = _ref44.offsetRight;
 
 								canvashelper.fillTextRect(ctx, this._content, rect.left, rect.top, rect.width, rect.height, {
 									offset: offset + 1,
@@ -10771,27 +11790,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					var InlineDrawer = function (_Inline) {
 						_inherits(InlineDrawer, _Inline);
 
-						function InlineDrawer(_ref43) {
-							var draw = _ref43.draw,
-							    width = _ref43.width,
-							    height = _ref43.height,
-							    color = _ref43.color;
+						function InlineDrawer(_ref45) {
+							var draw = _ref45.draw,
+							    width = _ref45.width,
+							    height = _ref45.height,
+							    color = _ref45.color;
 
 							_classCallCheck(this, InlineDrawer);
 
-							var _this72 = _possibleConstructorReturn(this, (InlineDrawer.__proto__ || Object.getPrototypeOf(InlineDrawer)).call(this));
+							var _this79 = _possibleConstructorReturn(this, (InlineDrawer.__proto__ || Object.getPrototypeOf(InlineDrawer)).call(this));
 
-							_this72._draw = draw;
-							_this72._width = width;
-							_this72._height = height;
-							_this72._color = color;
-							return _this72;
+							_this79._draw = draw;
+							_this79._width = width;
+							_this79._height = height;
+							_this79._color = color;
+							return _this79;
 						}
 
 						_createClass(InlineDrawer, [{
 							key: 'width',
-							value: function width(_ref44) {
-								var ctx = _ref44.ctx;
+							value: function width(_ref46) {
+								var ctx = _ref46.ctx;
 
 								return this._width;
 							}
@@ -10815,13 +11834,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							value: function onReady(callback) {}
 						}, {
 							key: 'draw',
-							value: function draw(_ref45) {
-								var ctx = _ref45.ctx,
-								    canvashelper = _ref45.canvashelper,
-								    rect = _ref45.rect,
-								    offset = _ref45.offset,
-								    offsetLeft = _ref45.offsetLeft,
-								    offsetRight = _ref45.offsetRight;
+							value: function draw(_ref47) {
+								var ctx = _ref47.ctx,
+								    canvashelper = _ref47.canvashelper,
+								    rect = _ref47.rect,
+								    offset = _ref47.offset,
+								    offsetLeft = _ref47.offsetLeft,
+								    offsetRight = _ref47.offsetRight;
 
 								this._draw({
 									ctx: ctx,
@@ -10861,16 +11880,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						function InlineIcon(icon) {
 							_classCallCheck(this, InlineIcon);
 
-							var _this73 = _possibleConstructorReturn(this, (InlineIcon.__proto__ || Object.getPrototypeOf(InlineIcon)).call(this));
+							var _this80 = _possibleConstructorReturn(this, (InlineIcon.__proto__ || Object.getPrototypeOf(InlineIcon)).call(this));
 
-							_this73._icon = icon || {};
-							return _this73;
+							_this80._icon = icon || {};
+							return _this80;
 						}
 
 						_createClass(InlineIcon, [{
 							key: 'width',
-							value: function width(_ref46) {
-								var ctx = _ref46.ctx;
+							value: function width(_ref48) {
+								var ctx = _ref48.ctx;
 
 								var icon = this._icon;
 								if (icon.width) {
@@ -10913,13 +11932,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}
 						}, {
 							key: 'draw',
-							value: function draw(_ref47) {
-								var ctx = _ref47.ctx,
-								    canvashelper = _ref47.canvashelper,
-								    rect = _ref47.rect,
-								    offset = _ref47.offset,
-								    offsetLeft = _ref47.offsetLeft,
-								    offsetRight = _ref47.offsetRight;
+							value: function draw(_ref49) {
+								var ctx = _ref49.ctx,
+								    canvashelper = _ref49.canvashelper,
+								    rect = _ref49.rect,
+								    offset = _ref49.offset,
+								    offsetLeft = _ref49.offsetLeft,
+								    offsetRight = _ref49.offsetRight;
 
 								var icon = this._icon;
 								if (icon.content) {
@@ -10954,62 +11973,62 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 					var Inline = __webpack_require__( /*! ./Inline */"./element/Inline.js");
 
-					var _webpack_require__50 = __webpack_require__( /*! ../internal/imgs */"./internal/imgs.js"),
-					    getCacheOrLoad = _webpack_require__50.getCacheOrLoad;
+					var _webpack_require__52 = __webpack_require__( /*! ../internal/imgs */"./internal/imgs.js"),
+					    getCacheOrLoad = _webpack_require__52.getCacheOrLoad;
 
-					var _webpack_require__51 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-					    isPromise = _webpack_require__51.isPromise;
+					var _webpack_require__53 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+					    isPromise = _webpack_require__53.isPromise;
 
 					var InlineImage = function (_Inline3) {
 						_inherits(InlineImage, _Inline3);
 
-						function InlineImage(_ref48) {
-							var src = _ref48.src,
-							    width = _ref48.width,
-							    height = _ref48.height,
-							    imageLeft = _ref48.imageLeft,
-							    imageTop = _ref48.imageTop,
-							    imageWidth = _ref48.imageWidth,
-							    imageHeight = _ref48.imageHeight;
+						function InlineImage(_ref50) {
+							var src = _ref50.src,
+							    width = _ref50.width,
+							    height = _ref50.height,
+							    imageLeft = _ref50.imageLeft,
+							    imageTop = _ref50.imageTop,
+							    imageWidth = _ref50.imageWidth,
+							    imageHeight = _ref50.imageHeight;
 
 							_classCallCheck(this, InlineImage);
 
-							var _this74 = _possibleConstructorReturn(this, (InlineImage.__proto__ || Object.getPrototypeOf(InlineImage)).call(this));
+							var _this81 = _possibleConstructorReturn(this, (InlineImage.__proto__ || Object.getPrototypeOf(InlineImage)).call(this));
 
-							_this74._src = src;
-							_this74._width = width;
-							_this74._height = height;
-							_this74._imageLeft = imageLeft;
-							_this74._imageTop = imageTop;
-							_this74._imageWidth = imageWidth;
-							_this74._imageHeight = imageHeight;
+							_this81._src = src;
+							_this81._width = width;
+							_this81._height = height;
+							_this81._imageLeft = imageLeft;
+							_this81._imageTop = imageTop;
+							_this81._imageWidth = imageWidth;
+							_this81._imageHeight = imageHeight;
 
-							_this74._onloaded = [];
+							_this81._onloaded = [];
 
-							_this74._loaded = false;
+							_this81._loaded = false;
 							if (isPromise(src)) {
 								src.then(function (s) {
-									_this74._src = s;
-									_this74._loadImage(s);
+									_this81._src = s;
+									_this81._loadImage(s);
 								});
 							} else {
-								_this74._loadImage(src);
+								_this81._loadImage(src);
 							}
-							return _this74;
+							return _this81;
 						}
 
 						_createClass(InlineImage, [{
 							key: '_loadImage',
 							value: function _loadImage(src) {
-								var _this75 = this;
+								var _this82 = this;
 
 								var img = this._inlineImg = getCacheOrLoad('InlineImage', 50, src);
 								if (isPromise(img)) {
 									img.then(function (i) {
-										_this75._loaded = true;
-										_this75._inlineImg = i;
+										_this82._loaded = true;
+										_this82._inlineImg = i;
 
-										_this75._onloaded.forEach(function (fn) {
+										_this82._onloaded.forEach(function (fn) {
 											return fn();
 										});
 									});
@@ -11019,8 +12038,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}
 						}, {
 							key: 'width',
-							value: function width(_ref49) {
-								var ctx = _ref49.ctx;
+							value: function width(_ref51) {
+								var ctx = _ref51.ctx;
 
 								return this._width || (this._loaded ? this._inlineImg.width : 0);
 							}
@@ -11050,13 +12069,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}
 						}, {
 							key: 'draw',
-							value: function draw(_ref50) {
-								var ctx = _ref50.ctx,
-								    canvashelper = _ref50.canvashelper,
-								    rect = _ref50.rect,
-								    offset = _ref50.offset,
-								    offsetLeft = _ref50.offsetLeft,
-								    offsetRight = _ref50.offsetRight;
+							value: function draw(_ref52) {
+								var ctx = _ref52.ctx,
+								    canvashelper = _ref52.canvashelper,
+								    rect = _ref52.rect,
+								    offset = _ref52.offset,
+								    offsetLeft = _ref52.offsetLeft,
+								    offsetRight = _ref52.offsetRight;
 
 								var img = this._inlineImg;
 								canvashelper.drawInlineImageRect(ctx, img, this._imageLeft || 0, this._imageTop || 0, this._imageWidth || img.width, this._imageHeight || img.height, this._width || img.width, this._height || img.height, rect.left, rect.top, rect.width, rect.height, {
@@ -11089,36 +12108,36 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 					var Inline = __webpack_require__( /*! ./Inline */"./element/Inline.js");
 
-					var _webpack_require__52 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
-					    calcStartPosition = _webpack_require__52.calcStartPosition;
+					var _webpack_require__54 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
+					    calcStartPosition = _webpack_require__54.calcStartPosition;
 
 					var path2DManager = __webpack_require__( /*! ../internal/path2DManager */"./internal/path2DManager.js");
 
 					var InlinePath2D = function (_Inline4) {
 						_inherits(InlinePath2D, _Inline4);
 
-						function InlinePath2D(_ref51) {
-							var path = _ref51.path,
-							    width = _ref51.width,
-							    height = _ref51.height,
-							    color = _ref51.color;
+						function InlinePath2D(_ref53) {
+							var path = _ref53.path,
+							    width = _ref53.width,
+							    height = _ref53.height,
+							    color = _ref53.color;
 
 							_classCallCheck(this, InlinePath2D);
 
 							// このタイミングでないとIEでPath2Dのpolyfillが反映されない
-							var _this76 = _possibleConstructorReturn(this, (InlinePath2D.__proto__ || Object.getPrototypeOf(InlinePath2D)).call(this));
+							var _this83 = _possibleConstructorReturn(this, (InlinePath2D.__proto__ || Object.getPrototypeOf(InlinePath2D)).call(this));
 
-							_this76._path = new path2DManager.Path2D(path);
-							_this76._width = width;
-							_this76._height = height;
-							_this76._color = color;
-							return _this76;
+							_this83._path = new path2DManager.Path2D(path);
+							_this83._width = width;
+							_this83._height = height;
+							_this83._color = color;
+							return _this83;
 						}
 
 						_createClass(InlinePath2D, [{
 							key: 'width',
-							value: function width(_ref52) {
-								var ctx = _ref52.ctx;
+							value: function width(_ref54) {
+								var ctx = _ref54.ctx;
 
 								return this._width;
 							}
@@ -11142,13 +12161,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							value: function onReady(callback) {}
 						}, {
 							key: 'draw',
-							value: function draw(_ref53) {
-								var ctx = _ref53.ctx,
-								    canvashelper = _ref53.canvashelper,
-								    rect = _ref53.rect,
-								    offset = _ref53.offset,
-								    offsetLeft = _ref53.offsetLeft,
-								    offsetRight = _ref53.offsetRight;
+							value: function draw(_ref55) {
+								var ctx = _ref55.ctx,
+								    canvashelper = _ref55.canvashelper,
+								    rect = _ref55.rect,
+								    offset = _ref55.offset,
+								    offsetLeft = _ref55.offsetLeft,
+								    offsetRight = _ref55.offsetRight;
 
 								offset++;
 								var padding = {
@@ -11195,22 +12214,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 					var InlineImage = __webpack_require__( /*! ./InlineImage */"./element/InlineImage.js");
 
-					var _webpack_require__53 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-					    isPromise = _webpack_require__53.isPromise;
+					var _webpack_require__55 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+					    then = _webpack_require__55.then;
 
 					function buildSvgDataUrl(svg) {
-						if (isPromise(svg)) {
-							return svg.then(buildSvgDataUrl);
-						} else {
-							var _data = typeof svg === 'string' ? svg : new XMLSerializer().serializeToString(svg);
-							var url = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(_data); //svgデータをbase64に変換
-							return url;
-						}
+						var data = typeof svg === 'string' ? svg : new XMLSerializer().serializeToString(svg);
+						var url = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(data); //svgデータをbase64に変換
+						return url;
 					}
 					function getSvgElement(svg) {
-						if (isPromise(svg)) {
-							return svg.then(getSvgElement);
-						} else if (typeof svg === 'string') {
+						if (typeof svg === 'string') {
 							var parser = new DOMParser();
 							return parser.parseFromString(svg, 'image/svg+xml');
 						} else {
@@ -11221,22 +12234,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					var InlineSvg = function (_InlineImage) {
 						_inherits(InlineSvg, _InlineImage);
 
-						function InlineSvg(_ref54) {
-							var svg = _ref54.svg,
-							    width = _ref54.width,
-							    height = _ref54.height,
-							    imageLeft = _ref54.imageLeft,
-							    imageTop = _ref54.imageTop,
-							    imageWidth = _ref54.imageWidth,
-							    imageHeight = _ref54.imageHeight;
+						function InlineSvg(_ref56) {
+							var svg = _ref56.svg,
+							    width = _ref56.width,
+							    height = _ref56.height,
+							    imageLeft = _ref56.imageLeft,
+							    imageTop = _ref56.imageTop,
+							    imageWidth = _ref56.imageWidth,
+							    imageHeight = _ref56.imageHeight;
 
 							_classCallCheck(this, InlineSvg);
 
-							var svgElem = getSvgElement(svg);
+							var svgElem = then(svg, getSvgElement);
 							var elmWidth = svgElem.getAttribute ? svgElem.getAttribute('width') : null;
 							var elmHeight = svgElem.getAttribute ? svgElem.getAttribute('height') : null;
 							return _possibleConstructorReturn(this, (InlineSvg.__proto__ || Object.getPrototypeOf(InlineSvg)).call(this, {
-								src: buildSvgDataUrl(svg),
+								src: then(svg, buildSvgDataUrl),
 								width: width || elmWidth,
 								height: height || elmHeight,
 								imageWidth: elmWidth,
@@ -11271,20 +12284,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						var InlineDrawer = __webpack_require__( /*! ./InlineDrawer */"./element/InlineDrawer.js");
 						var InlinePath2D = __webpack_require__( /*! ./InlinePath2D */"./element/InlinePath2D.js");
 
-						var _webpack_require__54 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    isDef = _webpack_require__54.isDef;
+						var _webpack_require__56 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    isDef = _webpack_require__56.isDef;
 
-						var _webpack_require__55 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
-						    calcStartPosition = _webpack_require__55.calcStartPosition;
+						var _webpack_require__57 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
+						    calcStartPosition = _webpack_require__57.calcStartPosition;
 
 						var icons = __webpack_require__( /*! ../icons */"./icons.js");
 						var path2DManager = __webpack_require__( /*! ../internal/path2DManager */"./internal/path2DManager.js");
 
 						function drawRegisteredIcon(ctx, icon, drawWidth, drawHeight, left, top, width, height) {
-							var _ref55 = arguments.length > 8 && arguments[8] !== undefined ? arguments[8] : {},
-							    _ref55$offset = _ref55.offset,
-							    offset = _ref55$offset === undefined ? 2 : _ref55$offset,
-							    padding = _ref55.padding;
+							var _ref57 = arguments.length > 8 && arguments[8] !== undefined ? arguments[8] : {},
+							    _ref57$offset = _ref57.offset,
+							    offset = _ref57$offset === undefined ? 2 : _ref57$offset,
+							    padding = _ref57.padding;
 
 							var rect = {
 								left: left,
@@ -11350,13 +12363,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									var regedIcon = regedIcons[icon.name];
 									var width = icon.width || Math.max(regedIcon.width, regedIcon.height);
 									return new InlineDrawer({
-										draw: function draw(_ref56) {
-											var ctx = _ref56.ctx,
-											    canvashelper = _ref56.canvashelper,
-											    rect = _ref56.rect,
-											    offset = _ref56.offset,
-											    offsetLeft = _ref56.offsetLeft,
-											    offsetRight = _ref56.offsetRight;
+										draw: function draw(_ref58) {
+											var ctx = _ref58.ctx,
+											    canvashelper = _ref58.canvashelper,
+											    rect = _ref58.rect,
+											    offset = _ref58.offset,
+											    offsetLeft = _ref58.offsetLeft,
+											    offsetRight = _ref58.offsetRight;
 
 											drawRegisteredIcon(ctx, regedIcon, width, width, rect.left, rect.top, rect.width, rect.height, {
 												offset: offset + 1,
@@ -11384,12 +12397,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								return new Inline(content);
 							},
 							buildInlines: function buildInlines(icons, inline) {
-								var _this78 = this;
+								var _this85 = this;
 
 								var result = [];
 								if (icons) {
 									result.push.apply(result, _toConsumableArray(icons.map(function (icon) {
-										return _this78.iconOf(icon);
+										return _this85.iconOf(icon);
 									}).filter(function (e) {
 										return !!e;
 									})));
@@ -11398,7 +12411,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 									return il instanceof Inline;
 								}).length) {
 									result.push.apply(result, _toConsumableArray(inline.map(function (il) {
-										return _this78.of(il);
+										return _this85.of(il);
 									}).filter(function (e) {
 										return !!e;
 									})));
@@ -11492,21 +12505,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}]);
 
 							function BaseStyle() {
-								var _ref57 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-								    _ref57$textAlign = _ref57.textAlign,
-								    textAlign = _ref57$textAlign === undefined ? 'left' : _ref57$textAlign,
-								    _ref57$textBaseline = _ref57.textBaseline,
-								    textBaseline = _ref57$textBaseline === undefined ? 'middle' : _ref57$textBaseline,
-								    bgColor = _ref57.bgColor;
+								var _ref59 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+								    _ref59$textAlign = _ref59.textAlign,
+								    textAlign = _ref59$textAlign === undefined ? 'left' : _ref59$textAlign,
+								    _ref59$textBaseline = _ref59.textBaseline,
+								    textBaseline = _ref59$textBaseline === undefined ? 'middle' : _ref59$textBaseline,
+								    bgColor = _ref59.bgColor;
 
 								_classCallCheck(this, BaseStyle);
 
-								var _this79 = _possibleConstructorReturn(this, (BaseStyle.__proto__ || Object.getPrototypeOf(BaseStyle)).call(this));
+								var _this86 = _possibleConstructorReturn(this, (BaseStyle.__proto__ || Object.getPrototypeOf(BaseStyle)).call(this));
 
-								_this79._textAlign = textAlign;
-								_this79._textBaseline = textBaseline;
-								_this79._bgColor = bgColor;
-								return _this79;
+								_this86._textAlign = textAlign;
+								_this86._textBaseline = textBaseline;
+								_this86._bgColor = bgColor;
+								return _this86;
 							}
 
 							_createClass(BaseStyle, [{
@@ -11586,10 +12599,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 								_classCallCheck(this, Style);
 
-								var _this80 = _possibleConstructorReturn(this, (Style.__proto__ || Object.getPrototypeOf(Style)).call(this, style));
+								var _this87 = _possibleConstructorReturn(this, (Style.__proto__ || Object.getPrototypeOf(Style)).call(this, style));
 
-								_this80._color = style.color;
-								return _this80;
+								_this87._color = style.color;
+								return _this87;
 							}
 
 							_createClass(Style, [{
@@ -11731,8 +12744,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 							_createClass(Header, [{
 								key: 'drawInternal',
-								value: function drawInternal(value, context, style, helper, grid, _ref58) {
-									var drawCellBase = _ref58.drawCellBase;
+								value: function drawInternal(value, context, style, helper, grid, _ref60) {
+									var drawCellBase = _ref60.drawCellBase;
 									var textAlign = style.textAlign,
 									    textBaseline = style.textBaseline,
 									    color = style.color,
@@ -11790,15 +12803,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 						var BaseHeader = __webpack_require__( /*! ./BaseHeader */"./header/type/BaseHeader.js");
 
-						var _webpack_require__56 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
-						    isDef = _webpack_require__56.isDef;
+						var _webpack_require__58 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
+						    isDef = _webpack_require__58.isDef;
 
-						var _webpack_require__57 = __webpack_require__( /*! ../../core/DrawGrid */"./core/DrawGrid.js"),
-						    _webpack_require__57$ = _webpack_require__57.EVENT_TYPE,
-						    CLICK_CELL = _webpack_require__57$.CLICK_CELL,
-						    MOUSEOVER_CELL = _webpack_require__57$.MOUSEOVER_CELL,
-						    MOUSEOUT_CELL = _webpack_require__57$.MOUSEOUT_CELL,
-						    MOUSEMOVE_CELL = _webpack_require__57$.MOUSEMOVE_CELL;
+						var _webpack_require__59 = __webpack_require__( /*! ../../core/DrawGrid */"./core/DrawGrid.js"),
+						    _webpack_require__59$ = _webpack_require__59.EVENT_TYPE,
+						    CLICK_CELL = _webpack_require__59$.CLICK_CELL,
+						    MOUSEOVER_CELL = _webpack_require__59$.MOUSEOVER_CELL,
+						    MOUSEOUT_CELL = _webpack_require__59$.MOUSEOUT_CELL,
+						    MOUSEMOVE_CELL = _webpack_require__59$.MOUSEMOVE_CELL;
 
 						var SortHeader = function (_BaseHeader2) {
 							_inherits(SortHeader, _BaseHeader2);
@@ -11806,17 +12819,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							function SortHeader(headerCell) {
 								_classCallCheck(this, SortHeader);
 
-								var _this82 = _possibleConstructorReturn(this, (SortHeader.__proto__ || Object.getPrototypeOf(SortHeader)).call(this, headerCell));
+								var _this89 = _possibleConstructorReturn(this, (SortHeader.__proto__ || Object.getPrototypeOf(SortHeader)).call(this, headerCell));
 
-								_this82._sort = headerCell.sort;
-								_this82._range = headerCell.range;
-								return _this82;
+								_this89._sort = headerCell.sort;
+								_this89._range = headerCell.range;
+								return _this89;
 							}
 
 							_createClass(SortHeader, [{
 								key: 'drawInternal',
-								value: function drawInternal(value, context, style, helper, grid, _ref59) {
-									var drawCellBase = _ref59.drawCellBase;
+								value: function drawInternal(value, context, style, helper, grid, _ref61) {
+									var drawCellBase = _ref61.drawCellBase;
 									var textAlign = style.textAlign,
 									    _style$textBaseline = style.textBaseline,
 									    textBaseline = _style$textBaseline === undefined ? 'middle' : _style$textBaseline,
@@ -11864,46 +12877,46 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: 'bindGridEvent',
 								value: function bindGridEvent(grid) {
-									var _this83 = this;
+									var _this90 = this;
 
 									return [grid.listen(CLICK_CELL, function (e) {
-										if (!_this83._range.isCellInRange(e.col, e.row)) {
+										if (!_this90._range.isCellInRange(e.col, e.row)) {
 											return;
 										}
 										var state = grid.sortState;
 										var newState = void 0;
-										if (_this83._range.isCellInRange(state.col, e.row)) {
+										if (_this90._range.isCellInRange(state.col, e.row)) {
 											newState = {
-												col: _this83._range.startCol,
+												col: _this90._range.startCol,
 												order: state.order === 'asc' ? 'desc' : 'asc'
 											};
 										} else {
 											newState = {
-												col: _this83._range.startCol,
+												col: _this90._range.startCol,
 												order: 'asc'
 											};
 										}
 										grid.sortState = newState;
-										_this83._executeSort(newState, grid);
+										_this90._executeSort(newState, grid);
 										grid.invalidateGridRect(0, 0, grid.colCount - 1, grid.rowCount - 1);
 									}),
 									// mouse move
 									grid.listen(MOUSEOVER_CELL, function (e) {
-										if (!_this83._range.isCellInRange(e.col, e.row)) {
+										if (!_this90._range.isCellInRange(e.col, e.row)) {
 											return;
 										}
 										grid.getElement().style.cursor = 'pointer';
 									}),
 									//横からMOUSEENTERした場合、'col-resize'の処理と競合するのでmoveを監視して処理する
 									grid.listen(MOUSEMOVE_CELL, function (e) {
-										if (!_this83._range.isCellInRange(e.col, e.row)) {
+										if (!_this90._range.isCellInRange(e.col, e.row)) {
 											return;
 										}
 										if (!grid.getElement().style.cursor) {
 											grid.getElement().style.cursor = 'pointer';
 										}
 									}), grid.listen(MOUSEOUT_CELL, function (e) {
-										if (!_this83._range.isCellInRange(e.col, e.row)) {
+										if (!_this90._range.isCellInRange(e.col, e.row)) {
 											return;
 										}
 										grid.getElement().style.cursor = '';
@@ -11936,8 +12949,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					"use strict";
 					/*eslint-disable camelcase*/
 
-					var _webpack_require__58 = __webpack_require__( /*! ./internal/utils */"./internal/utils.js"),
-					    extend = _webpack_require__58.extend;
+					var _webpack_require__60 = __webpack_require__( /*! ./internal/utils */"./internal/utils.js"),
+					    extend = _webpack_require__60.extend;
 
 					var plugins = __webpack_require__( /*! ./plugins/icons */"./plugins/icons.js");
 					var builtins = {
@@ -11984,8 +12997,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					"use strict";
 
 					{
-						var _webpack_require__59 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-						    each = _webpack_require__59.obj.each;
+						var _webpack_require__61 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+						    each = _webpack_require__61.obj.each;
 
 						var nextId = 1;
 
@@ -12218,10 +13231,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							}, {
 								key: 'eachAll',
 								value: function eachAll(fn) {
-									var _this84 = this;
+									var _this91 = this;
 
 									this._keys.forEach(function (key) {
-										fn(_this84.get(key), key);
+										fn(_this91.get(key), key);
 									});
 								}
 							}, {
@@ -12332,6 +13345,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								},
 								set: function set(left) {
 									var right = this.right;
+
 									this._left = left;
 									this.right = right;
 								}
@@ -12342,6 +13356,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								},
 								set: function set(top) {
 									var bottom = this.bottom;
+
 									this._top = top;
 									this.bottom = bottom;
 								}
@@ -12434,8 +13449,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						var EventHandler = __webpack_require__( /*! ./EventHandler */"./internal/EventHandler.js");
 						var style = __webpack_require__( /*! ./style */"./internal/style.js");
 
-						var _webpack_require__60 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-						    browser = _webpack_require__60.browser;
+						var _webpack_require__62 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+						    browser = _webpack_require__62.browser;
 
 						var MAX_SCROLL = browser.heightLimit - 1000;
 
@@ -12747,16 +13762,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 					{
 						var calcBasePosition = function calcBasePosition(ctx, rect) {
-							var _ref60 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {},
-							    _ref60$offset = _ref60.offset,
-							    offset = _ref60$offset === undefined ? 0 : _ref60$offset,
-							    _ref60$padding = _ref60.padding;
+							var _ref62 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {},
+							    _ref62$offset = _ref62.offset,
+							    offset = _ref62$offset === undefined ? 0 : _ref62$offset,
+							    _ref62$padding = _ref62.padding;
 
-							_ref60$padding = _ref60$padding === undefined ? {} : _ref60$padding;
-							var _ref60$padding$left = _ref60$padding.left,
-							    paddingLeft = _ref60$padding$left === undefined ? 0 : _ref60$padding$left,
-							    _ref60$padding$right = _ref60$padding.right,
-							    paddingRight = _ref60$padding$right === undefined ? 0 : _ref60$padding$right;
+							_ref62$padding = _ref62$padding === undefined ? {} : _ref62$padding;
+							var _ref62$padding$left = _ref62$padding.left,
+							    paddingLeft = _ref62$padding$left === undefined ? 0 : _ref62$padding$left,
+							    _ref62$padding$right = _ref62$padding.right,
+							    paddingRight = _ref62$padding$right === undefined ? 0 : _ref62$padding$right;
 
 							// const textAlign = ctx.textAlign || 'left';
 							// const textBaseline = ctx.textBaseline || 'middle';
@@ -12786,16 +13801,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						};
 
 						var calcStartPosition = function calcStartPosition(ctx, rect, width, height) {
-							var _ref61 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {},
-							    _ref61$offset = _ref61.offset,
-							    offset = _ref61$offset === undefined ? 0 : _ref61$offset,
-							    _ref61$padding = _ref61.padding;
+							var _ref63 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {},
+							    _ref63$offset = _ref63.offset,
+							    offset = _ref63$offset === undefined ? 0 : _ref63$offset,
+							    _ref63$padding = _ref63.padding;
 
-							_ref61$padding = _ref61$padding === undefined ? {} : _ref61$padding;
-							var _ref61$padding$left = _ref61$padding.left,
-							    paddingLeft = _ref61$padding$left === undefined ? 0 : _ref61$padding$left,
-							    _ref61$padding$right = _ref61$padding.right,
-							    paddingRight = _ref61$padding$right === undefined ? 0 : _ref61$padding$right;
+							_ref63$padding = _ref63$padding === undefined ? {} : _ref63$padding;
+							var _ref63$padding$left = _ref63$padding.left,
+							    paddingLeft = _ref63$padding$left === undefined ? 0 : _ref63$padding$left,
+							    _ref63$padding$right = _ref63$padding.right,
+							    paddingRight = _ref63$padding$right === undefined ? 0 : _ref63$padding$right;
 
 							var textAlign = ctx.textAlign || 'left';
 							var textBaseline = ctx.textBaseline || 'middle';
@@ -12865,30 +13880,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							return { r: r, g: g, b: b, a: a };
 						};
 
-						var tripleHexToRGB = function tripleHexToRGB(_ref62) {
-							var r = _ref62[1],
-							    g = _ref62[2],
-							    b = _ref62[3];
+						var tripleHexToRGB = function tripleHexToRGB(_ref64) {
+							var r = _ref64[1],
+							    g = _ref64[2],
+							    b = _ref64[3];
 
 							return createRGB(hexToNum(r + r), hexToNum(g + g), hexToNum(b + b));
 						};
 
-						var sextupleHexToRGB = function sextupleHexToRGB(_ref63) {
-							var r1 = _ref63[1],
-							    r2 = _ref63[2],
-							    g1 = _ref63[3],
-							    g2 = _ref63[4],
-							    b1 = _ref63[5],
-							    b2 = _ref63[6];
+						var sextupleHexToRGB = function sextupleHexToRGB(_ref65) {
+							var r1 = _ref65[1],
+							    r2 = _ref65[2],
+							    g1 = _ref65[3],
+							    g2 = _ref65[4],
+							    b1 = _ref65[5],
+							    b2 = _ref65[6];
 
 							return createRGB(hexToNum(r1 + r2), hexToNum(g1 + g2), hexToNum(b1 + b2));
 						};
 
-						var testRGB = function testRGB(_ref64) {
-							var r = _ref64.r,
-							    g = _ref64.g,
-							    b = _ref64.b,
-							    a = _ref64.a;
+						var testRGB = function testRGB(_ref66) {
+							var r = _ref66.r,
+							    g = _ref66.g,
+							    b = _ref66.b,
+							    a = _ref66.a;
 
 							return 0 <= r && r <= 255 && 0 <= g && g <= 255 && 0 <= b && b <= 255 && 0 <= a && a <= 1;
 						};
@@ -12970,6 +13985,127 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					module.exports = {
 						'Array_isArray': window.Array.isArray
 					};
+
+					/***/
+				},
+
+				/***/"./internal/dom.js":
+				/*!*************************!*\
+      !*** ./internal/dom.js ***!
+      \*************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function internalDomJs(module, exports, __webpack_require__) {
+
+					"use strict";
+					/* WEBPACK VAR INJECTION */
+					(function (__webpack_provided_Array_dot_isArray) {
+						var _webpack_require__63 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+						    isDef = _webpack_require__63.isDef;
+
+						function createElement(tagName) {
+							var _ref67 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
+							    classList = _ref67.classList,
+							    text = _ref67.text,
+							    html = _ref67.html;
+
+							var element = document.createElement(tagName);
+							if (classList) {
+								if (__webpack_provided_Array_dot_isArray(classList)) {
+									var _element$classList;
+
+									(_element$classList = element.classList).add.apply(_element$classList, _toConsumableArray(classList));
+								} else {
+									element.classList.add(classList);
+								}
+							}
+							if (text) {
+								element.textContent = text;
+							} else if (html) {
+								element.innerHTML = html;
+							}
+							return element;
+						}
+
+						function empty(dom) {
+							var c = void 0;
+							while (c = dom.firstChild) {
+								dom.removeChild(c);
+							}
+						}
+						function isNode(arg) {
+							return !!(arg.nodeType && arg.nodeName);
+						}
+						function toNode(arg) {
+							if (isNode(arg)) {
+								return arg;
+							}
+							var dom = createElement('div', { html: arg });
+							return Array.prototype.slice.call(dom.childNodes);
+						}
+						function toNodeList(arg) {
+							if (window.jQuery && arg instanceof window.jQuery) {
+								return Array.prototype.map.call(arg, function (a) {
+									return a;
+								});
+							}
+							if (__webpack_provided_Array_dot_isArray(arg)) {
+								return arg.map(toNode);
+							}
+							return [toNode(arg)];
+						}
+
+						function appendHtml(dom, inner) {
+							toNodeList(inner).forEach(function (node) {
+								dom.appendChild(node);
+							});
+						}
+
+						function disableFocus(el) {
+							el.dataset.disableBeforeTabIndex = el.tabIndex;
+							el.tabIndex = -1;
+							Array.prototype.slice.call(el.children, 0).forEach(disableFocus);
+						}
+						function enableFocus(el) {
+							if ('disableBeforeTabIndex' in el.dataset) {
+								el.tabIndex = el.dataset.disableBeforeTabIndex;
+							}
+							Array.prototype.slice.call(el.children, 0).forEach(enableFocus);
+						}
+
+						function isFocusable(el) {
+							return isDef(el.tabIndex) && el.tabIndex > -1;
+						}
+						function findPrevSiblingFocusable(el) {
+							var n = el.previousSibling;
+							while (n && !isFocusable(n)) {
+								n = n.previousSibling;
+							}
+							return n;
+						}
+						function findNextSiblingFocusable(el) {
+							var n = el.nextSibling;
+							while (n && !isFocusable(n)) {
+								n = n.nextSibling;
+							}
+							return n;
+						}
+
+						module.exports = {
+							createElement: createElement,
+							empty: empty,
+							isNode: isNode,
+							toNode: toNode,
+							toNodeList: toNodeList,
+							appendHtml: appendHtml,
+							disableFocus: disableFocus,
+							enableFocus: enableFocus,
+							isFocusable: isFocusable,
+							findPrevSiblingFocusable: findPrevSiblingFocusable,
+							findNextSiblingFocusable: findNextSiblingFocusable
+						};
+						/* WEBPACK VAR INJECTION */
+					}).call(this, __webpack_require__( /*! @/internal/com.js */"./internal/com.js")["Array_isArray"]);
 
 					/***/
 				},
@@ -13162,8 +14298,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					"use strict";
 					/* WEBPACK VAR INJECTION */
 					(function (__webpack_provided_Array_dot_isArray) {
-						var _webpack_require__61 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-						    isDef = _webpack_require__61.isDef;
+						var _webpack_require__64 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+						    isDef = _webpack_require__64.isDef;
 
 						var ICON_PROP_KEYS = ['content', 'font', 'color', 'className', 'isLiga', 'width', 'src', 'svg', 'name', 'path'];
 
@@ -13326,8 +14462,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 					"use strict";
 
-					var _webpack_require__62 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-					    isPromise = _webpack_require__62.isPromise;
+					var _webpack_require__65 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+					    then = _webpack_require__65.then;
 
 					var LRUCache = __webpack_require__( /*! ./LRUCache */"./internal/LRUCache.js");
 
@@ -13362,21 +14498,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					}
 
 					function getCacheOrLoad0(cache, src) {
-						if (isPromise(src)) {
-							return src.then(function (u) {
-								return getCacheOrLoad0(cache, u);
+						return then(src, function (src) {
+							var c = cache.get(src);
+							if (c) {
+								return c;
+							}
+							var result = loadImage(src).then(function (img) {
+								cache.put(src, img);
+								return img;
 							});
-						}
-						var c = cache.get(src);
-						if (c) {
-							return c;
-						}
-						var result = loadImage(src).then(function (img) {
-							cache.put(src, img);
-							return img;
+							cache.put(src, result);
+							return result;
 						});
-						cache.put(src, result);
-						return result;
 					}
 
 					function getCacheOrLoad(cacheName, cacheSize, src) {
@@ -13406,18 +14539,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					var parser = new PathCommandsParser();
 
 					var Path2D = function Path2D(arg) {
-						var _this85 = this;
+						var _this92 = this;
 
 						_classCallCheck(this, Path2D);
 
 						this._ops = [];
 						['closePath', 'moveTo', 'lineTo', 'bezierCurveTo', 'quadraticCurveTo', 'arc', 'rect'].forEach(function (name) {
-							_this85[name] = function () {
+							_this92[name] = function () {
 								for (var _len9 = arguments.length, args = Array(_len9), _key9 = 0; _key9 < _len9; _key9++) {
 									args[_key9] = arguments[_key9];
 								}
 
-								_this85._ops.push({ op: name, args: args });
+								_this92._ops.push({ op: name, args: args });
 							};
 						});
 						if (arg === undefined) {
@@ -13441,7 +14574,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					var originalFill = CanvasRenderingContext2D.prototype.fill;
 
 					CanvasRenderingContext2D.prototype.fill = function () {
-						var _this86 = this;
+						var _this93 = this;
 
 						for (var _len10 = arguments.length, args = Array(_len10), _key10 = 0; _key10 < _len10; _key10++) {
 							args[_key10] = arguments[_key10];
@@ -13451,7 +14584,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							var path = args[0];
 							this.beginPath();
 							path._ops.forEach(function (op) {
-								_this86[op.op].apply(_this86, _toConsumableArray(op.args));
+								_this93[op.op].apply(_this93, _toConsumableArray(op.args));
 							});
 							originalFill.apply(this, Array.prototype.slice.call(args, 1));
 						} else {
@@ -13579,7 +14712,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					}
 
 					var PathCommands = function PathCommands(ctx) {
-						var _this87 = this;
+						var _this94 = this;
 
 						_classCallCheck(this, PathCommands);
 
@@ -13603,42 +14736,42 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							lx = px;
 							ly = py;
 							lastCommand = 'M';
-							return _this87;
+							return _this94;
 						};
 						this.m = function (px, py) {
-							return _this87.M(px + lx, py + ly);
+							return _this94.M(px + lx, py + ly);
 						};
 						this.L = function (px, py) {
 							ctx.lineTo(px, py);
 							lx = px;
 							ly = py;
 							lastCommand = 'L';
-							return _this87;
+							return _this94;
 						};
 						this.l = function (px, py) {
-							return _this87.L(px + lx, py + ly);
+							return _this94.L(px + lx, py + ly);
 						};
 						this.H = function (px) {
-							return _this87.L(px, ly);
+							return _this94.L(px, ly);
 						};
 						this.h = function (px) {
-							return _this87.H(px + lx);
+							return _this94.H(px + lx);
 						};
 						this.V = function (py) {
-							return _this87.L(lx, py);
+							return _this94.L(lx, py);
 						};
 						this.v = function (py) {
-							return _this87.V(py + ly);
+							return _this94.V(py + ly);
 						};
 						this.Z = function () {
 							ctx.closePath();
 							lx = lMx;
 							ly = lMy;
 							lastCommand = 'Z';
-							return _this87;
+							return _this94;
 						};
 						this.z = function () {
-							return _this87.Z();
+							return _this94.Z();
 						};
 						//C x1 y1, x2 y2, x y (or c dx1 dy1, dx2 dy2, dx dy)
 						this.C = function (cp1x, cp1y, cp2x, cp2y, px, py) {
@@ -13650,10 +14783,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								y: 2 * py - cp2y
 							};
 							lastCommand = 'C';
-							return _this87;
+							return _this94;
 						};
 						this.c = function (cp1x, cp1y, cp2x, cp2y, px, py) {
-							return _this87.C(cp1x + lx, cp1y + ly, cp2x + lx, cp2y + ly, px + lx, py + ly);
+							return _this94.C(cp1x + lx, cp1y + ly, cp2x + lx, cp2y + ly, px + lx, py + ly);
 						};
 						//S x2 y2, x y (or s dx2 dy2, dx dy)
 						this.S = function (cpx, cpy, px, py) {
@@ -13661,10 +14794,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							    cp1x = _makeReflected.x,
 							    cp1y = _makeReflected.y;
 
-							return _this87.C(cp1x, cp1y, cpx, cpy, px, py);
+							return _this94.C(cp1x, cp1y, cpx, cpy, px, py);
 						};
 						this.s = function (cpx, cpy, px, py) {
-							return _this87.S(cpx + lx, cpy + ly, px + lx, py + ly);
+							return _this94.S(cpx + lx, cpy + ly, px + lx, py + ly);
 						};
 						//Q x1 y1, x y (or q dx1 dy1, dx dy)
 						this.Q = function (cpx, cpy, px, py) {
@@ -13676,10 +14809,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								y: 2 * py - cpy
 							};
 							lastCommand = 'Q';
-							return _this87;
+							return _this94;
 						};
 						this.q = function (cpx, cpy, px, py) {
-							return _this87.Q(cpx + lx, cpy + ly, px + lx, py + ly);
+							return _this94.Q(cpx + lx, cpy + ly, px + lx, py + ly);
 						};
 						//T x y (or t dx dy)
 						this.T = function (px, py) {
@@ -13687,10 +14820,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							    cpx = _makeReflected2.x,
 							    cpy = _makeReflected2.y;
 
-							return _this87.Q(cpx, cpy, px, py);
+							return _this94.Q(cpx, cpy, px, py);
 						};
 						this.t = function (px, py) {
-							return _this87.T(px + lx, py + ly);
+							return _this94.T(px + lx, py + ly);
 						};
 						//A rx ry x-axis-rotation large-arc-flag sweep-flag x y
 						this.A = function (rx, ry, xAxisRotation, largeArcFlag, sweepFlag, px, py) {
@@ -13702,11 +14835,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							lx = px;
 							ly = py;
 							lastCommand = 'A';
-							return _this87;
+							return _this94;
 						};
 						//a rx ry x-axis-rotation large-arc-flag sweep-flag dx dy
 						this.a = function (rx, ry, xAxisRotation, largeArcFlag, sweepFlag, px, py) {
-							return _this87.A(rx, ry, xAxisRotation, largeArcFlag, sweepFlag, px + lx, py + ly);
+							return _this94.A(rx, ry, xAxisRotation, largeArcFlag, sweepFlag, px + lx, py + ly);
 						};
 					};
 
@@ -13798,18 +14931,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 					var PathCommandsParser = function () {
 						function PathCommandsParser() {
-							var _this88 = this;
+							var _this95 = this;
 
 							_classCallCheck(this, PathCommandsParser);
 
 							this._commands = new PathCommands(this);
 							canvasOperations.forEach(function (op) {
-								_this88[op] = function () {
+								_this95[op] = function () {
 									for (var _len11 = arguments.length, args = Array(_len11), _key11 = 0; _key11 < _len11; _key11++) {
 										args[_key11] = arguments[_key11];
 									}
 
-									_this88._ops.push({
+									_this95._ops.push({
 										op: op,
 										args: args
 									});
@@ -13835,7 +14968,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						}, {
 							key: 'parse',
 							value: function parse(d) {
-								var _this89 = this;
+								var _this96 = this;
 
 								var ops = this._ops = [];
 								var tokens = pathTokens(d);
@@ -13856,10 +14989,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 															return tokens.next();
 														}
 													};
-													subsequentCommand = command(_this89, subsequentCommand, argsProvider);
+													subsequentCommand = command(_this96, subsequentCommand, argsProvider);
 												})();
 											} else {
-												subsequentCommand = command(_this89, cmd, tokens);
+												subsequentCommand = command(_this96, cmd, tokens);
 											}
 										}
 									})();
@@ -14030,7 +15163,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						}, {
 							key: 'check_',
 							value: function check_() {
-								var _this90 = this;
+								var _this97 = this;
 
 								var widthA = this.fontRulerA_.getWidth();
 								var widthB = this.fontRulerB_.getWidth();
@@ -14047,7 +15180,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 										}
 									} else {
 										setTimeout(function () {
-											_this90.check_();
+											_this97.check_();
 										}, 50);
 									}
 								} else {
@@ -14085,11 +15218,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						}, {
 							key: 'finish_',
 							value: function finish_(callbacks) {
-								var _this91 = this;
+								var _this98 = this;
 
 								setTimeout(function () {
-									_this91.fontRulerA_.remove();
-									_this91.fontRulerB_.remove();
+									_this98.fontRulerA_.remove();
+									_this98.fontRulerB_.remove();
 									callbacks.forEach(function (cb) {
 										return cb();
 									});
@@ -14296,8 +15429,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							});
 						};
 
-						var _webpack_require__63 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-						    isPromise = _webpack_require__63.isPromise;
+						var _webpack_require__66 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+						    isPromise = _webpack_require__66.isPromise;
 
 						var sort = {
 							sort: function sort(get, set, length, compare, getField) {
@@ -14747,6 +15880,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							var isPromise = function isPromise(data) {
 								return data && typeof data.then === 'function';
 							};
+							var then = function then(result, callback) {
+								return isPromise(result) ? result.then(function (r) {
+									return callback(r);
+								}) : callback(result);
+							};
 							module.exports = {
 								isDef: isDef,
 								browser: {
@@ -14762,6 +15900,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 								getOrApply: getOrApply,
 								getIgnoreCase: getIgnoreCase,
 								isPromise: isPromise,
+								then: then,
 								array: array,
 								obj: {
 									setReadonly: setReadonly,
@@ -14789,6 +15928,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					/***/
 				},
 
+				/***/"./list-grid/EVENT_TYPE.js":
+				/*!*********************************!*\
+      !*** ./list-grid/EVENT_TYPE.js ***!
+      \*********************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function listGridEVENT_TYPEJs(module, exports, __webpack_require__) {
+
+					"use strict";
+
+					var _webpack_require__67 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+					    extend = _webpack_require__67.extend;
+
+					var DrawGrid = __webpack_require__( /*! ../core/DrawGrid */"./core/DrawGrid.js");
+					var EVENT_TYPE = extend(DrawGrid.EVENT_TYPE, {
+						CHANGED_VALUE: 'changed_value'
+					});
+					module.exports = EVENT_TYPE;
+
+					/***/
+				},
+
 				/***/"./main.js":
 				/*!*****************!*\
       !*** ./main.js ***!
@@ -14804,7 +15965,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						var tools = __webpack_require__( /*! ./tools */"./tools.js");
 						var columns = __webpack_require__( /*! ./columns */"./columns.js");
 						var themes = __webpack_require__( /*! ./themes */"./themes.js");
-						var _data2 = __webpack_require__( /*! ./data */"./data.js");
+						var _data = __webpack_require__( /*! ./data */"./data.js");
 
 						var ListGrid = __webpack_require__( /*! ./ListGrid */"./ListGrid.js");
 						var GridCanvasHelper = __webpack_require__( /*! ./GridCanvasHelper */"./GridCanvasHelper.js");
@@ -14827,7 +15988,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 							// objects
 							columns: columns,
 							themes: themes,
-							data: _data2,
+							data: _data,
 
 							// helper
 							GridCanvasHelper: GridCanvasHelper,
@@ -14937,9 +16098,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 					"use strict";
 
 					{
-						var _webpack_require__64 = __webpack_require__( /*! ./internal/utils */"./internal/utils.js"),
-						    extend = _webpack_require__64.extend,
-						    getIgnoreCase = _webpack_require__64.getIgnoreCase;
+						var _webpack_require__68 = __webpack_require__( /*! ./internal/utils */"./internal/utils.js"),
+						    extend = _webpack_require__68.extend,
+						    getIgnoreCase = _webpack_require__68.getIgnoreCase;
 
 						var theme = __webpack_require__( /*! ./themes/theme */"./themes/theme.js");
 						var plugins = __webpack_require__( /*! ./plugins/themes */"./plugins/themes.js");
@@ -15225,8 +16386,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        */
 
 
-						var _webpack_require__65 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    getChainSafe = _webpack_require__65.getChainSafe;
+						var _webpack_require__69 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    getChainSafe = _webpack_require__69.getChainSafe;
 
 						var defaultTheme = __webpack_require__( /*! ./MATERIAL_DESIGN */"./themes/MATERIAL_DESIGN.js");
 
@@ -15338,10 +16499,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						};
 
 						var fillTextRect = function fillTextRect(ctx, text, left, top, width, height) {
-							var _ref65 = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : {},
-							    _ref65$offset = _ref65.offset,
-							    offset = _ref65$offset === undefined ? 2 : _ref65$offset,
-							    padding = _ref65.padding;
+							var _ref68 = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : {},
+							    _ref68$offset = _ref68.offset,
+							    offset = _ref68$offset === undefined ? 2 : _ref68$offset,
+							    padding = _ref68.padding;
 
 							var rect = {
 								left: left,
@@ -15371,10 +16532,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 						};
 
 						var drawInlineImageRect = function drawInlineImageRect(ctx, image, srcLeft, srcTop, srcWidth, srcHeight, destWidth, destHeight, left, top, width, height) {
-							var _ref66 = arguments.length > 12 && arguments[12] !== undefined ? arguments[12] : {},
-							    _ref66$offset = _ref66.offset,
-							    offset = _ref66$offset === undefined ? 2 : _ref66$offset,
-							    padding = _ref66.padding;
+							var _ref69 = arguments.length > 12 && arguments[12] !== undefined ? arguments[12] : {},
+							    _ref69$offset = _ref69.offset,
+							    offset = _ref69$offset === undefined ? 2 : _ref69$offset,
+							    padding = _ref69.padding;
 
 							var rect = {
 								left: left,
@@ -15430,15 +16591,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 						var drawCheckbox = function drawCheckbox(ctx, x, y, check) {
-							var _ref67 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {},
-							    _ref67$uncheckBgColor = _ref67.uncheckBgColor,
-							    uncheckBgColor = _ref67$uncheckBgColor === undefined ? '#FFF' : _ref67$uncheckBgColor,
-							    _ref67$checkBgColor = _ref67.checkBgColor,
-							    checkBgColor = _ref67$checkBgColor === undefined ? 'rgb(76, 73, 72)' : _ref67$checkBgColor,
-							    _ref67$borderColor = _ref67.borderColor,
-							    borderColor = _ref67$borderColor === undefined ? '#000' : _ref67$borderColor,
-							    _ref67$boxSize = _ref67.boxSize,
-							    boxSize = _ref67$boxSize === undefined ? measureCheckbox(ctx).width : _ref67$boxSize;
+							var _ref70 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {},
+							    _ref70$uncheckBgColor = _ref70.uncheckBgColor,
+							    uncheckBgColor = _ref70$uncheckBgColor === undefined ? '#FFF' : _ref70$uncheckBgColor,
+							    _ref70$checkBgColor = _ref70.checkBgColor,
+							    checkBgColor = _ref70$checkBgColor === undefined ? 'rgb(76, 73, 72)' : _ref70$checkBgColor,
+							    _ref70$borderColor = _ref70.borderColor,
+							    borderColor = _ref70$borderColor === undefined ? '#000' : _ref70$borderColor,
+							    _ref70$boxSize = _ref70.boxSize,
+							    boxSize = _ref70$boxSize === undefined ? measureCheckbox(ctx).width : _ref70$boxSize;
 
 							var checkPoint = typeof check === 'number' ? check > 1 ? 1 : check : 1;
 
@@ -15529,9 +16690,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        */
 
 
-						var _webpack_require__66 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
-						    calcBasePosition = _webpack_require__66.calcBasePosition,
-						    calcStartPosition = _webpack_require__66.calcStartPosition;
+						var _webpack_require__70 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
+						    calcBasePosition = _webpack_require__70.calcBasePosition,
+						    calcStartPosition = _webpack_require__70.calcStartPosition;
 
 						var ceil = Math.ceil,
 						    PI = Math.PI;
