@@ -1,3 +1,3 @@
-# cheetah-grid-input-demo
+# cheetah-grid-beta-demo
 
-https://ota-meshi.github.io/cheetah-grid-input-demo/
+https://ota-meshi.github.io/cheetah-grid-beta-demo/
