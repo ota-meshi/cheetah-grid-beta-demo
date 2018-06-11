@@ -1,4 +1,4 @@
-/*! Cheetah Grid v0.2.0 | license MIT */
+/*! Cheetah Grid v0.5.0 | license MIT */
 (function(){
 'use strict';
 
@@ -110,9 +110,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 			/******/{
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./columns/action/internal/InlineInputElement.css":
-				/*!***********************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/InlineInputElement.css ***!
-      \***********************************************************************************************************************************/
+				/*!*********************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/InlineInputElement.css ***!
+      \*********************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsActionInternalInlineInputElementCss(module, exports, __webpack_require__) {
@@ -131,9 +131,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./columns/action/internal/InlineMenuElement.css":
-				/*!**********************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/InlineMenuElement.css ***!
-      \**********************************************************************************************************************************/
+				/*!********************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/InlineMenuElement.css ***!
+      \********************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsActionInternalInlineMenuElementCss(module, exports, __webpack_require__) {
@@ -152,9 +152,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./columns/action/internal/SmallDialogInputElement.css":
-				/*!****************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/SmallDialogInputElement.css ***!
-      \****************************************************************************************************************************************/
+				/*!**************************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/css-loader?minimize!./columns/action/internal/SmallDialogInputElement.css ***!
+      \**************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsActionInternalSmallDialogInputElementCss(module, exports, __webpack_require__) {
@@ -173,9 +173,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./columns/message/internal/ErrorMessageElement.css":
-				/*!*************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/message/internal/ErrorMessageElement.css ***!
-      \*************************************************************************************************************************************/
+				/*!***********************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/css-loader?minimize!./columns/message/internal/ErrorMessageElement.css ***!
+      \***********************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsMessageInternalErrorMessageElementCss(module, exports, __webpack_require__) {
@@ -194,9 +194,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./columns/message/internal/MessageElement.css":
-				/*!********************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/message/internal/MessageElement.css ***!
-      \********************************************************************************************************************************/
+				/*!******************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/css-loader?minimize!./columns/message/internal/MessageElement.css ***!
+      \******************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsMessageInternalMessageElementCss(module, exports, __webpack_require__) {
@@ -206,7 +206,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 
 					// module
-					exports.push([module.i, ".cheetah-grid__message-element{position:absolute;margin-top:-2px;box-sizing:border-box;border-radius:0 0 3px 3px;background-color:hsla(0,0%,98%,.85);padding:8px 2px;pointer-events:none;user-select:none}.cheetah-grid__message-element--hidden{opacity:0;display:none}.cheetah-grid__message-element__message{font-family:Roboto;font-size:12px;font-size:.75rem;min-height:1em;line-height:1;display:block;width:100%}.cheetah-grid__message-element{border-top:1px solid rgba(0,0,0,.87);color:rgba(0,0,0,.87)}.cheetah-grid__message-element.helper-text--right-justified{text-align:right}", ""]);
+					exports.push([module.i, ".cheetah-grid__message-element{position:absolute;margin-top:-2px;box-sizing:border-box;border-radius:0 0 3px 3px;background-color:hsla(0,0%,98%,.85);padding:8px 2px;pointer-events:none;user-select:none}.cheetah-grid__message-element--hidden{display:none}.cheetah-grid__message-element--shown{display:block}.cheetah-grid__message-element__message{font-family:Roboto;font-size:12px;font-size:.75rem;min-height:1em;line-height:1;display:block;width:100%}.cheetah-grid__message-element{border-top:1px solid rgba(0,0,0,.87);color:rgba(0,0,0,.87)}", ""]);
 
 					// exports
 
@@ -215,9 +215,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./columns/message/internal/WarningMessageElement.css":
-				/*!***************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./columns/message/internal/WarningMessageElement.css ***!
-      \***************************************************************************************************************************************/
+				/*!*************************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/css-loader?minimize!./columns/message/internal/WarningMessageElement.css ***!
+      \*************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeColumnsMessageInternalWarningMessageElementCss(module, exports, __webpack_require__) {
@@ -236,9 +236,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../node_modules/css-loader/index.js?minimize!./internal/style.css":
-				/*!*******************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader?minimize!./internal/style.css ***!
-      \*******************************************************************************************************/
+				/*!*****************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/css-loader?minimize!./internal/style.css ***!
+      \*****************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderIndexJsMinimizeInternalStyleCss(module, exports, __webpack_require__) {
@@ -257,9 +257,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../node_modules/css-loader/lib/css-base.js":
-				/*!*****************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/css-loader/lib/css-base.js ***!
-      \*****************************************************************************************/
+				/*!***************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/css-loader/lib/css-base.js ***!
+      \***************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesCssLoaderLibCssBaseJs(module, exports) {
@@ -343,9 +343,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../node_modules/style-loader/lib/addStyles.js":
-				/*!********************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/style-loader/lib/addStyles.js ***!
-      \********************************************************************************************/
+				/*!******************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/style-loader/lib/addStyles.js ***!
+      \******************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesStyleLoaderLibAddStylesJs(module, exports, __webpack_require__) {
@@ -718,9 +718,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../node_modules/style-loader/lib/urls.js":
-				/*!***************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/node_modules/style-loader/lib/urls.js ***!
-      \***************************************************************************************/
+				/*!*************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/style-loader/lib/urls.js ***!
+      \*************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function node_modulesStyleLoaderLibUrlsJs(module, exports) {
@@ -817,9 +817,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/content/svg/production/ic_add_48px.svg":
-				/*!*************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/content/svg/production/ic_add_48px.svg ***!
-      \*************************************************************************************************************************************************************************************************************/
+				/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/material-design-icons/content/svg/production/ic_add_48px.svg ***!
+      \*********************************************************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsContentSvgProductionIc_add_48pxSvg(module, exports) {
@@ -840,9 +840,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/image/svg/production/ic_edit_48px.svg":
-				/*!************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/image/svg/production/ic_edit_48px.svg ***!
-      \************************************************************************************************************************************************************************************************************/
+				/*!********************************************************************************************************************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/material-design-icons/image/svg/production/ic_edit_48px.svg ***!
+      \********************************************************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsImageSvgProductionIc_edit_48pxSvg(module, exports) {
@@ -863,9 +863,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/navigation/svg/production/ic_arrow_downward_48px.svg":
-				/*!***************************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/navigation/svg/production/ic_arrow_downward_48px.svg ***!
-      \***************************************************************************************************************************************************************************************************************************/
+				/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/material-design-icons/navigation/svg/production/ic_arrow_downward_48px.svg ***!
+      \***********************************************************************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsNavigationSvgProductionIc_arrow_downward_48pxSvg(module, exports) {
@@ -886,9 +886,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/navigation/svg/production/ic_arrow_upward_48px.svg":
-				/*!*************************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/navigation/svg/production/ic_arrow_upward_48px.svg ***!
-      \*************************************************************************************************************************************************************************************************************************/
+				/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/material-design-icons/navigation/svg/production/ic_arrow_upward_48px.svg ***!
+      \*********************************************************************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsNavigationSvgProductionIc_arrow_upward_48pxSvg(module, exports) {
@@ -909,9 +909,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/toggle/svg/production/ic_star_24px.svg":
-				/*!*************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_24px.svg ***!
-      \*************************************************************************************************************************************************************************************************************/
+				/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_24px.svg ***!
+      \*********************************************************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsToggleSvgProductionIc_star_24pxSvg(module, exports) {
@@ -932,9 +932,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/toggle/svg/production/ic_star_border_24px.svg":
-				/*!********************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_border_24px.svg ***!
-      \********************************************************************************************************************************************************************************************************************/
+				/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_border_24px.svg ***!
+      \****************************************************************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsToggleSvgProductionIc_star_border_24pxSvg(module, exports) {
@@ -955,9 +955,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				},
 
 				/***/"../../webpack-loader/svg-to-icon-js-loader.js!../../node_modules/material-design-icons/toggle/svg/production/ic_star_half_24px.svg":
-				/*!******************************************************************************************************************************************************************************************************************!*\
-      !*** C:/Users/ohta2346/git/github/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_half_24px.svg ***!
-      \******************************************************************************************************************************************************************************************************************/
+				/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+      !*** C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/webpack-loader/svg-to-icon-js-loader.js!C:/Users/ohta2346/git/github/cheetah-grid/packages/cheetah-grid/node_modules/material-design-icons/toggle/svg/production/ic_star_half_24px.svg ***!
+      \**************************************************************************************************************************************************************************************************************************************************************/
 				/*! no static exports found */
 				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 				/***/function webpackLoaderSvgToIconJsLoaderJsNode_modulesMaterialDesignIconsToggleSvgProductionIc_star_half_24pxSvg(module, exports) {
@@ -1117,12 +1117,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								var paddingBottom = lineHeight * (multiInlines.length - 1);
 
 								if (ctx.textBaseline === 'top' || ctx.textBaseline === 'hanging') {
-									var em = ctx.measureText('あ').width;
+									var em = getFontSize(ctx, ctx.font).height;
 									var pad = (lineHeight - em) / 2;
 									paddingTop += pad;
 									paddingBottom -= pad;
 								} else if (ctx.textBaseline === 'bottom' || ctx.textBaseline === 'alphabetic' || ctx.textBaseline === 'ideographic') {
-									var _em = ctx.measureText('あ').width;
+									var _em = getFontSize(ctx, ctx.font).height;
 									var _pad = (lineHeight - _em) / 2;
 									paddingTop -= _pad;
 									paddingBottom += _pad;
@@ -1205,7 +1205,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							};
 
 							var _webpack_require__ = __webpack_require__( /*! ./internal/canvases */"./internal/canvases.js"),
-							    calcStartPosition = _webpack_require__.calcStartPosition;
+							    calcStartPosition = _webpack_require__.calcStartPosition,
+							    getFontSize = _webpack_require__.getFontSize;
 
 							var inlines = __webpack_require__( /*! ./element/inlines */"./element/inlines.js");
 							var canvashelper = __webpack_require__( /*! ./tools/canvashelper */"./tools/canvashelper.js");
@@ -1340,7 +1341,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_createClass(GridCanvasHelper, [{
 									key: 'createCalculator',
-									value: function createCalculator(context) {
+									value: function createCalculator(context, font) {
 										return {
 											calcWidth: function calcWidth(width) {
 												return calc.toPx(width, {
@@ -1349,8 +1350,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 														return rect.width;
 													},
 													get em() {
-														var ctx = context.getContext();
-														return ctx.measureText('あ').width;
+														return getFontSize(context.getContext(), font).width;
 													}
 												});
 											},
@@ -1361,8 +1361,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 														return rect.height;
 													},
 													get em() {
-														var ctx = context.getContext();
-														return ctx.measureText('あ').width;
+														return getFontSize(context.getContext(), font).height;
 													}
 												});
 											}
@@ -1380,9 +1379,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									}
 								}, {
 									key: 'toBoxPixelArray',
-									value: function toBoxPixelArray(value, context) {
+									value: function toBoxPixelArray(value, context, font) {
 										if (typeof value === 'string' || __webpack_provided_Array_dot_isArray(value)) {
-											var calculator = this.createCalculator(context);
+											var calculator = this.createCalculator(context, font);
 											var box = _toBoxArray(value);
 											return [calculator.calcHeight(box[0]), calculator.calcWidth(box[1]), calculator.calcHeight(box[2]), calculator.calcWidth(box[3])];
 										}
@@ -1476,8 +1475,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 										this.drawWithClip(context, function (ctx) {
 											if (padding) {
-												ctx.font = font || ctx.font;
-												padding = _this.toBoxPixelArray(padding, context);
+												padding = _this.toBoxPixelArray(padding, context, font);
 												var left = rect.left + padding[3];
 												var top = rect.top + padding[0];
 												var width = rect.width - padding[1] - padding[3];
@@ -1529,16 +1527,15 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 										}
 
 										this.drawWithClip(context, function (ctx) {
-											ctx.font = font || ctx.font;
 											if (padding) {
-												padding = _this2.toBoxPixelArray(padding, context);
+												padding = _this2.toBoxPixelArray(padding, context, font);
 												var left = rect.left + padding[3];
 												var top = rect.top + padding[0];
 												var width = rect.width - padding[1] - padding[3];
 												var height = rect.height - padding[0] - padding[2];
 												rect = new Rect(left, top, width, height);
 											}
-											var calculator = _this2.createCalculator(context);
+											var calculator = _this2.createCalculator(context, font);
 											lineHeight = calculator.calcHeight(lineHeight);
 											_multiInlineRect(_this2._grid, ctx, multilines, rect, col, row, {
 												offset: offset,
@@ -1791,7 +1788,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 											var col = context.col,
 											    row = context.row;
 
-											padding = _this7.toBoxPixelArray(padding || rect.height / 8, context);
+											padding = _this7.toBoxPixelArray(padding || rect.height / 8, context, font);
 											var left = rect.left + padding[3];
 											var top = rect.top + padding[0];
 											var width = rect.width - padding[1] - padding[3];
@@ -3498,6 +3495,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 										action: function action(e) {
 											var selrange = grid.selection.range;
 											var col = grid.selection.select.col;
+
 											for (var row = selrange.start.row; row <= selrange.end.row; row++) {
 												if (!util.isTarget(col, row)) {
 													continue;
@@ -4299,6 +4297,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						}, {
 							key: 'attach',
 							value: function attach(grid, editor, col, row, value) {
+								var _this29 = this;
+
 								var input = this._input;
 								var handler = this._handler;
 
@@ -4354,6 +4354,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								handler.tryWithOffEvents(input, 'blur', function () {
 									focus();
 								});
+
+								this._attaching = true;
+								setTimeout(function () {
+									delete _this29._attaching;
+								});
 							}
 						}, {
 							key: 'detach',
@@ -4407,7 +4412,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						}, {
 							key: '_bindInputEvents',
 							value: function _bindInputEvents() {
-								var _this29 = this;
+								var _this30 = this;
 
 								var handler = this._handler;
 								var input = this._input;
@@ -4430,23 +4435,23 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 										return;
 									}
 									if (getKeyCode(e) === KEY_ENTER) {
-										if (!_this29._isActive()) {
+										if (!_this30._isActive() || _this30._attaching) {
 											return;
 										}
-										var grid = _this29._activeData.grid;
+										var grid = _this30._activeData.grid;
 
 
-										_this29.doChangeValue();
+										_this30.doChangeValue();
 										if (grid) {
 											grid.focus();
 										}
-										_this29.detach();
+										_this30.detach();
 										cancelEvent(e);
 									}
 								});
 								handler.on(input, 'blur', function (e) {
-									_this29.doChangeValue();
-									_this29.detach();
+									_this30.doChangeValue();
+									_this30.detach();
 								});
 							}
 						}]);
@@ -4628,6 +4633,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							var allHeight = 0;
 							for (var i = 0; i < children.length; i++) {
 								var offsetHeight = children[i].offsetHeight;
+
 								if (i < focusIndex) {
 									offset += offsetHeight;
 								}
@@ -4762,7 +4768,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: '_bindMenuEvents',
 								value: function _bindMenuEvents() {
-									var _this30 = this;
+									var _this31 = this;
 
 									var handler = this._handler;
 									var menu = this._menu;
@@ -4782,8 +4788,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 											return;
 										}
 										var valueindex = item.dataset.valueindex;
-										_this30._doChangeValue(item.dataset.valueindex);
-										_this30.detach(true);
+
+										_this31._doChangeValue(valueindex);
+										_this31.detach(true);
 									});
 									handler.on(menu, 'keydown', function (e) {
 										var item = findItemParents(e.target);
@@ -4793,11 +4800,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 										var keyCode = getKeyCode(e);
 										if (keyCode === KEY_ENTER) {
 											var valueindex = item.dataset.valueindex;
-											_this30._doChangeValue(valueindex);
-											_this30.detach(true);
+
+											_this31._doChangeValue(valueindex);
+											_this31.detach(true);
 											cancelEvent(e);
 										} else if (keyCode === KEY_ESC) {
-											_this30.detach(true);
+											_this31.detach(true);
 											cancelEvent(e);
 										} else if (keyCode === KEY_UP) {
 											var n = findPrevSiblingFocusable(item);
@@ -5012,6 +5020,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						}, {
 							key: 'attach',
 							value: function attach(grid, editor, col, row, value) {
+								var _this32 = this;
+
 								var handler = this._handler;
 								var dialog = this._dialog;
 								var input = this._input;
@@ -5049,6 +5059,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								this._activeData = activeData;
 								this._beforePropEditor = editor;
+
+								this._attaching = true;
+								setTimeout(function () {
+									delete _this32._attaching;
+								});
 							}
 						}, {
 							key: 'detach',
@@ -5079,7 +5094,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						}, {
 							key: '_doChangeValue',
 							value: function _doChangeValue() {
-								var _this31 = this;
+								var _this33 = this;
 
 								if (!this._isActive()) {
 									return false;
@@ -5089,7 +5104,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								return then(this._validate(value), function (res) {
 									if (res && value === input.value) {
-										var _activeData6 = _this31._activeData,
+										var _activeData6 = _this33._activeData,
 										    grid = _activeData6.grid,
 										    col = _activeData6.col,
 										    row = _activeData6.row;
@@ -5117,7 +5132,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						}, {
 							key: '_bindDialogEvents',
 							value: function _bindDialogEvents() {
-								var _this32 = this;
+								var _this34 = this;
 
 								var handler = this._handler;
 								var dialog = this._dialog;
@@ -5135,13 +5150,13 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								});
 								handler.on(input, 'compositionend', function (e) {
 									input.classList.remove('composition');
-									_this32._onInputValue(input);
+									_this34._onInputValue(input);
 								});
 								var onKeyupAndPress = function onKeyupAndPress(e) {
 									if (input.classList.contains('composition')) {
 										return;
 									}
-									_this32._onInputValue(input);
+									_this34._onInputValue(input);
 								};
 								handler.on(input, 'keyup', onKeyupAndPress);
 								handler.on(input, 'keypress', onKeyupAndPress);
@@ -5151,20 +5166,20 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									}
 									var keyCode = getKeyCode(e);
 									if (keyCode === KEY_ESC) {
-										_this32.detach(true);
+										_this34.detach(true);
 										cancelEvent(e);
-									} else if (keyCode === KEY_ENTER) {
-										var _input = _this32._input;
+									} else if (keyCode === KEY_ENTER && !_this34._attaching) {
+										var _input = _this34._input;
 										var value = _input.value;
 
-										then(_this32._doChangeValue(), function (r) {
+										then(_this34._doChangeValue(), function (r) {
 											if (r && value === _input.value) {
-												_this32.detach(true);
+												_this34.detach(true);
 											}
 										});
 										cancelEvent(e);
 									} else {
-										_this32._onInputValue(input);
+										_this34._onInputValue(input);
 									}
 								});
 							}
@@ -5321,12 +5336,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					"use strict";
 
-					var Rect = __webpack_require__( /*! ../../internal/Rect */"./internal/Rect.js");
 					var BaseMessage = __webpack_require__( /*! ./BaseMessage */"./columns/message/BaseMessage.js");
 					var ErrorMessageElement = __webpack_require__( /*! ./internal/ErrorMessageElement */"./columns/message/internal/ErrorMessageElement.js");
+					var messageUtils = __webpack_require__( /*! ./messageUtils */"./columns/message/messageUtils.js");
 
 					var RED_A100 = '#ff8a80';
-					// const RED_A400 = '#FF1744';
 
 					var ErrorMessage = function (_BaseMessage) {
 						_inherits(ErrorMessage, _BaseMessage);
@@ -5350,24 +5364,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								var _context$getSelectSta = context.getSelectState(),
 								    selected = _context$getSelectSta.selected;
 
-								var rect = context.getRect();
-
 								helper.drawBorderWithClip(context, function (ctx) {
 									if (!selected) {
-										// draw box
-										ctx.fillStyle = RED_A100;
-										var boxRect = rect.copy();
-										boxRect.left = boxRect.right - 24;
-										ctx.fillRect(boxRect.left, boxRect.top, boxRect.width, boxRect.height - 1);
-
-										// draw exclamation mark
-										var fillColor = bgColor;
-										var height = 20;
-										var width = height / 5;
-										var left = boxRect.left + (boxRect.width - width) / 2;
-										var top = boxRect.top + (boxRect.height - height) / 2;
-										helper.fillRectWithState(new Rect(left, top, width, height / 5 * 3), context, { fillColor: fillColor });
-										helper.fillRectWithState(new Rect(left, top + height / 5 * 4, width, height / 5), context, { fillColor: fillColor });
+										messageUtils.drawExclamationMarkBox(context, {
+											bgColor: RED_A100,
+											color: bgColor
+										}, helper);
 									}
 								});
 							}
@@ -5393,11 +5395,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					var BaseMessage = __webpack_require__( /*! ./BaseMessage */"./columns/message/BaseMessage.js");
 					var MessageElement = __webpack_require__( /*! ./internal/MessageElement */"./columns/message/internal/MessageElement.js");
-
-					var Rect = __webpack_require__( /*! ../../internal/Rect */"./internal/Rect.js");
+					var messageUtils = __webpack_require__( /*! ./messageUtils */"./columns/message/messageUtils.js");
 
 					var GREY_L2 = '#e0e0e0';
-					// const GREY_L1 = '#bdbdbd';
 
 					var InfoMessage = function (_BaseMessage2) {
 						_inherits(InfoMessage, _BaseMessage2);
@@ -5421,24 +5421,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								var _context$getSelectSta2 = context.getSelectState(),
 								    selected = _context$getSelectSta2.selected;
 
-								var rect = context.getRect();
-
 								helper.drawBorderWithClip(context, function (ctx) {
 									if (!selected) {
-										// draw box
-										ctx.fillStyle = GREY_L2;
-										var boxRect = rect.copy();
-										boxRect.left = boxRect.right - 24;
-										ctx.fillRect(boxRect.left, boxRect.top, boxRect.width, boxRect.height - 1);
-
-										// draw i mark
-										var fillColor = bgColor;
-										var height = 20;
-										var width = height / 5;
-										var left = boxRect.left + (boxRect.width - width) / 2;
-										var top = boxRect.top + (boxRect.height - height) / 2;
-										helper.fillRectWithState(new Rect(left, top, width, height / 5), context, { fillColor: fillColor });
-										helper.fillRectWithState(new Rect(left, top + height / 5 * 2, width, height / 5 * 3), context, { fillColor: fillColor });
+										messageUtils.drawInfomationMarkBox(context, {
+											bgColor: GREY_L2,
+											color: bgColor
+										}, helper);
 									}
 								});
 							}
@@ -5474,6 +5462,52 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					var WarningMessage = __webpack_require__( /*! ./WarningMessage */"./columns/message/WarningMessage.js");
 					var InfoMessage = __webpack_require__( /*! ./InfoMessage */"./columns/message/InfoMessage.js");
 
+					var EMPTY_MESSAGE = {
+						type: 'error',
+						message: undefined
+					};
+
+					var MESSAGE_INSTANCE_FACTORY = {
+						error: function error(grid) {
+							return new ErrorMessage(grid);
+						},
+						info: function info(grid) {
+							return new InfoMessage(grid);
+						},
+						warning: function warning(grid) {
+							return new WarningMessage(grid);
+						}
+					};
+
+					function normalizeMessage(message) {
+						if (!message || isPromise(message)) {
+							return EMPTY_MESSAGE;
+						}
+						if (typeof message === 'string') {
+							return {
+								type: 'error',
+								message: message,
+								original: message
+							};
+						}
+						var type = message.type || 'error';
+						if (type && type in MESSAGE_INSTANCE_FACTORY) {
+							return {
+								type: type.toLowerCase(),
+								message: '' + message.message,
+								original: message
+							};
+						}
+						return {
+							type: 'error',
+							message: '' + message,
+							original: message
+						};
+					}
+					function hasMessage(message) {
+						return !!normalizeMessage(message).message;
+					}
+
 					var MessageHandler = function () {
 						function MessageHandler(grid, getMessage) {
 							_classCallCheck(this, MessageHandler);
@@ -5496,7 +5530,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							key: 'drawCellMessage',
 							value: function drawCellMessage(message, context, style, helper, info) {
 
-								if (!message || isPromise(message)) {
+								if (!hasMessage(message)) {
 									return;
 								}
 								var instance = this._getMessageInstanceOfMessage(message);
@@ -5510,7 +5544,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								if (info && info.instance !== instance) {
 									info.instance.detachMessageElement();
 								}
-								instance.attachMessageElement(col, row, this._toMessageText(message));
+								instance.attachMessageElement(col, row, normalizeMessage(message));
 								this._attachInfo = { col: col, row: row, instance: instance };
 							}
 						}, {
@@ -5539,14 +5573,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						}, {
 							key: '_bindGridEvent',
 							value: function _bindGridEvent(grid, getMessage) {
-								var _this35 = this;
+								var _this37 = this;
 
 								var onSelectMessage = function onSelectMessage(sel) {
 									var message = getMessage(sel.col, sel.row);
-									if (!message || isPromise(message)) {
-										_this35._detach();
+									if (!hasMessage(message)) {
+										_this37._detach();
 									} else {
-										_this35._attach(sel.col, sel.row, message);
+										_this37._attach(sel.col, sel.row, message);
 									}
 								};
 								grid.listen(SELECTED_CELL, function (e) {
@@ -5560,7 +5594,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								});
 								grid.listen(SCROLL, function () {
 									var sel = grid.selection.select;
-									_this35._move(sel.col, sel.row);
+									_this37._move(sel.col, sel.row);
 								});
 								grid.listen(CHANGED_VALUE, function (e) {
 									var sel = grid.selection.select;
@@ -5573,35 +5607,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						}, {
 							key: '_getMessageInstanceOfMessage',
 							value: function _getMessageInstanceOfMessage(message) {
-								message = message || '';
-								if (typeof message === 'string') {
-									return this._createMessageInstance('error', ErrorMessage);
-								}
-								var type = ('' + message.type).toLowerCase();
-								if (type === 'info') {
-									return this._createMessageInstance('info', InfoMessage);
-								} else if (type === 'warning') {
-									return this._createMessageInstance('warning', WarningMessage);
-								}
-								return this._createMessageInstance('error', ErrorMessage);
-							}
-						}, {
-							key: '_toMessageText',
-							value: function _toMessageText(message) {
-								message = message || '';
-								if (typeof message === 'string') {
-									return message;
-								}
-								if (message.message) {
-									return message.message;
-								}
-								return '' + message;
-							}
-						}, {
-							key: '_createMessageInstance',
-							value: function _createMessageInstance(name, Message) {
 								var messageInstances = this._messageInstances;
-								return messageInstances[name] || (messageInstances[name] = new Message(this._grid));
+
+								var _normalizeMessage = normalizeMessage(message),
+								    type = _normalizeMessage.type;
+
+								return messageInstances[type] || (messageInstances[type] = MESSAGE_INSTANCE_FACTORY[type](this._grid));
 							}
 						}]);
 
@@ -5623,9 +5634,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					"use strict";
 
-					var Rect = __webpack_require__( /*! ../../internal/Rect */"./internal/Rect.js");
 					var BaseMessage = __webpack_require__( /*! ./BaseMessage */"./columns/message/BaseMessage.js");
 					var WarningMessageElement = __webpack_require__( /*! ./internal/WarningMessageElement */"./columns/message/internal/WarningMessageElement.js");
+					var messageUtils = __webpack_require__( /*! ./messageUtils */"./columns/message/messageUtils.js");
 
 					var DEEP_ORANGE_A100 = '#ff9e80';
 
@@ -5651,24 +5662,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								var _context$getSelectSta3 = context.getSelectState(),
 								    selected = _context$getSelectSta3.selected;
 
-								var rect = context.getRect();
-
 								helper.drawBorderWithClip(context, function (ctx) {
 									if (!selected) {
-										// draw box
-										ctx.fillStyle = DEEP_ORANGE_A100;
-										var boxRect = rect.copy();
-										boxRect.left = boxRect.right - 24;
-										ctx.fillRect(boxRect.left, boxRect.top, boxRect.width, boxRect.height - 1);
-
-										// draw exclamation mark
-										var fillColor = bgColor;
-										var height = 20;
-										var width = height / 5;
-										var left = boxRect.left + (boxRect.width - width) / 2;
-										var top = boxRect.top + (boxRect.height - height) / 2;
-										helper.fillRectWithState(new Rect(left, top, width, height / 5 * 3), context, { fillColor: fillColor });
-										helper.fillRectWithState(new Rect(left, top + height / 5 * 4, width, height / 5), context, { fillColor: fillColor });
+										messageUtils.drawExclamationMarkBox(context, {
+											bgColor: DEEP_ORANGE_A100,
+											color: bgColor
+										}, helper);
 									}
 								});
 							}
@@ -5732,12 +5731,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						function ErrorMessageElement() {
 							_classCallCheck(this, ErrorMessageElement);
 
-							var _this37 = _possibleConstructorReturn(this, (ErrorMessageElement.__proto__ || Object.getPrototypeOf(ErrorMessageElement)).call(this));
+							var _this39 = _possibleConstructorReturn(this, (ErrorMessageElement.__proto__ || Object.getPrototypeOf(ErrorMessageElement)).call(this));
 
 							__webpack_require__( /*! ./ErrorMessageElement.css */"./columns/message/internal/ErrorMessageElement.css");
-							_this37._rootElement.classList.add(CLASSNAME);
-							_this37._messageElement.classList.add(MESSAGE_CLASSNAME);
-							return _this37;
+							_this39._rootElement.classList.add(CLASSNAME);
+							_this39._messageElement.classList.add(MESSAGE_CLASSNAME);
+							return _this39;
 						}
 
 						return ErrorMessageElement;
@@ -5797,12 +5796,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					var HIDDEN_CLASSNAME = CLASSNAME + '--hidden';
 					var SHOWN_CLASSNAME = CLASSNAME + '--shown';
 
-					function createrootElement() {
+					function createMessageDomElement() {
 						__webpack_require__( /*! ./MessageElement.css */"./columns/message/internal/MessageElement.css");
-						var element = createElement('div', { classList: [CLASSNAME, HIDDEN_CLASSNAME] });
-						var message = createElement('span', { classList: [MESSAGE_CLASSNAME] });
-						element.appendChild(message);
-						return element;
+						var rootElement = createElement('div', { classList: [CLASSNAME, HIDDEN_CLASSNAME] });
+						var messageElement = createElement('span', { classList: [MESSAGE_CLASSNAME] });
+						rootElement.appendChild(messageElement);
+						return rootElement;
 					}
 
 					var MessageElement = function () {
@@ -5810,7 +5809,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							_classCallCheck(this, MessageElement);
 
 							this._handler = new EventHandler();
-							var rootElement = this._rootElement = createrootElement();
+							var rootElement = this._rootElement = createMessageDomElement();
 							this._messageElement = rootElement.querySelector('.' + MESSAGE_CLASSNAME);
 						}
 
@@ -5835,7 +5834,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									rootElement.classList.add(SHOWN_CLASSNAME);
 									rootElement.classList.remove(HIDDEN_CLASSNAME);
 
-									messageElement.textContent = message;
+									messageElement.textContent = message.message;
 								} else {
 									this._detach();
 								}
@@ -5887,11 +5886,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									    frozenRect = _grid$getAttachCellAr5.rect;
 
 									if (top < frozenRect.bottom) {
-										return false;
+										return false; //範囲外
 									}
 								} else {
 									if (top < 0) {
-										return false;
+										return false; //範囲外
 									}
 								}
 								if (col >= frozenColCount && frozenColCount > 0) {
@@ -5899,21 +5898,21 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									    _frozenRect = _grid$getAttachCellAr6.rect;
 
 									if (left < _frozenRect.right) {
-										return false;
+										return false; //範囲外
 									}
 								} else {
 									if (left < 0) {
-										return false;
+										return false; //範囲外
 									}
 								}
 								var offsetHeight = element.offsetHeight,
 								    offsetWidth = element.offsetWidth;
 
 								if (offsetHeight < top) {
-									return false;
+									return false; //範囲外
 								}
 								if (offsetWidth < left) {
-									return false;
+									return false; //範囲外
 								}
 
 								rootElement.style.top = top.toFixed() + 'px';
@@ -5984,18 +5983,77 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						function WarningMessageElement() {
 							_classCallCheck(this, WarningMessageElement);
 
-							var _this38 = _possibleConstructorReturn(this, (WarningMessageElement.__proto__ || Object.getPrototypeOf(WarningMessageElement)).call(this));
+							var _this40 = _possibleConstructorReturn(this, (WarningMessageElement.__proto__ || Object.getPrototypeOf(WarningMessageElement)).call(this));
 
 							__webpack_require__( /*! ./WarningMessageElement.css */"./columns/message/internal/WarningMessageElement.css");
-							_this38._rootElement.classList.add(CLASSNAME);
-							_this38._messageElement.classList.add(MESSAGE_CLASSNAME);
-							return _this38;
+							_this40._rootElement.classList.add(CLASSNAME);
+							_this40._messageElement.classList.add(MESSAGE_CLASSNAME);
+							return _this40;
 						}
 
 						return WarningMessageElement;
 					}(MessageElement);
 
 					module.exports = WarningMessageElement;
+
+					/***/
+				},
+
+				/***/"./columns/message/messageUtils.js":
+				/*!*****************************************!*\
+      !*** ./columns/message/messageUtils.js ***!
+      \*****************************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function columnsMessageMessageUtilsJs(module, exports, __webpack_require__) {
+
+					"use strict";
+
+					var Rect = __webpack_require__( /*! ../../internal/Rect */"./internal/Rect.js");
+					module.exports = {
+						drawExclamationMarkBox: function drawExclamationMarkBox(context, style, helper) {
+							var bgColor = style.bgColor,
+							    color = style.color;
+
+							var ctx = context.getContext();
+							var rect = context.getRect();
+							// draw box
+							ctx.fillStyle = bgColor;
+							var boxRect = rect.copy();
+							boxRect.left = boxRect.right - 24;
+							ctx.fillRect(boxRect.left, boxRect.top, boxRect.width, boxRect.height - 1);
+
+							// draw exclamation mark
+							var fillColor = color;
+							var height = 20;
+							var width = height / 5;
+							var left = boxRect.left + (boxRect.width - width) / 2;
+							var top = boxRect.top + (boxRect.height - height) / 2;
+							helper.fillRectWithState(new Rect(left, top, width, height / 5 * 3), context, { fillColor: fillColor });
+							helper.fillRectWithState(new Rect(left, top + height / 5 * 4, width, height / 5), context, { fillColor: fillColor });
+						},
+						drawInfomationMarkBox: function drawInfomationMarkBox(context, style, helper) {
+							var bgColor = style.bgColor,
+							    color = style.color;
+
+							var ctx = context.getContext();
+							var rect = context.getRect();
+							// draw box
+							ctx.fillStyle = bgColor;
+							var boxRect = rect.copy();
+							boxRect.left = boxRect.right - 24;
+							ctx.fillRect(boxRect.left, boxRect.top, boxRect.width, boxRect.height - 1);
+
+							// draw i mark
+							var fillColor = color;
+							var height = 20;
+							var width = height / 5;
+							var left = boxRect.left + (boxRect.width - width) / 2;
+							var top = boxRect.top + (boxRect.height - height) / 2;
+							helper.fillRectWithState(new Rect(left, top, width, height / 5), context, { fillColor: fillColor });
+							helper.fillRectWithState(new Rect(left, top + height / 5 * 2, width, height / 5 * 3), context, { fillColor: fillColor });
+						}
+					};
 
 					/***/
 				},
@@ -6115,10 +6173,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, BaseStyle);
 
-								var _this39 = _possibleConstructorReturn(this, (BaseStyle.__proto__ || Object.getPrototypeOf(BaseStyle)).call(this));
+								var _this41 = _possibleConstructorReturn(this, (BaseStyle.__proto__ || Object.getPrototypeOf(BaseStyle)).call(this));
 
-								_this39._bgColor = bgColor;
-								return _this39;
+								_this41._bgColor = bgColor;
+								return _this41;
 							}
 
 							_createClass(BaseStyle, [{
@@ -6198,14 +6256,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 							_classCallCheck(this, BranchGraphStyle);
 
-							var _this40 = _possibleConstructorReturn(this, (BranchGraphStyle.__proto__ || Object.getPrototypeOf(BranchGraphStyle)).call(this, adj(style)));
+							var _this42 = _possibleConstructorReturn(this, (BranchGraphStyle.__proto__ || Object.getPrototypeOf(BranchGraphStyle)).call(this, adj(style)));
 
-							_this40._branchColors = style.branchColors || DEFAULT_BRANCH_COLORS;
-							_this40._margin = style.margin || 4;
-							_this40._circleSize = style.circleSize || 16;
-							_this40._branchLineWidth = style.branchLineWidth || 4;
-							_this40._mergeStyle = style.mergeStyle === 'straight' ? 'straight' : 'bezier';
-							return _this40;
+							_this42._branchColors = style.branchColors || DEFAULT_BRANCH_COLORS;
+							_this42._margin = style.margin || 4;
+							_this42._circleSize = style.circleSize || 16;
+							_this42._branchLineWidth = style.branchLineWidth || 4;
+							_this42._mergeStyle = style.mergeStyle === 'straight' ? 'straight' : 'bezier';
+							return _this42;
 						}
 
 						_createClass(BranchGraphStyle, [{
@@ -6306,12 +6364,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, ButtonStyle);
 
-								var _this41 = _possibleConstructorReturn(this, (ButtonStyle.__proto__ || Object.getPrototypeOf(ButtonStyle)).call(this, adj(style)));
+								var _this43 = _possibleConstructorReturn(this, (ButtonStyle.__proto__ || Object.getPrototypeOf(ButtonStyle)).call(this, adj(style)));
 
 								var buttonBgColor = style.buttonBgColor;
 
-								_this41._buttonBgColor = buttonBgColor;
-								return _this41;
+								_this43._buttonBgColor = buttonBgColor;
+								return _this43;
 							}
 
 							_createClass(ButtonStyle, [{
@@ -6377,16 +6435,16 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, CheckStyle);
 
-								var _this42 = _possibleConstructorReturn(this, (CheckStyle.__proto__ || Object.getPrototypeOf(CheckStyle)).call(this, adj(style)));
+								var _this44 = _possibleConstructorReturn(this, (CheckStyle.__proto__ || Object.getPrototypeOf(CheckStyle)).call(this, adj(style)));
 
 								var uncheckBgColor = style.uncheckBgColor,
 								    checkBgColor = style.checkBgColor,
 								    borderColor = style.borderColor;
 
-								_this42._uncheckBgColor = uncheckBgColor;
-								_this42._checkBgColor = checkBgColor;
-								_this42._borderColor = borderColor;
-								return _this42;
+								_this44._uncheckBgColor = uncheckBgColor;
+								_this44._checkBgColor = checkBgColor;
+								_this44._borderColor = borderColor;
+								return _this44;
 							}
 
 							_createClass(CheckStyle, [{
@@ -6526,11 +6584,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, ImageStyle);
 
-								var _this44 = _possibleConstructorReturn(this, (ImageStyle.__proto__ || Object.getPrototypeOf(ImageStyle)).call(this, adj(style)));
+								var _this46 = _possibleConstructorReturn(this, (ImageStyle.__proto__ || Object.getPrototypeOf(ImageStyle)).call(this, adj(style)));
 
-								_this44._imageSizing = style.imageSizing;
-								_this44._margin = style.margin || 4;
-								return _this44;
+								_this46._imageSizing = style.imageSizing;
+								_this46._margin = style.margin || 4;
+								return _this46;
 							}
 
 							_createClass(ImageStyle, [{
@@ -6605,10 +6663,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, MultilineTextStyle);
 
-								var _this45 = _possibleConstructorReturn(this, (MultilineTextStyle.__proto__ || Object.getPrototypeOf(MultilineTextStyle)).call(this, adj(style)));
+								var _this47 = _possibleConstructorReturn(this, (MultilineTextStyle.__proto__ || Object.getPrototypeOf(MultilineTextStyle)).call(this, adj(style)));
 
-								_this45._lineHeight = style.lineHeight || '1em';
-								return _this45;
+								_this47._lineHeight = style.lineHeight || '1em';
+								return _this47;
 							}
 
 							_createClass(MultilineTextStyle, [{
@@ -6734,12 +6792,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, PercentCompleteBarStyle);
 
-								var _this47 = _possibleConstructorReturn(this, (PercentCompleteBarStyle.__proto__ || Object.getPrototypeOf(PercentCompleteBarStyle)).call(this, style));
+								var _this49 = _possibleConstructorReturn(this, (PercentCompleteBarStyle.__proto__ || Object.getPrototypeOf(PercentCompleteBarStyle)).call(this, style));
 
-								_this47._barColor = style.barColor || DEFAULT_BAR_COLOR;
-								_this47._barBgColor = style.barBgColor || '#f0f3f5';
-								_this47._barHeight = style.barHeight || 3;
-								return _this47;
+								_this49._barColor = style.barColor || DEFAULT_BAR_COLOR;
+								_this49._barBgColor = style.barBgColor || '#f0f3f5';
+								_this49._barHeight = style.barHeight || 3;
+								return _this49;
 							}
 
 							_createClass(PercentCompleteBarStyle, [{
@@ -6815,11 +6873,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, StdBaseStyle);
 
-								var _this48 = _possibleConstructorReturn(this, (StdBaseStyle.__proto__ || Object.getPrototypeOf(StdBaseStyle)).call(this, style));
+								var _this50 = _possibleConstructorReturn(this, (StdBaseStyle.__proto__ || Object.getPrototypeOf(StdBaseStyle)).call(this, style));
 
-								_this48._textAlign = style.textAlign || 'left';
-								_this48._textBaseline = style.textBaseline || 'middle';
-								return _this48;
+								_this50._textAlign = style.textAlign || 'left';
+								_this50._textBaseline = style.textBaseline || 'middle';
+								return _this50;
 							}
 
 							_createClass(StdBaseStyle, [{
@@ -6885,12 +6943,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, Style);
 
-								var _this49 = _possibleConstructorReturn(this, (Style.__proto__ || Object.getPrototypeOf(Style)).call(this, style));
+								var _this51 = _possibleConstructorReturn(this, (Style.__proto__ || Object.getPrototypeOf(Style)).call(this, style));
 
-								_this49._color = style.color;
-								_this49._font = style.font;
-								_this49._padding = style.padding;
-								return _this49;
+								_this51._color = style.color;
+								_this51._font = style.font;
+								_this51._padding = style.padding;
+								return _this51;
 							}
 
 							_createClass(Style, [{
@@ -7128,22 +7186,23 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							_createClass(BaseColumn, [{
 								key: 'onDrawCell',
 								value: function onDrawCell(cellValue, info, context, grid) {
-									var _this50 = this;
+									var _this52 = this;
 
 									var style = info.style,
 									    getRecord = info.getRecord,
 									    drawCellBase = info.drawCellBase;
 
-									delete info.getRecord;
-									delete info.style;
 									var helper = grid.getGridCanvasHelper();
 									drawCellBase();
 
+									var record = getRecord();
+									if (isPromise(record)) {
+										return record.then(function () {
+											return _this52.onDrawCell(cellValue, info, context, grid);
+										});
+									}
 									//文字描画
 									if (isPromise(cellValue)) {
-										if (context.drawing) {
-											return null;
-										}
 										var start = Date.now();
 										return cellValue.then(function (val) {
 											var currentContext = context.toCurrentContext();
@@ -7159,12 +7218,17 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 												if (!drawRect) {
 													return;
 												}
-												var actStyle = styleContents.of(style, getRecord(), _this50.StyleClass);
-												_this50.drawInternal(_this50.convertInternal(val), currentContext, actStyle, helper, grid, info);
-												_this50.drawMessageInternal(info.getMessage(), context, actStyle, helper, grid, info);
+												var record = getRecord();
+												if (isPromise(record)) {
+													return;
+												}
+
+												var actStyle = styleContents.of(style, record, _this52.StyleClass);
+												_this52.drawInternal(_this52.convertInternal(val), currentContext, actStyle, helper, grid, info);
+												_this52.drawMessageInternal(info.getMessage(), context, actStyle, helper, grid, info);
 											};
 
-											if (!isFadeinWhenCallbackInPromise(_this50, grid)) {
+											if (!isFadeinWhenCallbackInPromise(_this52, grid)) {
 												drawInternal(); //単純な描画
 											} else {
 												var col = context.col,
@@ -7180,7 +7244,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 											}
 										});
 									} else {
-										var actStyle = styleContents.of(style, getRecord(), this.StyleClass);
+										var actStyle = styleContents.of(style, record, this.StyleClass);
 										this.drawInternal(this.convertInternal(cellValue), context, actStyle, helper, grid, info);
 										this.drawMessageInternal(info.getMessage(), context, actStyle, helper, grid, info);
 										//フェードインの場合透過するため背景を透過で上書き
@@ -7265,6 +7329,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 						function getAllColumnData(grid, col, callback) {
 							var dataSource = grid.dataSource;
+
 							var field = grid.getField(col);
 							if (isObject(field) && field.get && field.set) {
 								field = field.get;
@@ -7544,8 +7609,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								}));
 							}
 
-							joinLine(froms, fromIndex);
-
+							if (joinLine(froms, fromIndex) && fromTargetLine) {
+								fromTargetLine[fromIndex].lines = BranchPoint.mergeLines(fromTargetLine[fromIndex].lines.concat([new BranchLine({
+									fromIndex: fromIndex,
+									colorIndex: fromIndex
+								})]));
+							}
 							joinLine(timeline, toIndex);
 
 							return result;
@@ -7735,11 +7804,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, BranchGraphColumn);
 
-								var _this51 = _possibleConstructorReturn(this, (BranchGraphColumn.__proto__ || Object.getPrototypeOf(BranchGraphColumn)).call(this, option));
+								var _this53 = _possibleConstructorReturn(this, (BranchGraphColumn.__proto__ || Object.getPrototypeOf(BranchGraphColumn)).call(this, option));
 
-								_this51._start = option.start || 'bottom';
-								_this51._cache = isDef(option.cache) ? option.cache : false;
-								return _this51;
+								_this53._start = option.start || 'bottom';
+								_this53._cache = isDef(option.cache) ? option.cache : false;
+								return _this53;
 							}
 
 							_createClass(BranchGraphColumn, [{
@@ -7898,10 +7967,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, ButtonColumn);
 
-								var _this52 = _possibleConstructorReturn(this, (ButtonColumn.__proto__ || Object.getPrototypeOf(ButtonColumn)).call(this, option));
+								var _this54 = _possibleConstructorReturn(this, (ButtonColumn.__proto__ || Object.getPrototypeOf(ButtonColumn)).call(this, option));
 
-								_this52._caption = option.caption;
-								return _this52;
+								_this54._caption = option.caption;
+								return _this54;
 							}
 
 							_createClass(ButtonColumn, [{
@@ -8204,14 +8273,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, IconColumn);
 
-								var _this55 = _possibleConstructorReturn(this, (IconColumn.__proto__ || Object.getPrototypeOf(IconColumn)).call(this, option));
+								var _this57 = _possibleConstructorReturn(this, (IconColumn.__proto__ || Object.getPrototypeOf(IconColumn)).call(this, option));
 
-								_this55._tagName = option.tagName || 'i';
-								_this55._className = option.className;
-								_this55._content = option.content;
-								_this55._name = option.name;
-								_this55._iconWidth = option.iconWidth;
-								return _this55;
+								_this57._tagName = option.tagName || 'i';
+								_this57._className = option.className;
+								_this57._content = option.content;
+								_this57._name = option.name;
+								_this57._iconWidth = option.iconWidth;
+								return _this57;
 							}
 
 							_createClass(IconColumn, [{
@@ -8406,10 +8475,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, MenuColumn);
 
-								var _this57 = _possibleConstructorReturn(this, (MenuColumn.__proto__ || Object.getPrototypeOf(MenuColumn)).call(this, option));
+								var _this59 = _possibleConstructorReturn(this, (MenuColumn.__proto__ || Object.getPrototypeOf(MenuColumn)).call(this, option));
 
-								_this57._options = normalize(option.options);
-								return _this57;
+								_this59._options = normalize(option.options);
+								return _this59;
 							}
 
 							_createClass(MenuColumn, [{
@@ -8444,7 +8513,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									var text = this._convertInternal(value);
 									helper.testFontLoad(font, text, context);
 									utils.loadIcons(getIcon(), context, helper, function (icons, context) {
-										var basePadding = helper.toBoxPixelArray(padding || 0, context);
+										var basePadding = helper.toBoxPixelArray(padding || 0, context, font);
 										var textPadding = basePadding.slice(0);
 										textPadding[1] += 26; // icon padding
 										var iconPadding = basePadding.slice(0);
@@ -8626,10 +8695,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, NumberColumn);
 
-								var _this59 = _possibleConstructorReturn(this, (NumberColumn.__proto__ || Object.getPrototypeOf(NumberColumn)).call(this, option));
+								var _this61 = _possibleConstructorReturn(this, (NumberColumn.__proto__ || Object.getPrototypeOf(NumberColumn)).call(this, option));
 
-								_this59._format = option.format;
-								return _this59;
+								_this61._format = option.format;
+								return _this61;
 							}
 
 							_createClass(NumberColumn, [{
@@ -8703,14 +8772,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, PercentCompleteBarColumn);
 
-								var _this60 = _possibleConstructorReturn(this, (PercentCompleteBarColumn.__proto__ || Object.getPrototypeOf(PercentCompleteBarColumn)).call(this, option));
+								var _this62 = _possibleConstructorReturn(this, (PercentCompleteBarColumn.__proto__ || Object.getPrototypeOf(PercentCompleteBarColumn)).call(this, option));
 
-								_this60._min = option.min || 0;
-								_this60._max = option.max || _this60._min + 100;
-								_this60._formatter = option.formatter || function (v) {
+								_this62._min = option.min || 0;
+								_this62._max = option.max || _this62._min + 100;
+								_this62._formatter = option.formatter || function (v) {
 									return v;
 								};
-								return _this60;
+								return _this62;
 							}
 
 							_createClass(PercentCompleteBarColumn, [{
@@ -8727,7 +8796,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									    barHeight = style.barHeight;
 
 
-									var svalue = value + '';
+									var svalue = '' + value;
 									if (str.endsWith(svalue, '%')) {
 										svalue = svalue.substr(0, svalue.length - 1);
 									}
@@ -8785,12 +8854,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						var icons = __webpack_require__( /*! ../../internal/icons */"./internal/icons.js");
 						module.exports = {
 							loadIcons: function loadIcons(icon, context, helper, callback) {
-								var _this61 = this;
+								var _this63 = this;
 
 								if (icon) {
 									if (isPromise(icon)) {
 										icon.then(function (i) {
-											_this61.loadIcon(i, context.toCurrentContext(), callback);
+											_this63.loadIcon(i, context.toCurrentContext(), callback);
 										});
 										icon = null;
 									} else {
@@ -8994,11 +9063,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							return new Rect(left, grid[_].scroll.top, width, grid[_].canvas.height);
 						};
 
-						var _isCellDrawing = function _isCellDrawing(grid, col, row) {
+						var _getCellDrawing = function _getCellDrawing(grid, col, row) {
 							if (!grid[_].drawCells[row]) {
-								return false;
+								return null;
 							}
-							return !!grid[_].drawCells[row][col];
+							return grid[_].drawCells[row][col];
 						};
 
 						var _putCellDrawing = function _putCellDrawing(grid, col, row, context) {
@@ -9026,7 +9095,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							if (drawRect.height > 0 && drawRect.width > 0) {
 								ctx.save();
 								try {
-									var dcContext = new DrawCellContext(col, row, ctx, rect, drawRect, _isCellDrawing(grid, col, row), grid[_].selection, drawLayers);
+									var cellDrawing = _getCellDrawing(grid, col, row);
+									if (cellDrawing) {
+										cellDrawing.cancel();
+									}
+									var dcContext = new DrawCellContext(col, row, ctx, rect, drawRect, !!cellDrawing, grid[_].selection, drawLayers);
 									var p = grid.onDrawCell(col, row, dcContext);
 									if (isPromise(p)) {
 										//遅延描画
@@ -9831,11 +9904,15 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						var NumberMap = __webpack_require__( /*! ../internal/NumberMap */"./internal/NumberMap.js");
 						var style = __webpack_require__( /*! ../internal/style */"./internal/style.js");
 						var calc = __webpack_require__( /*! ../internal/calc */"./internal/calc.js");
+
+						var _webpack_require__47 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
+						    getFontSize = _webpack_require__47.getFontSize;
+
 						var hiDPI = __webpack_require__( /*! ../internal/hiDPI */"./internal/hiDPI.js");
 						//protected symbol
 
-						var _webpack_require__47 = __webpack_require__( /*! ../internal/symbolManager */"./internal/symbolManager.js"),
-						    _ = _webpack_require__47.PROTECTED_SYMBOL;
+						var _webpack_require__48 = __webpack_require__( /*! ../internal/symbolManager */"./internal/symbolManager.js"),
+						    _ = _webpack_require__48.PROTECTED_SYMBOL;
 
 						var KEY_END = 35;
 						var KEY_HOME = 36;
@@ -9897,24 +9974,24 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: '_bindMoveAndUp',
 								value: function _bindMoveAndUp(e) {
-									var _this62 = this;
+									var _this64 = this;
 
 									if (!isTouchEvent(e)) {
 										this._events.mousemove = this._handler.on(document.body, 'mousemove', function (e) {
-											return _this62._mouseMove(e);
+											return _this64._mouseMove(e);
 										});
 										this._events.mouseup = this._handler.on(document.body, 'mouseup', function (e) {
-											return _this62._mouseUp(e);
+											return _this64._mouseUp(e);
 										});
 									} else {
 										this._events.touchmove = this._handler.on(document.body, 'touchmove', function (e) {
-											return _this62._mouseMove(e);
+											return _this64._mouseMove(e);
 										}, { passive: false });
 										this._events.touchend = this._handler.on(document.body, 'touchend', function (e) {
-											return _this62._mouseUp(e);
+											return _this64._mouseUp(e);
 										});
 										this._events.touchcancel = this._handler.on(document.body, 'touchcancel', function (e) {
-											return _this62._mouseUp(e);
+											return _this64._mouseUp(e);
 										});
 									}
 									this._started = true;
@@ -9941,7 +10018,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: '_mouseUp',
 								value: function _mouseUp(e) {
-									var _this63 = this;
+									var _this65 = this;
 
 									this._handler.off(this._events.mousemove);
 									this._handler.off(this._events.touchmove);
@@ -9959,7 +10036,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 										//移動が発生していたら
 										this._mouseEndPoint = _getMouseAbstractPoint(this._grid, e);
 										setTimeout(function () {
-											_this63._mouseEndPoint = null;
+											_this65._mouseEndPoint = null;
 										}, 10);
 									}
 								}
@@ -10022,7 +10099,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: '_moveInternal',
 								value: function _moveInternal(e) {
-									var _this65 = this;
+									var _this67 = this;
 
 									var cell = this._getTargetCell(e);
 									if (!cell || this._cell.col === cell.col && this._cell.row === cell.row) {
@@ -10032,20 +10109,20 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 									//make visible
 									var makeVisibleCol = function () {
-										if (cell.col < _this65._cell.col && 0 < cell.col) {
+										if (cell.col < _this67._cell.col && 0 < cell.col) {
 											// move left
 											return cell.col - 1;
-										} else if (_this65._cell.col < cell.col && cell.col + 1 < _this65._grid.colCount) {
+										} else if (_this67._cell.col < cell.col && cell.col + 1 < _this67._grid.colCount) {
 											// move right
 											return cell.col + 1;
 										}
 										return cell.col;
 									}();
 									var makeVisibleRow = function () {
-										if (cell.row < _this65._cell.row && 0 < cell.row) {
+										if (cell.row < _this67._cell.row && 0 < cell.row) {
 											// move up
 											return cell.row - 1;
-										} else if (_this65._cell.row < cell.row && cell.row + 1 < _this65._grid.rowCount) {
+										} else if (_this67._cell.row < cell.row && cell.row + 1 < _this67._grid.rowCount) {
 											// move down
 											return cell.row + 1;
 										}
@@ -10086,10 +10163,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							function ColumnResizer(grid) {
 								_classCallCheck(this, ColumnResizer);
 
-								var _this66 = _possibleConstructorReturn(this, (ColumnResizer.__proto__ || Object.getPrototypeOf(ColumnResizer)).call(this, grid));
+								var _this68 = _possibleConstructorReturn(this, (ColumnResizer.__proto__ || Object.getPrototypeOf(ColumnResizer)).call(this, grid));
 
-								_this66._targetCol = -1;
-								return _this66;
+								_this68._targetCol = -1;
+								return _this68;
 							}
 
 							_createClass(ColumnResizer, [{
@@ -10152,93 +10229,117 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							function FocusControl(grid, parentElement, scrollable) {
 								_classCallCheck(this, FocusControl);
 
-								var _this67 = _possibleConstructorReturn(this, (FocusControl.__proto__ || Object.getPrototypeOf(FocusControl)).call(this));
+								var _this69 = _possibleConstructorReturn(this, (FocusControl.__proto__ || Object.getPrototypeOf(FocusControl)).call(this));
 
-								_this67._grid = grid;
-								_this67._scrollable = scrollable;
-								_this67._handler = new EventHandler();
-								_this67._input = document.createElement('input');
-								_this67._input.classList.add('grid-focus-control');
-								_this67._input.readOnly = true;
-								parentElement.appendChild(_this67._input);
+								_this69._grid = grid;
+								_this69._scrollable = scrollable;
+								_this69._handler = new EventHandler();
+								_this69._input = document.createElement('input');
+								_this69._input.classList.add('grid-focus-control');
+								_this69._input.readOnly = true;
+								parentElement.appendChild(_this69._input);
 
-								_this67._handler.on(_this67._input, 'compositionstart', function (e) {
-									_this67._input.classList.add('composition');
-									_this67._input.style.font = _this67._grid.font || '16px sans-serif';
-									_this67._isComposition = true;
+								_this69._handler.on(_this69._input, 'compositionstart', function (e) {
+									_this69._input.classList.add('composition');
+									_this69._input.style.font = _this69._grid.font || '16px sans-serif';
+									_this69._isComposition = true;
+									if (_this69._compositionEnd) {
+										clearTimeout(_this69._compositionEnd);
+										delete _this69._compositionEnd;
+									}
 									grid.focus();
 								});
-								_this67._handler.on(_this67._input, 'compositionend', function (e) {
-									_this67._isComposition = false;
-									_this67._input.classList.remove('composition');
-									_this67._input.style.font = '';
-									if (!_this67._input.readOnly) {
-										_this67.fireListeners('input', _this67._input.value);
+
+								var handleCompositionEnd = function handleCompositionEnd() {
+									_this69._isComposition = false;
+									_this69._input.classList.remove('composition');
+									_this69._input.style.font = '';
+									if (!_this69._input.readOnly) {
+										_this69.fireListeners('input', _this69._input.value);
 									}
-									setSafeInputValue(_this67._input, '');
+									setSafeInputValue(_this69._input, '');
+
+									if (_this69._compositionEnd) {
+										clearTimeout(_this69._compositionEnd);
+										delete _this69._compositionEnd;
+									}
+								};
+								_this69._handler.on(_this69._input, 'compositionend', function (e) {
+									_this69._compositionEnd = setTimeout(handleCompositionEnd);
 								});
-								_this67._handler.on(_this67._input, 'keypress', function (e) {
-									if (_this67._isComposition) {
+								_this69._handler.on(_this69._input, 'keypress', function (e) {
+									if (_this69._isComposition) {
 										return;
 									}
-									if (!_this67._input.readOnly && e.key && e.key.length === 1) {
+									if (!_this69._input.readOnly && e.key && e.key.length === 1) {
 										if (e.key === 'c' && (e.ctrlKey || e.metaKey)) {
 											//copy! for Firefox
 										} else {
-											_this67.fireListeners('input', e.key);
+											_this69.fireListeners('input', e.key);
 											cancelEvent(e);
 										}
 									}
-									setSafeInputValue(_this67._input, '');
+									setSafeInputValue(_this69._input, '');
 								});
-								_this67._handler.on(_this67._input, 'keydown', function (e) {
-									if (_this67._isComposition) {
+								_this69._handler.on(_this69._input, 'keydown', function (e) {
+									if (_this69._isComposition) {
+										if (_this69._compositionEnd) {
+											handleCompositionEnd();
+											cancelEvent(e);
+										}
 										return;
 									}
 									var keyCode = getKeyCode(e);
-									_this67.fireListeners('keydown', keyCode, e);
+									_this69.fireListeners('keydown', keyCode, e);
 
-									if (!_this67._input.readOnly && _this67._input.value) {
+									if (!_this69._input.readOnly && _this69._input.value) {
 										// for Safari
-										_this67.fireListeners('input', _this67._input.value);
+										_this69.fireListeners('input', _this69._input.value);
 									}
 
-									setSafeInputValue(_this67._input, '');
+									setSafeInputValue(_this69._input, '');
 								});
 								var inputClear = function inputClear(e) {
-									if (_this67._isComposition) {
+									if (_this69._isComposition) {
 										return;
 									}
-									setSafeInputValue(_this67._input, '');
+									setSafeInputValue(_this69._input, '');
 								};
+								_this69._handler.on(_this69._input, 'keyup', function (e) {
+									if (_this69._isComposition) {
+										if (_this69._compositionEnd) {
+											handleCompositionEnd();
+										}
+									}
+									inputClear(e);
+								});
 
-								_this67._handler.on(_this67._input, 'input', inputClear);
-								_this67._handler.on(_this67._input, 'keyup', inputClear);
-								_this67._handler.on(document, 'keydown', function (e) {
+								_this69._handler.on(_this69._input, 'input', inputClear);
+								_this69._handler.on(document, 'keydown', function (e) {
 									if (!browser.IE) {
 										return;
 									}
-									if (e.target !== _this67._input) {
+									if (e.target !== _this69._input) {
 										return;
 									}
 									var keyCode = getKeyCode(e);
 									if (keyCode === KEY_ALPHA_C && e.ctrlKey) {
-										setSafeInputValue(_this67._input, 'dummy');
-										_this67._input.select();
+										setSafeInputValue(_this69._input, 'dummy');
+										_this69._input.select();
 										setTimeout(function () {
-											setSafeInputValue(_this67._input, '');
+											setSafeInputValue(_this69._input, '');
 										}, 100);
 									}
 								});
-								_this67._handler.on(document, 'copy', function (e) {
-									if (_this67._isComposition) {
+								_this69._handler.on(document, 'copy', function (e) {
+									if (_this69._isComposition) {
 										return;
 									}
 									if (!isDescendantElement(parentElement, e.target)) {
 										return;
 									}
-									setSafeInputValue(_this67._input, '');
-									var data = array.find(_this67.fireListeners('copy'), isDef);
+									setSafeInputValue(_this69._input, '');
+									var data = array.find(_this69.fireListeners('copy'), isDef);
 									if (isDef(data)) {
 										cancelEvent(e);
 										if (browser.IE) {
@@ -10248,16 +10349,16 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 										}
 									}
 								});
-								return _this67;
+								return _this69;
 							}
 
 							_createClass(FocusControl, [{
 								key: 'onKeyDownMove',
 								value: function onKeyDownMove(fn) {
-									var _this68 = this;
+									var _this70 = this;
 
 									this._handler.on(this._input, 'keydown', function (e) {
-										if (_this68._isComposition) {
+										if (_this70._isComposition) {
 											return;
 										}
 										var keyCode = getKeyCode(e);
@@ -10370,39 +10471,39 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							function Selection(grid) {
 								_classCallCheck(this, Selection);
 
-								var _this69 = _possibleConstructorReturn(this, (Selection.__proto__ || Object.getPrototypeOf(Selection)).call(this));
+								var _this71 = _possibleConstructorReturn(this, (Selection.__proto__ || Object.getPrototypeOf(Selection)).call(this));
 
-								_this69._grid = grid;
+								_this71._grid = grid;
 
-								_this69._sel = { col: 0, row: 0 };
-								_this69._focus = { col: 0, row: 0 };
+								_this71._sel = { col: 0, row: 0 };
+								_this71._focus = { col: 0, row: 0 };
 
-								_this69._start = { col: 0, row: 0 };
-								_this69._end = { col: 0, row: 0 };
-								return _this69;
+								_this71._start = { col: 0, row: 0 };
+								_this71._end = { col: 0, row: 0 };
+								return _this71;
 							}
 
 							_createClass(Selection, [{
 								key: '_setSelectCell',
 								value: function _setSelectCell(col, row) {
-									var _this70 = this;
+									var _this72 = this;
 
 									this._wrapFireSelectedEvent(function () {
-										_this70._sel = { col: col, row: row };
-										_this70._start = { col: col, row: row };
+										_this72._sel = { col: col, row: row };
+										_this72._start = { col: col, row: row };
 									});
 								}
 							}, {
 								key: '_setFocusCell',
 								value: function _setFocusCell(col, row, keepSelect) {
-									var _this71 = this;
+									var _this73 = this;
 
 									this._wrapFireSelectedEvent(function () {
 										if (!keepSelect) {
-											_this71._setSelectCell(col, row);
+											_this73._setSelectCell(col, row);
 										}
-										_this71._focus = { col: col, row: row };
-										_this71._end = { col: col, row: row };
+										_this73._focus = { col: col, row: row };
+										_this73._end = { col: col, row: row };
 									});
 								}
 							}, {
@@ -10440,6 +10541,32 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									}
 								}
 							}, {
+								key: '_updateGridRange',
+								value: function _updateGridRange() {
+									var _grid = this._grid,
+									    rowCount = _grid.rowCount,
+									    colCount = _grid.colCount;
+
+									var points = [this._sel, this._focus, this._start, this._end];
+									var needChange = false;
+									for (var i = 0; i < points.length; i++) {
+										if (colCount <= points[i].col || rowCount <= points[i].row) {
+											needChange = true;
+											break;
+										}
+									}
+									if (!needChange) {
+										return false;
+									}
+									this._wrapFireSelectedEvent(function () {
+										points.forEach(function (p) {
+											p.col = Math.min(colCount - 1, p.col);
+											p.row = Math.min(rowCount - 1, p.row);
+										});
+									});
+									return true;
+								}
+							}, {
 								key: 'range',
 								get: function get() {
 									var startCol = Math.min(this._start.col, this._end.col);
@@ -10461,15 +10588,25 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									};
 								}
 							}, {
+								key: 'focus',
+								get: function get() {
+									var _focus2 = this._focus,
+									    col = _focus2.col,
+									    row = _focus2.row;
+
+									return { col: col, row: row };
+								}
+							}, {
 								key: 'select',
 								get: function get() {
-									return {
-										col: this._sel.col,
-										row: this._sel.row
-									};
+									var _sel = this._sel,
+									    col = _sel.col,
+									    row = _sel.row;
+
+									return { col: col, row: row };
 								},
 								set: function set() {
-									var _this72 = this;
+									var _this74 = this;
 
 									var cell = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
@@ -10479,8 +10616,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 										    _cell$row = cell.row,
 										    row = _cell$row === undefined ? 0 : _cell$row;
 
-										_this72._setSelectCell(col, row);
-										_this72._setFocusCell(col, row, true);
+										_this74._setSelectCell(col, row);
+										_this74._setFocusCell(col, row, true);
 									});
 								}
 							}]);
@@ -10580,15 +10717,24 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								this._drawing = drawing;
 								this._selection = selection;
 								this._drawLayers = drawLayers;
+								this._childContexts = [];
 							}
 
 							_createClass(DrawCellContext, [{
-								key: 'getSelectState',
-
+								key: 'cancel',
+								value: function cancel() {
+									this._cancel = true;
+									this._childContexts.forEach(function (ctx) {
+										ctx.cancel();
+									});
+								}
 								/**
          * select status.
          * @return {object} select status
          */
+
+							}, {
+								key: 'getSelectState',
 								value: function getSelectState() {
 									var sel = this._selection.select;
 									return {
@@ -10640,12 +10786,28 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: 'getDrawRect',
 								value: function getDrawRect() {
+									if (this._cancel) {
+										return null;
+									}
 									if (this._mode === 0) {
 										return this._drawRect;
 									} else {
+										if (this._isOutOfRange()) {
+											return null;
+										}
+
 										var absoluteRect = this._grid.getCellRect(this._col, this._row);
 										return this._toRelativeDrawRect(absoluteRect);
 									}
+								}
+							}, {
+								key: '_isOutOfRange',
+								value: function _isOutOfRange() {
+									var _grid2 = this._grid,
+									    colCount = _grid2.colCount,
+									    rowCount = _grid2.rowCount;
+
+									return colCount <= this._col || rowCount <= this._row;
 								}
 								/**
          * get Context of current state
@@ -10660,10 +10822,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									} else {
 										var absoluteRect = this._grid.getCellRect(this._col, this._row);
 										var rect = _toRelativeRect(this._grid, absoluteRect);
-										var drawRect = this._toRelativeDrawRect(absoluteRect);
+										var drawRect = this._isOutOfRange() ? null : this._toRelativeDrawRect(absoluteRect);
 										var context = new DrawCellContext(this._col, this._row, this.getContext(), rect, drawRect, this.drawing, this._selection, this._drawLayers);
 										// toCurrentContext は自分の toCurrentContextを呼ばせる
 										context.toCurrentContext = this.toCurrentContext.bind(this);
+										this._childContexts.push(context);
+										if (this._cancel) {
+											context.cancel();
+										}
 										return context;
 									}
 								}
@@ -10804,60 +10970,60 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, DrawGrid);
 
-								var _this73 = _possibleConstructorReturn(this, (DrawGrid.__proto__ || Object.getPrototypeOf(DrawGrid)).call(this));
+								var _this75 = _possibleConstructorReturn(this, (DrawGrid.__proto__ || Object.getPrototypeOf(DrawGrid)).call(this));
 
-								_this73[_] = {};
+								_this75[_] = {};
 								style.initDocument();
-								_this73[_].element = createRootElement();
-								_this73[_].scrollable = new Scrollable();
-								_this73[_].handler = new EventHandler();
-								_this73[_].selection = new Selection(_this73);
-								_this73[_].focusControl = new FocusControl(_this73, _this73[_].scrollable.getElement(), _this73[_].scrollable);
+								_this75[_].element = createRootElement();
+								_this75[_].scrollable = new Scrollable();
+								_this75[_].handler = new EventHandler();
+								_this75[_].selection = new Selection(_this75);
+								_this75[_].focusControl = new FocusControl(_this75, _this75[_].scrollable.getElement(), _this75[_].scrollable);
 
-								_this73[_].canvas = hiDPI.transform(document.createElement('canvas'));
-								_this73[_].context = _this73[_].canvas.getContext('2d', { alpha: false });
+								_this75[_].canvas = hiDPI.transform(document.createElement('canvas'));
+								_this75[_].context = _this75[_].canvas.getContext('2d', { alpha: false });
 
-								_this73[_].rowCount = rowCount;
-								_this73[_].colCount = colCount;
-								_this73[_].frozenColCount = frozenColCount;
-								_this73[_].frozenRowCount = frozenRowCount;
+								_this75[_].rowCount = rowCount;
+								_this75[_].colCount = colCount;
+								_this75[_].frozenColCount = frozenColCount;
+								_this75[_].frozenRowCount = frozenRowCount;
 
-								_this73[_].defaultRowHeight = defaultRowHeight;
-								_this73[_].defaultColWidth = defaultColWidth;
+								_this75[_].defaultRowHeight = defaultRowHeight;
+								_this75[_].defaultColWidth = defaultColWidth;
 
-								_this73[_].font = font;
-								_this73[_].underlayBackgroundColor = underlayBackgroundColor;
+								_this75[_].font = font;
+								_this75[_].underlayBackgroundColor = underlayBackgroundColor;
 
 								/////
-								_this73[_].rowHeightsMap = new NumberMap();
-								_this73[_].colWidthsMap = new NumberMap();
-								_this73[_].colWidthsLimit = {};
-								_this73[_].calcWidthContext = {
-									_: _this73[_],
+								_this75[_].rowHeightsMap = new NumberMap();
+								_this75[_].colWidthsMap = new NumberMap();
+								_this75[_].colWidthsLimit = {};
+								_this75[_].calcWidthContext = {
+									_: _this75[_],
 									get full() {
 										return this._.canvas.width;
 									},
 									get em() {
-										return this._.context.measureText('あ').width;
+										return getFontSize(this._.context, this._.font).width;
 									}
 								};
 
-								_this73[_].columnResizer = new ColumnResizer(_this73);
-								_this73[_].cellSelector = new CellSelector(_this73);
+								_this75[_].columnResizer = new ColumnResizer(_this75);
+								_this75[_].cellSelector = new CellSelector(_this75);
 
-								_this73[_].drawCells = {};
+								_this75[_].drawCells = {};
 
-								_this73[_].element.appendChild(_this73[_].canvas);
-								_this73[_].element.appendChild(_this73[_].scrollable.getElement());
-								_this73.updateScroll();
+								_this75[_].element.appendChild(_this75[_].canvas);
+								_this75[_].element.appendChild(_this75[_].scrollable.getElement());
+								_this75.updateScroll();
 								if (parentElement) {
-									parentElement.appendChild(_this73[_].element);
-									_this73.updateSize();
+									parentElement.appendChild(_this75[_].element);
+									_this75.updateSize();
 								} else {
-									_this73.updateSize();
+									_this75.updateSize();
 								}
-								_bindEvents(_this73);
-								return _this73;
+								_bindEvents(_this75);
+								return _this75;
 							}
 
 							_createClass(DrawGrid, [{
@@ -10889,10 +11055,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									//スタイルをクリアしてサイズ値を取得
 									this[_].canvas.style.width = '';
 									this[_].canvas.style.height = '';
-									var width = Math.floor(this[_].canvas.offsetWidth ||
-									/*for legacy*/this[_].canvas.parentElement.offsetWidth - style.getScrollBarSize());
-									var height = Math.floor(this[_].canvas.offsetHeight ||
-									/*for legacy*/this[_].canvas.parentElement.offsetHeight - style.getScrollBarSize());
+									var width = Math.floor(this[_].canvas.offsetWidth || this[_].canvas.parentElement.offsetWidth - style.getScrollBarSize() /*for legacy*/
+									);
+									var height = Math.floor(this[_].canvas.offsetHeight || this[_].canvas.parentElement.offsetHeight - style.getScrollBarSize() /*for legacy*/
+									);
 
 									this[_].canvas.width = width;
 									this[_].canvas.height = height;
@@ -11323,6 +11489,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								set: function set(rowCount) {
 									this[_].rowCount = rowCount;
 									this.updateScroll();
+									if (this[_].selection._updateGridRange()) {
+										var _$selection$focus = this[_].selection.focus,
+										    col = _$selection$focus.col,
+										    row = _$selection$focus.row;
+
+										this.makeVisibleCell(col, row);
+										this.focusCell(col, row);
+									}
 								}
 							}, {
 								key: 'colCount',
@@ -11332,6 +11506,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								set: function set(colCount) {
 									this[_].colCount = colCount;
 									this.updateScroll();
+									if (this[_].selection._updateGridRange()) {
+										var _$selection$focus2 = this[_].selection.focus,
+										    col = _$selection$focus2.col,
+										    row = _$selection$focus2.row;
+
+										this.makeVisibleCell(col, row);
+										this.focusCell(col, row);
+									}
 								}
 							}, {
 								key: 'frozenColCount',
@@ -11405,9 +11587,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					"use strict";
 
 					{
-						var _webpack_require__48 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    isDef = _webpack_require__48.isDef,
-						    each = _webpack_require__48.obj.each;
+						var _webpack_require__49 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    isDef = _webpack_require__49.isDef,
+						    each = _webpack_require__49.obj.each;
 						//private symbol
 
 
@@ -11438,7 +11620,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							_createClass(EventTarget, [{
 								key: 'listen',
 								value: function listen(type, listener) {
-									var _this74 = this;
+									var _this76 = this;
 
 									var list = this[_].listeners[type] || (this[_].listeners[type] = []);
 									list.push(listener);
@@ -11448,11 +11630,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 										type: type,
 										listener: listener,
 										remove: function remove() {
-											delete _this74[_].listenerData[id];
+											delete _this76[_].listenerData[id];
 											var index = list.indexOf(listener);
 											list.splice(index, 1);
-											if (!_this74[_].listeners[type].length) {
-												delete _this74[_].listeners[type];
+											if (!_this76[_].listeners[type].length) {
+												delete _this76[_].listeners[type];
 											}
 										}
 									};
@@ -11477,11 +11659,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: 'removeEventListener',
 								value: function removeEventListener(type, listener) {
-									var _this75 = this;
+									var _this77 = this;
 
 									each(this[_].listenerData, function (obj, id) {
 										if (obj.type === type && obj.listener === listener) {
-											_this75.unlisten(id);
+											_this77.unlisten(id);
 										}
 									});
 								}
@@ -11500,7 +11682,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: 'fireListeners',
 								value: function fireListeners(type) {
-									var _this76 = this;
+									var _this78 = this;
 
 									for (var _len3 = arguments.length, args = Array(_len3 > 1 ? _len3 - 1 : 0), _key3 = 1; _key3 < _len3; _key3++) {
 										args[_key3 - 1] = arguments[_key3];
@@ -11511,7 +11693,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 										return [];
 									}
 									return list.map(function (listener) {
-										return listener.call.apply(listener, [_this76].concat(args));
+										return listener.call.apply(listener, [_this78].concat(args));
 									}).filter(isDef);
 								}
 							}, {
@@ -11543,6 +11725,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					{
 						var DataSource = __webpack_require__( /*! ./data/DataSource */"./data/DataSource.js");
 						var CachedDataSource = __webpack_require__( /*! ./data/CachedDataSource */"./data/CachedDataSource.js");
+						var FilterDataSource = __webpack_require__( /*! ./data/FilterDataSource */"./data/FilterDataSource.js");
 
 						/**
        * data modules
@@ -11552,7 +11735,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
        */
 						module.exports = {
 							DataSource: DataSource,
-							CachedDataSource: CachedDataSource
+							CachedDataSource: CachedDataSource,
+							FilterDataSource: FilterDataSource
 						};
 					}
 
@@ -11577,7 +11761,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							recCache[field] = value;
 						};
 						/**
-       * grid data source
+       * grid data source for caching Promise data
        *
        * @classdesc cheetahGrid.data.CachedDataSource
        * @extends cheetahGrid.data.DataSource
@@ -11585,8 +11769,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
        */
 
 
-						var _webpack_require__49 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    getChainSafe = _webpack_require__49.getChainSafe;
+						var _webpack_require__50 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    getChainSafe = _webpack_require__50.getChainSafe;
 
 						var DataSource = __webpack_require__( /*! ./DataSource */"./data/DataSource.js");
 
@@ -11615,11 +11799,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, CachedDataSource);
 
-								var _this77 = _possibleConstructorReturn(this, (CachedDataSource.__proto__ || Object.getPrototypeOf(CachedDataSource)).call(this, opt));
+								var _this79 = _possibleConstructorReturn(this, (CachedDataSource.__proto__ || Object.getPrototypeOf(CachedDataSource)).call(this, opt));
 
-								_this77._rCache = {};
-								_this77._fCache = {};
-								return _this77;
+								_this79._rCache = {};
+								_this79._fCache = {};
+								return _this79;
 							}
 
 							_createClass(CachedDataSource, [{
@@ -11726,7 +11910,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								return getValue(field(record), setPromiseBack);
 							}
 
-							var ss = (field + '').split('.');
+							var ss = ('' + field).split('.');
 							if (ss.length <= 1) {
 								return getValue(record[field], setPromiseBack);
 							}
@@ -11741,7 +11925,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							} else if (typeof field === 'function') {
 								return field(record, value);
 							} else if (typeof field === 'string') {
-								var ss = (field + '').split('.');
+								var ss = ('' + field).split('.');
 								var obj = record;
 								var length = ss.length;
 
@@ -11776,13 +11960,13 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
        */
 
 
-						var _webpack_require__50 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    array = _webpack_require__50.array,
-						    isDef = _webpack_require__50.isDef,
-						    isPromise = _webpack_require__50.isPromise,
-						    getOrApply = _webpack_require__50.getOrApply,
-						    applyChainSafe = _webpack_require__50.applyChainSafe,
-						    emptyFn = _webpack_require__50.emptyFn;
+						var _webpack_require__51 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    array = _webpack_require__51.array,
+						    isDef = _webpack_require__51.isDef,
+						    isPromise = _webpack_require__51.isPromise,
+						    getOrApply = _webpack_require__51.getOrApply,
+						    applyChainSafe = _webpack_require__51.applyChainSafe,
+						    emptyFn = _webpack_require__51.emptyFn;
 
 						var _sort = __webpack_require__( /*! ../internal/sort */"./internal/sort.js");
 						var EventTarget = __webpack_require__( /*! ../core/EventTarget */"./core/EventTarget.js");
@@ -11814,19 +11998,16 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}]);
 
 							function DataSource() {
-								var _ref45 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-								    get = _ref45.get,
-								    _ref45$length = _ref45.length,
-								    length = _ref45$length === undefined ? 0 : _ref45$length;
+								var obj = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
 								_classCallCheck(this, DataSource);
 
-								var _this78 = _possibleConstructorReturn(this, (DataSource.__proto__ || Object.getPrototypeOf(DataSource)).call(this));
+								var _this80 = _possibleConstructorReturn(this, (DataSource.__proto__ || Object.getPrototypeOf(DataSource)).call(this));
 
-								_this78._get = get;
-								_this78._length = length;
-								_this78._sortedIndexMap = false;
-								return _this78;
+								_this80._get = obj.get && obj.get.bind(obj) || undefined;
+								_this80._length = obj.length || 0;
+								_this80._sortedIndexMap = false;
+								return _this80;
 							}
 
 							_createClass(DataSource, [{
@@ -11852,7 +12033,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: 'sort',
 								value: function sort(field, order) {
-									var _this79 = this;
+									var _this81 = this;
 
 									var sortedIndexMap = new Array(this._length);
 
@@ -11867,10 +12048,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									}, function (index, rel) {
 										sortedIndexMap[index] = rel;
 									}, this._length, orderFn, function (index) {
-										return _this79.getOriginalField(index, field);
+										return _this81.getOriginalField(index, field);
 									}).then(function () {
-										_this79._sortedIndexMap = sortedIndexMap;
-										_this79.fireListeners(EVENT_TYPE.UPDATED_ORDER);
+										_this81._sortedIndexMap = sortedIndexMap;
+										_this81.fireListeners(EVENT_TYPE.UPDATED_ORDER);
 									});
 								}
 							}, {
@@ -11881,23 +12062,23 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: 'getOriginal',
 								value: function getOriginal(index) {
-									var _this80 = this;
+									var _this82 = this;
 
 									return getValue(this._get(index), function (val) {
-										_this80.recordPromiseCallBackInternal(index, val);
+										_this82.recordPromiseCallBackInternal(index, val);
 									});
 								}
 							}, {
 								key: 'getOriginalField',
 								value: function getOriginalField(index, field) {
-									var _this81 = this;
+									var _this83 = this;
 
 									if (!isDef(field)) {
 										return undefined;
 									}
 									var record = this.getOriginal(index);
 									return getField(record, field, function (val) {
-										_this81.fieldPromiseCallBackInternal(index, field, val);
+										_this83.fieldPromiseCallBackInternal(index, field, val);
 									});
 								}
 							}, {
@@ -11937,6 +12118,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									return this._length;
 								},
 								set: function set(length) {
+									if (this._length === length) {
+										return;
+									}
+
 									var results = this.fireListeners(EVENT_TYPE.UPDATE_LENGTH, length);
 									if (array.findIndex(results, function (v) {
 										return !v;
@@ -11961,6 +12146,241 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					/***/
 				},
 
+				/***/"./data/FilterDataSource.js":
+				/*!**********************************!*\
+      !*** ./data/FilterDataSource.js ***!
+      \**********************************/
+				/*! no static exports found */
+				/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+				/***/function dataFilterDataSourceJs(module, exports, __webpack_require__) {
+
+					"use strict";
+
+					var _webpack_require__52 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+					    isPromise = _webpack_require__52.isPromise;
+
+					var DataSource = __webpack_require__( /*! ./DataSource */"./data/DataSource.js");
+
+					var DataSourceIterator = function () {
+						function DataSourceIterator(dataSource) {
+							_classCallCheck(this, DataSourceIterator);
+
+							this._dataSource = dataSource;
+							this._curIndex = -1;
+							this._data = [];
+						}
+
+						_createClass(DataSourceIterator, [{
+							key: 'hasNext',
+							value: function hasNext() {
+								var next = this._curIndex + 1;
+								return this._dataSource.length > next;
+							}
+						}, {
+							key: 'next',
+							value: function next() {
+								var next = this._curIndex + 1;
+								var data = this._getIndexData(next);
+								this._curIndex = next;
+								return data;
+							}
+						}, {
+							key: 'movePrev',
+							value: function movePrev() {
+								this._curIndex--;
+							}
+						}, {
+							key: '_getIndexData',
+							value: function _getIndexData(index, nest) {
+								var dataSource = this._dataSource;
+								var data = this._data;
+								if (index < data.length) {
+									return data[index];
+								}
+
+								if (dataSource.length <= index) {
+									return undefined;
+								}
+								var record = this._dataSource.get(index);
+								data[index] = record;
+								if (isPromise(record)) {
+									record.then(function (val) {
+										data[index] = val;
+									});
+									if (!nest) {
+										for (var i = 1; i <= 100; i++) {
+											this._getIndexData(index + i, true);
+										}
+									}
+								}
+								return record;
+							}
+						}]);
+
+						return DataSourceIterator;
+					}();
+
+					var FilterData = function () {
+						function FilterData(dc, original, filter) {
+							_classCallCheck(this, FilterData);
+
+							this._owner = dc;
+							this._dataSourceItr = new DataSourceIterator(original);
+							this._filter = filter;
+							this._filterdList = [];
+							this._queues = [];
+						}
+
+						_createClass(FilterData, [{
+							key: 'get',
+							value: function get(index) {
+								if (this._cancel) {
+									return undefined;
+								}
+								var filterdList = this._filterdList;
+								if (index < filterdList.length) {
+									return filterdList[index];
+								}
+								var queues = this._queues;
+								if (queues[index]) {
+									return queues[index];
+								}
+								return queues[index] || this._findIndex(index);
+							}
+						}, {
+							key: 'cancel',
+							value: function cancel() {
+								this._cancel = true;
+							}
+						}, {
+							key: '_findIndex',
+							value: function _findIndex(index) {
+								if (window.Promise) {
+									var timeout = Date.now() + 100;
+									var count = 0;
+									return this._findIndexWithTimeout(index, function () {
+										count++;
+										if (count >= 100) {
+											count = 0;
+											return timeout < Date.now();
+										}
+										return false;
+									});
+								}
+								return this._findIndexWithTimeout(index, function () {
+									return false;
+								});
+							}
+						}, {
+							key: '_findIndexWithTimeout',
+							value: function _findIndexWithTimeout(index, testTimeout) {
+								var _this84 = this;
+
+								var filterdList = this._filterdList;
+								var filter = this._filter;
+								var dataSourceItr = this._dataSourceItr;
+
+								var queues = this._queues;
+
+								while (dataSourceItr.hasNext()) {
+									if (this._cancel) {
+										return undefined;
+									}
+									var record = dataSourceItr.next();
+									if (isPromise(record)) {
+										dataSourceItr.movePrev();
+										return queues[index] = record.then(function (value) {
+											queues[index] = null;
+											return _this84.get(index);
+										});
+									}
+									if (filter(record)) {
+										filterdList.push(record);
+										if (index < filterdList.length) {
+											return filterdList[index];
+										}
+									}
+									if (testTimeout()) {
+										var promise = new Promise(function (resolve) {
+											setTimeout(function () {
+												resolve();
+											}, 300);
+										});
+										queues[index] = promise.then(function () {
+											queues[index] = null;
+											return _this84.get(index);
+										});
+										return queues[index];
+									}
+								}
+								var dc = this._owner;
+								dc.length = filterdList.length;
+								return undefined;
+							}
+						}]);
+
+						return FilterData;
+					}();
+
+					/**
+      * grid data source for filter
+      *
+      * @classdesc cheetahGrid.data.FilterDataSource
+      * @extends cheetahGrid.data.DataSource
+      * @memberof cheetahGrid.data
+      */
+
+
+					var FilterDataSource = function (_DataSource2) {
+						_inherits(FilterDataSource, _DataSource2);
+
+						_createClass(FilterDataSource, null, [{
+							key: 'EVENT_TYPE',
+							get: function get() {
+								return DataSource.EVENT_TYPE;
+							}
+						}]);
+
+						function FilterDataSource(dataSource, filter) {
+							_classCallCheck(this, FilterDataSource);
+
+							var _this85 = _possibleConstructorReturn(this, (FilterDataSource.__proto__ || Object.getPrototypeOf(FilterDataSource)).call(this, dataSource));
+
+							_this85._dataSource = dataSource;
+							_this85.filter = filter;
+							return _this85;
+						}
+
+						_createClass(FilterDataSource, [{
+							key: 'getOriginal',
+							value: function getOriginal(index) {
+								if (!this._filterData) {
+									return _get(FilterDataSource.prototype.__proto__ || Object.getPrototypeOf(FilterDataSource.prototype), 'getOriginal', this).call(this, index);
+								}
+								return this._filterData.get(index);
+							}
+						}, {
+							key: 'filter',
+							get: function get() {
+								return this._filterData && this._filterData._filter || undefined;
+							},
+							set: function set(filter) {
+								if (this._filterData) {
+									this._filterData.cancel();
+								}
+								this._filterData = filter ? new FilterData(this, this._dataSource, filter) : undefined;
+								this.length = this._dataSource.length;
+							}
+						}]);
+
+						return FilterDataSource;
+					}(DataSource);
+
+					module.exports = FilterDataSource;
+
+					/***/
+				},
+
 				/***/"./element/Inline.js":
 				/*!***************************!*\
       !*** ./element/Inline.js ***!
@@ -11971,8 +12391,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					"use strict";
 
-					var _webpack_require__51 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-					    isDef = _webpack_require__51.isDef;
+					var _webpack_require__53 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+					    isDef = _webpack_require__53.isDef;
 
 					var Inline = function () {
 						function Inline(content) {
@@ -11983,8 +12403,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 						_createClass(Inline, [{
 							key: 'width',
-							value: function width(_ref46) {
-								var ctx = _ref46.ctx;
+							value: function width(_ref45) {
+								var ctx = _ref45.ctx;
 
 								return ctx.measureText(this._content).width;
 							}
@@ -12008,15 +12428,15 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							value: function onReady(fn) {}
 						}, {
 							key: 'draw',
-							value: function draw(_ref47) {
-								var ctx = _ref47.ctx,
-								    canvashelper = _ref47.canvashelper,
-								    rect = _ref47.rect,
-								    offset = _ref47.offset,
-								    offsetLeft = _ref47.offsetLeft,
-								    offsetRight = _ref47.offsetRight,
-								    offsetTop = _ref47.offsetTop,
-								    offsetBottom = _ref47.offsetBottom;
+							value: function draw(_ref46) {
+								var ctx = _ref46.ctx,
+								    canvashelper = _ref46.canvashelper,
+								    rect = _ref46.rect,
+								    offset = _ref46.offset,
+								    offsetLeft = _ref46.offsetLeft,
+								    offsetRight = _ref46.offsetRight,
+								    offsetTop = _ref46.offsetTop,
+								    offsetBottom = _ref46.offsetBottom;
 
 								canvashelper.fillTextRect(ctx, this._content, rect.left, rect.top, rect.width, rect.height, {
 									offset: offset + 1,
@@ -12053,27 +12473,27 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					var InlineDrawer = function (_Inline) {
 						_inherits(InlineDrawer, _Inline);
 
-						function InlineDrawer(_ref48) {
-							var draw = _ref48.draw,
-							    width = _ref48.width,
-							    height = _ref48.height,
-							    color = _ref48.color;
+						function InlineDrawer(_ref47) {
+							var draw = _ref47.draw,
+							    width = _ref47.width,
+							    height = _ref47.height,
+							    color = _ref47.color;
 
 							_classCallCheck(this, InlineDrawer);
 
-							var _this82 = _possibleConstructorReturn(this, (InlineDrawer.__proto__ || Object.getPrototypeOf(InlineDrawer)).call(this));
+							var _this86 = _possibleConstructorReturn(this, (InlineDrawer.__proto__ || Object.getPrototypeOf(InlineDrawer)).call(this));
 
-							_this82._draw = draw;
-							_this82._width = width;
-							_this82._height = height;
-							_this82._color = color;
-							return _this82;
+							_this86._draw = draw;
+							_this86._width = width;
+							_this86._height = height;
+							_this86._color = color;
+							return _this86;
 						}
 
 						_createClass(InlineDrawer, [{
 							key: 'width',
-							value: function width(_ref49) {
-								var ctx = _ref49.ctx;
+							value: function width(_ref48) {
+								var ctx = _ref48.ctx;
 
 								return this._width;
 							}
@@ -12097,15 +12517,15 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							value: function onReady(callback) {}
 						}, {
 							key: 'draw',
-							value: function draw(_ref50) {
-								var ctx = _ref50.ctx,
-								    canvashelper = _ref50.canvashelper,
-								    rect = _ref50.rect,
-								    offset = _ref50.offset,
-								    offsetLeft = _ref50.offsetLeft,
-								    offsetRight = _ref50.offsetRight,
-								    offsetTop = _ref50.offsetTop,
-								    offsetBottom = _ref50.offsetBottom;
+							value: function draw(_ref49) {
+								var ctx = _ref49.ctx,
+								    canvashelper = _ref49.canvashelper,
+								    rect = _ref49.rect,
+								    offset = _ref49.offset,
+								    offsetLeft = _ref49.offsetLeft,
+								    offsetRight = _ref49.offsetRight,
+								    offsetTop = _ref49.offsetTop,
+								    offsetBottom = _ref49.offsetBottom;
 
 								this._draw({
 									ctx: ctx,
@@ -12147,16 +12567,16 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						function InlineIcon(icon) {
 							_classCallCheck(this, InlineIcon);
 
-							var _this83 = _possibleConstructorReturn(this, (InlineIcon.__proto__ || Object.getPrototypeOf(InlineIcon)).call(this));
+							var _this87 = _possibleConstructorReturn(this, (InlineIcon.__proto__ || Object.getPrototypeOf(InlineIcon)).call(this));
 
-							_this83._icon = icon || {};
-							return _this83;
+							_this87._icon = icon || {};
+							return _this87;
 						}
 
 						_createClass(InlineIcon, [{
 							key: 'width',
-							value: function width(_ref51) {
-								var ctx = _ref51.ctx;
+							value: function width(_ref50) {
+								var ctx = _ref50.ctx;
 
 								var icon = this._icon;
 								if (icon.width) {
@@ -12199,15 +12619,15 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}
 						}, {
 							key: 'draw',
-							value: function draw(_ref52) {
-								var ctx = _ref52.ctx,
-								    canvashelper = _ref52.canvashelper,
-								    rect = _ref52.rect,
-								    offset = _ref52.offset,
-								    offsetLeft = _ref52.offsetLeft,
-								    offsetRight = _ref52.offsetRight,
-								    offsetTop = _ref52.offsetTop,
-								    offsetBottom = _ref52.offsetBottom;
+							value: function draw(_ref51) {
+								var ctx = _ref51.ctx,
+								    canvashelper = _ref51.canvashelper,
+								    rect = _ref51.rect,
+								    offset = _ref51.offset,
+								    offsetLeft = _ref51.offsetLeft,
+								    offsetRight = _ref51.offsetRight,
+								    offsetTop = _ref51.offsetTop,
+								    offsetBottom = _ref51.offsetBottom;
 
 								var icon = this._icon;
 								if (icon.content) {
@@ -12244,62 +12664,62 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					var Inline = __webpack_require__( /*! ./Inline */"./element/Inline.js");
 
-					var _webpack_require__52 = __webpack_require__( /*! ../internal/imgs */"./internal/imgs.js"),
-					    getCacheOrLoad = _webpack_require__52.getCacheOrLoad;
+					var _webpack_require__54 = __webpack_require__( /*! ../internal/imgs */"./internal/imgs.js"),
+					    getCacheOrLoad = _webpack_require__54.getCacheOrLoad;
 
-					var _webpack_require__53 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-					    isPromise = _webpack_require__53.isPromise;
+					var _webpack_require__55 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+					    isPromise = _webpack_require__55.isPromise;
 
 					var InlineImage = function (_Inline3) {
 						_inherits(InlineImage, _Inline3);
 
-						function InlineImage(_ref53) {
-							var src = _ref53.src,
-							    width = _ref53.width,
-							    height = _ref53.height,
-							    imageLeft = _ref53.imageLeft,
-							    imageTop = _ref53.imageTop,
-							    imageWidth = _ref53.imageWidth,
-							    imageHeight = _ref53.imageHeight;
+						function InlineImage(_ref52) {
+							var src = _ref52.src,
+							    width = _ref52.width,
+							    height = _ref52.height,
+							    imageLeft = _ref52.imageLeft,
+							    imageTop = _ref52.imageTop,
+							    imageWidth = _ref52.imageWidth,
+							    imageHeight = _ref52.imageHeight;
 
 							_classCallCheck(this, InlineImage);
 
-							var _this84 = _possibleConstructorReturn(this, (InlineImage.__proto__ || Object.getPrototypeOf(InlineImage)).call(this));
+							var _this88 = _possibleConstructorReturn(this, (InlineImage.__proto__ || Object.getPrototypeOf(InlineImage)).call(this));
 
-							_this84._src = src;
-							_this84._width = width;
-							_this84._height = height;
-							_this84._imageLeft = imageLeft;
-							_this84._imageTop = imageTop;
-							_this84._imageWidth = imageWidth;
-							_this84._imageHeight = imageHeight;
+							_this88._src = src;
+							_this88._width = width;
+							_this88._height = height;
+							_this88._imageLeft = imageLeft;
+							_this88._imageTop = imageTop;
+							_this88._imageWidth = imageWidth;
+							_this88._imageHeight = imageHeight;
 
-							_this84._onloaded = [];
+							_this88._onloaded = [];
 
-							_this84._loaded = false;
+							_this88._loaded = false;
 							if (isPromise(src)) {
 								src.then(function (s) {
-									_this84._src = s;
-									_this84._loadImage(s);
+									_this88._src = s;
+									_this88._loadImage(s);
 								});
 							} else {
-								_this84._loadImage(src);
+								_this88._loadImage(src);
 							}
-							return _this84;
+							return _this88;
 						}
 
 						_createClass(InlineImage, [{
 							key: '_loadImage',
 							value: function _loadImage(src) {
-								var _this85 = this;
+								var _this89 = this;
 
 								var img = this._inlineImg = getCacheOrLoad('InlineImage', 50, src);
 								if (isPromise(img)) {
 									img.then(function (i) {
-										_this85._loaded = true;
-										_this85._inlineImg = i;
+										_this89._loaded = true;
+										_this89._inlineImg = i;
 
-										_this85._onloaded.forEach(function (fn) {
+										_this89._onloaded.forEach(function (fn) {
 											return fn();
 										});
 									});
@@ -12309,8 +12729,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}
 						}, {
 							key: 'width',
-							value: function width(_ref54) {
-								var ctx = _ref54.ctx;
+							value: function width(_ref53) {
+								var ctx = _ref53.ctx;
 
 								return this._width || (this._loaded ? this._inlineImg.width : 0);
 							}
@@ -12340,15 +12760,15 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}
 						}, {
 							key: 'draw',
-							value: function draw(_ref55) {
-								var ctx = _ref55.ctx,
-								    canvashelper = _ref55.canvashelper,
-								    rect = _ref55.rect,
-								    offset = _ref55.offset,
-								    offsetLeft = _ref55.offsetLeft,
-								    offsetRight = _ref55.offsetRight,
-								    offsetTop = _ref55.offsetTop,
-								    offsetBottom = _ref55.offsetBottom;
+							value: function draw(_ref54) {
+								var ctx = _ref54.ctx,
+								    canvashelper = _ref54.canvashelper,
+								    rect = _ref54.rect,
+								    offset = _ref54.offset,
+								    offsetLeft = _ref54.offsetLeft,
+								    offsetRight = _ref54.offsetRight,
+								    offsetTop = _ref54.offsetTop,
+								    offsetBottom = _ref54.offsetBottom;
 
 								var img = this._inlineImg;
 								canvashelper.drawInlineImageRect(ctx, img, this._imageLeft || 0, this._imageTop || 0, this._imageWidth || img.width, this._imageHeight || img.height, this._width || img.width, this._height || img.height, rect.left, rect.top, rect.width, rect.height, {
@@ -12383,36 +12803,36 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					var Inline = __webpack_require__( /*! ./Inline */"./element/Inline.js");
 
-					var _webpack_require__54 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
-					    calcStartPosition = _webpack_require__54.calcStartPosition;
+					var _webpack_require__56 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
+					    calcStartPosition = _webpack_require__56.calcStartPosition;
 
 					var path2DManager = __webpack_require__( /*! ../internal/path2DManager */"./internal/path2DManager.js");
 
 					var InlinePath2D = function (_Inline4) {
 						_inherits(InlinePath2D, _Inline4);
 
-						function InlinePath2D(_ref56) {
-							var path = _ref56.path,
-							    width = _ref56.width,
-							    height = _ref56.height,
-							    color = _ref56.color;
+						function InlinePath2D(_ref55) {
+							var path = _ref55.path,
+							    width = _ref55.width,
+							    height = _ref55.height,
+							    color = _ref55.color;
 
 							_classCallCheck(this, InlinePath2D);
 
 							// このタイミングでないとIEでPath2Dのpolyfillが反映されない
-							var _this86 = _possibleConstructorReturn(this, (InlinePath2D.__proto__ || Object.getPrototypeOf(InlinePath2D)).call(this));
+							var _this90 = _possibleConstructorReturn(this, (InlinePath2D.__proto__ || Object.getPrototypeOf(InlinePath2D)).call(this));
 
-							_this86._path = new path2DManager.Path2D(path);
-							_this86._width = width;
-							_this86._height = height;
-							_this86._color = color;
-							return _this86;
+							_this90._path = new path2DManager.Path2D(path);
+							_this90._width = width;
+							_this90._height = height;
+							_this90._color = color;
+							return _this90;
 						}
 
 						_createClass(InlinePath2D, [{
 							key: 'width',
-							value: function width(_ref57) {
-								var ctx = _ref57.ctx;
+							value: function width(_ref56) {
+								var ctx = _ref56.ctx;
 
 								return this._width;
 							}
@@ -12436,15 +12856,15 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							value: function onReady(callback) {}
 						}, {
 							key: 'draw',
-							value: function draw(_ref58) {
-								var ctx = _ref58.ctx,
-								    canvashelper = _ref58.canvashelper,
-								    rect = _ref58.rect,
-								    offset = _ref58.offset,
-								    offsetLeft = _ref58.offsetLeft,
-								    offsetRight = _ref58.offsetRight,
-								    offsetTop = _ref58.offsetTop,
-								    offsetBottom = _ref58.offsetBottom;
+							value: function draw(_ref57) {
+								var ctx = _ref57.ctx,
+								    canvashelper = _ref57.canvashelper,
+								    rect = _ref57.rect,
+								    offset = _ref57.offset,
+								    offsetLeft = _ref57.offsetLeft,
+								    offsetRight = _ref57.offsetRight,
+								    offsetTop = _ref57.offsetTop,
+								    offsetBottom = _ref57.offsetBottom;
 
 								offset++;
 								var padding = {
@@ -12493,8 +12913,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					var InlineImage = __webpack_require__( /*! ./InlineImage */"./element/InlineImage.js");
 
-					var _webpack_require__55 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-					    then = _webpack_require__55.then;
+					var _webpack_require__57 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+					    then = _webpack_require__57.then;
 
 					function buildSvgDataUrl(svg) {
 						var data = typeof svg === 'string' ? svg : new XMLSerializer().serializeToString(svg);
@@ -12513,14 +12933,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					var InlineSvg = function (_InlineImage) {
 						_inherits(InlineSvg, _InlineImage);
 
-						function InlineSvg(_ref59) {
-							var svg = _ref59.svg,
-							    width = _ref59.width,
-							    height = _ref59.height,
-							    imageLeft = _ref59.imageLeft,
-							    imageTop = _ref59.imageTop,
-							    imageWidth = _ref59.imageWidth,
-							    imageHeight = _ref59.imageHeight;
+						function InlineSvg(_ref58) {
+							var svg = _ref58.svg,
+							    width = _ref58.width,
+							    height = _ref58.height,
+							    imageLeft = _ref58.imageLeft,
+							    imageTop = _ref58.imageTop,
+							    imageWidth = _ref58.imageWidth,
+							    imageHeight = _ref58.imageHeight;
 
 							_classCallCheck(this, InlineSvg);
 
@@ -12563,20 +12983,20 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						var InlineDrawer = __webpack_require__( /*! ./InlineDrawer */"./element/InlineDrawer.js");
 						var InlinePath2D = __webpack_require__( /*! ./InlinePath2D */"./element/InlinePath2D.js");
 
-						var _webpack_require__56 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    isDef = _webpack_require__56.isDef;
+						var _webpack_require__58 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    isDef = _webpack_require__58.isDef;
 
-						var _webpack_require__57 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
-						    calcStartPosition = _webpack_require__57.calcStartPosition;
+						var _webpack_require__59 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
+						    calcStartPosition = _webpack_require__59.calcStartPosition;
 
 						var icons = __webpack_require__( /*! ../icons */"./icons.js");
 						var path2DManager = __webpack_require__( /*! ../internal/path2DManager */"./internal/path2DManager.js");
 
 						function drawRegisteredIcon(ctx, icon, drawWidth, drawHeight, left, top, width, height) {
-							var _ref60 = arguments.length > 8 && arguments[8] !== undefined ? arguments[8] : {},
-							    _ref60$offset = _ref60.offset,
-							    offset = _ref60$offset === undefined ? 2 : _ref60$offset,
-							    padding = _ref60.padding;
+							var _ref59 = arguments.length > 8 && arguments[8] !== undefined ? arguments[8] : {},
+							    _ref59$offset = _ref59.offset,
+							    offset = _ref59$offset === undefined ? 2 : _ref59$offset,
+							    padding = _ref59.padding;
 
 							var rect = {
 								left: left,
@@ -12642,15 +13062,15 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									var regedIcon = regedIcons[icon.name];
 									var width = icon.width || Math.max(regedIcon.width, regedIcon.height);
 									return new InlineDrawer({
-										draw: function draw(_ref61) {
-											var ctx = _ref61.ctx,
-											    canvashelper = _ref61.canvashelper,
-											    rect = _ref61.rect,
-											    offset = _ref61.offset,
-											    offsetLeft = _ref61.offsetLeft,
-											    offsetRight = _ref61.offsetRight,
-											    offsetTop = _ref61.offsetTop,
-											    offsetBottom = _ref61.offsetBottom;
+										draw: function draw(_ref60) {
+											var ctx = _ref60.ctx,
+											    canvashelper = _ref60.canvashelper,
+											    rect = _ref60.rect,
+											    offset = _ref60.offset,
+											    offsetLeft = _ref60.offsetLeft,
+											    offsetRight = _ref60.offsetRight,
+											    offsetTop = _ref60.offsetTop,
+											    offsetBottom = _ref60.offsetBottom;
 
 											drawRegisteredIcon(ctx, regedIcon, width, width, rect.left, rect.top, rect.width, rect.height, {
 												offset: offset + 1,
@@ -12680,12 +13100,12 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								return new Inline(content);
 							},
 							buildInlines: function buildInlines(icons, inline) {
-								var _this88 = this;
+								var _this92 = this;
 
 								var result = [];
 								if (icons) {
 									result.push.apply(result, _toConsumableArray(icons.map(function (icon) {
-										return _this88.iconOf(icon);
+										return _this92.iconOf(icon);
 									}).filter(function (e) {
 										return !!e;
 									})));
@@ -12694,7 +13114,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									return il instanceof Inline;
 								}).length) {
 									result.push.apply(result, _toConsumableArray(inline.map(function (il) {
-										return _this88.of(il);
+										return _this92.of(il);
 									}).filter(function (e) {
 										return !!e;
 									})));
@@ -12788,21 +13208,21 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}]);
 
 							function BaseStyle() {
-								var _ref62 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-								    _ref62$textAlign = _ref62.textAlign,
-								    textAlign = _ref62$textAlign === undefined ? 'left' : _ref62$textAlign,
-								    _ref62$textBaseline = _ref62.textBaseline,
-								    textBaseline = _ref62$textBaseline === undefined ? 'middle' : _ref62$textBaseline,
-								    bgColor = _ref62.bgColor;
+								var _ref61 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+								    _ref61$textAlign = _ref61.textAlign,
+								    textAlign = _ref61$textAlign === undefined ? 'left' : _ref61$textAlign,
+								    _ref61$textBaseline = _ref61.textBaseline,
+								    textBaseline = _ref61$textBaseline === undefined ? 'middle' : _ref61$textBaseline,
+								    bgColor = _ref61.bgColor;
 
 								_classCallCheck(this, BaseStyle);
 
-								var _this89 = _possibleConstructorReturn(this, (BaseStyle.__proto__ || Object.getPrototypeOf(BaseStyle)).call(this));
+								var _this93 = _possibleConstructorReturn(this, (BaseStyle.__proto__ || Object.getPrototypeOf(BaseStyle)).call(this));
 
-								_this89._textAlign = textAlign;
-								_this89._textBaseline = textBaseline;
-								_this89._bgColor = bgColor;
-								return _this89;
+								_this93._textAlign = textAlign;
+								_this93._textBaseline = textBaseline;
+								_this93._bgColor = bgColor;
+								return _this93;
 							}
 
 							_createClass(BaseStyle, [{
@@ -12882,10 +13302,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								_classCallCheck(this, Style);
 
-								var _this90 = _possibleConstructorReturn(this, (Style.__proto__ || Object.getPrototypeOf(Style)).call(this, style));
+								var _this94 = _possibleConstructorReturn(this, (Style.__proto__ || Object.getPrototypeOf(Style)).call(this, style));
 
-								_this90._color = style.color;
-								return _this90;
+								_this94._color = style.color;
+								return _this94;
 							}
 
 							_createClass(Style, [{
@@ -13027,8 +13447,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 							_createClass(Header, [{
 								key: 'drawInternal',
-								value: function drawInternal(value, context, style, helper, grid, _ref63) {
-									var drawCellBase = _ref63.drawCellBase;
+								value: function drawInternal(value, context, style, helper, grid, _ref62) {
+									var drawCellBase = _ref62.drawCellBase;
 									var textAlign = style.textAlign,
 									    textBaseline = style.textBaseline,
 									    color = style.color,
@@ -13086,15 +13506,18 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 						var BaseHeader = __webpack_require__( /*! ./BaseHeader */"./header/type/BaseHeader.js");
 
-						var _webpack_require__58 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
-						    isDef = _webpack_require__58.isDef;
+						var _webpack_require__60 = __webpack_require__( /*! ../../internal/utils */"./internal/utils.js"),
+						    isDef = _webpack_require__60.isDef;
 
-						var _webpack_require__59 = __webpack_require__( /*! ../../core/DrawGrid */"./core/DrawGrid.js"),
-						    _webpack_require__59$ = _webpack_require__59.EVENT_TYPE,
-						    CLICK_CELL = _webpack_require__59$.CLICK_CELL,
-						    MOUSEOVER_CELL = _webpack_require__59$.MOUSEOVER_CELL,
-						    MOUSEOUT_CELL = _webpack_require__59$.MOUSEOUT_CELL,
-						    MOUSEMOVE_CELL = _webpack_require__59$.MOUSEMOVE_CELL;
+						var _webpack_require__61 = __webpack_require__( /*! ../../internal/canvases */"./internal/canvases.js"),
+						    getFontSize = _webpack_require__61.getFontSize;
+
+						var _webpack_require__62 = __webpack_require__( /*! ../../core/DrawGrid */"./core/DrawGrid.js"),
+						    _webpack_require__62$ = _webpack_require__62.EVENT_TYPE,
+						    CLICK_CELL = _webpack_require__62$.CLICK_CELL,
+						    MOUSEOVER_CELL = _webpack_require__62$.MOUSEOVER_CELL,
+						    MOUSEOUT_CELL = _webpack_require__62$.MOUSEOUT_CELL,
+						    MOUSEMOVE_CELL = _webpack_require__62$.MOUSEMOVE_CELL;
 
 						var SortHeader = function (_BaseHeader2) {
 							_inherits(SortHeader, _BaseHeader2);
@@ -13102,17 +13525,17 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							function SortHeader(headerCell) {
 								_classCallCheck(this, SortHeader);
 
-								var _this92 = _possibleConstructorReturn(this, (SortHeader.__proto__ || Object.getPrototypeOf(SortHeader)).call(this, headerCell));
+								var _this96 = _possibleConstructorReturn(this, (SortHeader.__proto__ || Object.getPrototypeOf(SortHeader)).call(this, headerCell));
 
-								_this92._sort = headerCell.sort;
-								_this92._range = headerCell.range;
-								return _this92;
+								_this96._sort = headerCell.sort;
+								_this96._range = headerCell.range;
+								return _this96;
 							}
 
 							_createClass(SortHeader, [{
 								key: 'drawInternal',
-								value: function drawInternal(value, context, style, helper, grid, _ref64) {
-									var drawCellBase = _ref64.drawCellBase;
+								value: function drawInternal(value, context, style, helper, grid, _ref63) {
+									var drawCellBase = _ref63.drawCellBase;
 									var textAlign = style.textAlign,
 									    _style$textBaseline2 = style.textBaseline,
 									    textBaseline = _style$textBaseline2 === undefined ? 'middle' : _style$textBaseline2,
@@ -13134,7 +13557,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									}
 
 									var ctx = context.getContext();
-									var arrowSize = ctx.measureText('あ').width * 1.2;
+									var arrowSize = getFontSize(ctx, font).width * 1.2;
 
 									helper.text(value, context, {
 										textAlign: textAlign,
@@ -13160,46 +13583,46 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: 'bindGridEvent',
 								value: function bindGridEvent(grid) {
-									var _this93 = this;
+									var _this97 = this;
 
 									return [grid.listen(CLICK_CELL, function (e) {
-										if (!_this93._range.isCellInRange(e.col, e.row)) {
+										if (!_this97._range.isCellInRange(e.col, e.row)) {
 											return;
 										}
 										var state = grid.sortState;
 										var newState = void 0;
-										if (_this93._range.isCellInRange(state.col, e.row)) {
+										if (_this97._range.isCellInRange(state.col, e.row)) {
 											newState = {
-												col: _this93._range.startCol,
+												col: _this97._range.startCol,
 												order: state.order === 'asc' ? 'desc' : 'asc'
 											};
 										} else {
 											newState = {
-												col: _this93._range.startCol,
+												col: _this97._range.startCol,
 												order: 'asc'
 											};
 										}
 										grid.sortState = newState;
-										_this93._executeSort(newState, grid);
+										_this97._executeSort(newState, grid);
 										grid.invalidateGridRect(0, 0, grid.colCount - 1, grid.rowCount - 1);
 									}),
 									// mouse move
 									grid.listen(MOUSEOVER_CELL, function (e) {
-										if (!_this93._range.isCellInRange(e.col, e.row)) {
+										if (!_this97._range.isCellInRange(e.col, e.row)) {
 											return;
 										}
 										grid.getElement().style.cursor = 'pointer';
 									}),
 									//横からMOUSEENTERした場合、'col-resize'の処理と競合するのでmoveを監視して処理する
 									grid.listen(MOUSEMOVE_CELL, function (e) {
-										if (!_this93._range.isCellInRange(e.col, e.row)) {
+										if (!_this97._range.isCellInRange(e.col, e.row)) {
 											return;
 										}
 										if (!grid.getElement().style.cursor) {
 											grid.getElement().style.cursor = 'pointer';
 										}
 									}), grid.listen(MOUSEOUT_CELL, function (e) {
-										if (!_this93._range.isCellInRange(e.col, e.row)) {
+										if (!_this97._range.isCellInRange(e.col, e.row)) {
 											return;
 										}
 										grid.getElement().style.cursor = '';
@@ -13232,8 +13655,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					"use strict";
 					/*eslint-disable camelcase*/
 
-					var _webpack_require__60 = __webpack_require__( /*! ./internal/utils */"./internal/utils.js"),
-					    extend = _webpack_require__60.extend;
+					var _webpack_require__63 = __webpack_require__( /*! ./internal/utils */"./internal/utils.js"),
+					    extend = _webpack_require__63.extend;
 
 					var plugins = __webpack_require__( /*! ./plugins/icons */"./plugins/icons.js");
 					var builtins = {
@@ -13280,8 +13703,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					"use strict";
 
 					{
-						var _webpack_require__61 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-						    each = _webpack_require__61.obj.each;
+						var _webpack_require__64 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+						    each = _webpack_require__64.obj.each;
 
 						var nextId = 1;
 
@@ -13514,10 +13937,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}, {
 								key: 'eachAll',
 								value: function eachAll(fn) {
-									var _this94 = this;
+									var _this98 = this;
 
 									this._keys.forEach(function (key) {
-										fn(_this94.get(key), key);
+										fn(_this98.get(key), key);
 									});
 								}
 							}, {
@@ -13716,6 +14139,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							if (scrollable._height > MAX_SCROLL) {
 								var sbSize = style.getScrollBarSize();
 								var offsetHeight = scrollable._scrollable.offsetHeight;
+
 								var vScrollRange = MAX_SCROLL - offsetHeight + sbSize;
 								var rScrollRange = scrollable._height - offsetHeight + sbSize;
 								scrollable._p = vScrollRange / rScrollRange;
@@ -13732,8 +14156,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						var EventHandler = __webpack_require__( /*! ./EventHandler */"./internal/EventHandler.js");
 						var style = __webpack_require__( /*! ./style */"./internal/style.js");
 
-						var _webpack_require__62 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-						    browser = _webpack_require__62.browser;
+						var _webpack_require__65 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+						    browser = _webpack_require__65.browser;
 
 						var MAX_SCROLL = browser.heightLimit - 1000;
 
@@ -13994,13 +14418,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						var script = calcStr.replace(/^calc\((.*)\)$/, '$1').replace(/(\d+)([A-Za-z%]+)/g, replacer).replace(/(\d*\.\d+)([A-Za-z%]+)/g, replacer);
 						return {
 							eval: function _eval(context) {
-								return function () {
+								function fn() {
 									function calc(v) {
 										// eslint-disable-line no-unused-vars
 										return v;
 									}
 									return eval(script); // eslint-disable-line no-eval
-								}.call(context);
+								}
+								return fn.call(context);
 							}
 						};
 					}
@@ -14044,8 +14469,52 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					"use strict";
 
 					{
+						var getFontSize = function getFontSize(ctx, font) {
+							if (fontSizeCache[font]) {
+								return fontSizeCache[font];
+							}
+							var bk = ctx.font;
+							try {
+								ctx.font = font || ctx.font;
+								var em = ctx.measureText('あ').width;
+								return fontSizeCache[font] = {
+									width: em,
+									height: em
+								};
+							} finally {
+								ctx.font = bk;
+							}
+						};
+
 						var calcBasePosition = function calcBasePosition(ctx, rect) {
-							var _ref65 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {},
+							var _ref64 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {},
+							    _ref64$offset = _ref64.offset,
+							    offset = _ref64$offset === undefined ? 0 : _ref64$offset,
+							    _ref64$padding = _ref64.padding;
+
+							_ref64$padding = _ref64$padding === undefined ? {} : _ref64$padding;
+							var _ref64$padding$left = _ref64$padding.left,
+							    paddingLeft = _ref64$padding$left === undefined ? 0 : _ref64$padding$left,
+							    _ref64$padding$right = _ref64$padding.right,
+							    paddingRight = _ref64$padding$right === undefined ? 0 : _ref64$padding$right,
+							    _ref64$padding$top = _ref64$padding.top,
+							    paddingTop = _ref64$padding$top === undefined ? 0 : _ref64$padding$top,
+							    _ref64$padding$bottom = _ref64$padding.bottom,
+							    paddingBottom = _ref64$padding$bottom === undefined ? 0 : _ref64$padding$bottom;
+
+							return calcStartPosition(ctx, rect, 0, 0, {
+								offset: offset,
+								padding: {
+									left: paddingLeft,
+									right: paddingRight,
+									top: paddingTop,
+									bottom: paddingBottom
+								}
+							});
+						};
+
+						var calcStartPosition = function calcStartPosition(ctx, rect, width, height) {
+							var _ref65 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {},
 							    _ref65$offset = _ref65.offset,
 							    offset = _ref65$offset === undefined ? 0 : _ref65$offset,
 							    _ref65$padding = _ref65.padding;
@@ -14059,51 +14528,6 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							    paddingTop = _ref65$padding$top === undefined ? 0 : _ref65$padding$top,
 							    _ref65$padding$bottom = _ref65$padding.bottom,
 							    paddingBottom = _ref65$padding$bottom === undefined ? 0 : _ref65$padding$bottom;
-
-							// const textAlign = ctx.textAlign || 'left';
-							// const textBaseline = ctx.textBaseline || 'middle';
-							// ctx.textAlign = textAlign;
-							// ctx.textBaseline = textBaseline;
-
-							// let x = rect.left + offset + paddingLeft;
-							// if (textAlign === 'right' || textAlign === 'end') {
-							// 	x = rect.right - offset - paddingRight;
-							// } else if (textAlign === 'center') {
-							// 	x = rect.left + ((rect.width + paddingLeft - paddingRight) / 2);
-							// }
-							// let y = rect.top + offset;
-							// if (textBaseline === 'bottom' || textBaseline === 'alphabetic' || textBaseline === 'ideographic') {
-							// 	y = rect.bottom - offset;
-							// } else if (textBaseline === 'middle') {
-							// 	y = rect.top + (rect.height / 2);
-							// }
-							// return {x, y};
-							return calcStartPosition(ctx, rect, 0, 0, {
-								offset: offset,
-								padding: {
-									left: paddingLeft,
-									right: paddingRight,
-									top: paddingTop,
-									bottom: paddingBottom
-								}
-							});
-						};
-
-						var calcStartPosition = function calcStartPosition(ctx, rect, width, height) {
-							var _ref66 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {},
-							    _ref66$offset = _ref66.offset,
-							    offset = _ref66$offset === undefined ? 0 : _ref66$offset,
-							    _ref66$padding = _ref66.padding;
-
-							_ref66$padding = _ref66$padding === undefined ? {} : _ref66$padding;
-							var _ref66$padding$left = _ref66$padding.left,
-							    paddingLeft = _ref66$padding$left === undefined ? 0 : _ref66$padding$left,
-							    _ref66$padding$right = _ref66$padding.right,
-							    paddingRight = _ref66$padding$right === undefined ? 0 : _ref66$padding$right,
-							    _ref66$padding$top = _ref66$padding.top,
-							    paddingTop = _ref66$padding$top === undefined ? 0 : _ref66$padding$top,
-							    _ref66$padding$bottom = _ref66$padding.bottom,
-							    paddingBottom = _ref66$padding$bottom === undefined ? 0 : _ref66$padding$bottom;
 
 							var textAlign = ctx.textAlign || 'left';
 							var textBaseline = ctx.textBaseline || 'middle';
@@ -14125,9 +14549,13 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							return { x: x, y: y };
 						};
 
+						var fontSizeCache = {};
+
+
 						module.exports = {
 							calcBasePosition: calcBasePosition,
-							calcStartPosition: calcStartPosition
+							calcStartPosition: calcStartPosition,
+							getFontSize: getFontSize
 						};
 					}
 
@@ -14173,30 +14601,30 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							return { r: r, g: g, b: b, a: a };
 						};
 
-						var tripleHexToRGB = function tripleHexToRGB(_ref67) {
-							var r = _ref67[1],
-							    g = _ref67[2],
-							    b = _ref67[3];
+						var tripleHexToRGB = function tripleHexToRGB(_ref66) {
+							var r = _ref66[1],
+							    g = _ref66[2],
+							    b = _ref66[3];
 
 							return createRGB(hexToNum(r + r), hexToNum(g + g), hexToNum(b + b));
 						};
 
-						var sextupleHexToRGB = function sextupleHexToRGB(_ref68) {
-							var r1 = _ref68[1],
-							    r2 = _ref68[2],
-							    g1 = _ref68[3],
-							    g2 = _ref68[4],
-							    b1 = _ref68[5],
-							    b2 = _ref68[6];
+						var sextupleHexToRGB = function sextupleHexToRGB(_ref67) {
+							var r1 = _ref67[1],
+							    r2 = _ref67[2],
+							    g1 = _ref67[3],
+							    g2 = _ref67[4],
+							    b1 = _ref67[5],
+							    b2 = _ref67[6];
 
 							return createRGB(hexToNum(r1 + r2), hexToNum(g1 + g2), hexToNum(b1 + b2));
 						};
 
-						var testRGB = function testRGB(_ref69) {
-							var r = _ref69.r,
-							    g = _ref69.g,
-							    b = _ref69.b,
-							    a = _ref69.a;
+						var testRGB = function testRGB(_ref68) {
+							var r = _ref68.r,
+							    g = _ref68.g,
+							    b = _ref68.b,
+							    a = _ref68.a;
 
 							return 0 <= r && r <= 255 && 0 <= g && g <= 255 && 0 <= b && b <= 255 && 0 <= a && a <= 1;
 						};
@@ -14293,14 +14721,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					"use strict";
 					/* WEBPACK VAR INJECTION */
 					(function (__webpack_provided_Array_dot_isArray) {
-						var _webpack_require__63 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-						    isDef = _webpack_require__63.isDef;
+						var _webpack_require__66 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+						    isDef = _webpack_require__66.isDef;
 
 						function createElement(tagName) {
-							var _ref70 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
-							    classList = _ref70.classList,
-							    text = _ref70.text,
-							    html = _ref70.html;
+							var _ref69 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
+							    classList = _ref69.classList,
+							    text = _ref69.text,
+							    html = _ref69.html;
 
 							var element = document.createElement(tagName);
 							if (classList) {
@@ -14345,7 +14773,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							if (__webpack_provided_Array_dot_isArray(arg)) {
 								return arg.map(toNode);
 							}
-							return [toNode(arg)];
+							var node = toNode(arg);
+							return __webpack_provided_Array_dot_isArray(node) ? node : [toNode(arg)];
 						}
 
 						function appendHtml(dom, inner) {
@@ -14496,7 +14925,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						transform: function transform(canvas) {
 							var ctx = canvas.getContext('2d');
 
-							var getAttribute = canvas.getAttribute;
+							var getAttribute = canvas.getAttribute,
+							    setAttribute = canvas.setAttribute;
+
 							canvas.getAttribute = function (name) {
 								for (var _len6 = arguments.length, args = Array(_len6 > 1 ? _len6 - 1 : 0), _key6 = 1; _key6 < _len6; _key6++) {
 									args[_key6 - 1] = arguments[_key6];
@@ -14508,7 +14939,6 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								}
 								return result;
 							};
-							var setAttribute = canvas.setAttribute;
 							canvas.setAttribute = function (name, val) {
 								var wh = name === 'width' || name === 'height';
 								if (wh) {
@@ -14549,6 +14979,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								enumerable: true
 							});
 							var drawImage = ctx.drawImage;
+
 							ctx.drawImage = function (img) {
 								for (var _len8 = arguments.length, args = Array(_len8 > 1 ? _len8 - 1 : 0), _key8 = 1; _key8 < _len8; _key8++) {
 									args[_key8 - 1] = arguments[_key8];
@@ -14561,11 +14992,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								try {
 									this.scale(1 / ratio, 1 / ratio);
 									if (args.length > 4) {
-										args[4] = args[4] * ratio;
-										args[5] = args[5] * ratio;
+										args[4] *= ratio;
+										args[5] *= ratio;
 									} else {
-										args[0] = args[0] * ratio;
-										args[1] = args[1] * ratio;
+										args[0] *= ratio;
+										args[1] *= ratio;
 									}
 									return drawImage.call.apply(drawImage, [this, img].concat(args));
 								} finally {
@@ -14591,8 +15022,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					"use strict";
 					/* WEBPACK VAR INJECTION */
 					(function (__webpack_provided_Array_dot_isArray) {
-						var _webpack_require__64 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-						    isDef = _webpack_require__64.isDef;
+						var _webpack_require__67 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+						    isDef = _webpack_require__67.isDef;
 
 						var ICON_PROP_KEYS = ['content', 'font', 'color', 'className', 'isLiga', 'width', 'src', 'svg', 'name', 'path'];
 
@@ -14755,8 +15186,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					"use strict";
 
-					var _webpack_require__65 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-					    then = _webpack_require__65.then;
+					var _webpack_require__68 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+					    then = _webpack_require__68.then;
 
 					var LRUCache = __webpack_require__( /*! ./LRUCache */"./internal/LRUCache.js");
 
@@ -14832,18 +15263,18 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					var parser = new PathCommandsParser();
 
 					var Path2D = function Path2D(arg) {
-						var _this95 = this;
+						var _this99 = this;
 
 						_classCallCheck(this, Path2D);
 
 						this._ops = [];
 						['closePath', 'moveTo', 'lineTo', 'bezierCurveTo', 'quadraticCurveTo', 'arc', 'rect'].forEach(function (name) {
-							_this95[name] = function () {
+							_this99[name] = function () {
 								for (var _len9 = arguments.length, args = Array(_len9), _key9 = 0; _key9 < _len9; _key9++) {
 									args[_key9] = arguments[_key9];
 								}
 
-								_this95._ops.push({ op: name, args: args });
+								_this99._ops.push({ op: name, args: args });
 							};
 						});
 						if (arg === undefined) {
@@ -14862,12 +15293,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						}
 					};
 
-					var CanvasRenderingContext2D = window.CanvasRenderingContext2D;
+					var _window = window,
+					    CanvasRenderingContext2D = _window.CanvasRenderingContext2D;
+
 
 					var originalFill = CanvasRenderingContext2D.prototype.fill;
 
 					CanvasRenderingContext2D.prototype.fill = function () {
-						var _this96 = this;
+						var _this100 = this;
 
 						for (var _len10 = arguments.length, args = Array(_len10), _key10 = 0; _key10 < _len10; _key10++) {
 							args[_key10] = arguments[_key10];
@@ -14877,7 +15310,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							var path = args[0];
 							this.beginPath();
 							path._ops.forEach(function (op) {
-								_this96[op.op].apply(_this96, _toConsumableArray(op.args));
+								_this100[op.op].apply(_this100, _toConsumableArray(op.args));
 							});
 							originalFill.apply(this, Array.prototype.slice.call(args, 1));
 						} else {
@@ -14899,6 +15332,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 				/***/function internalLegacyCanvasPathCommandsJs(module, exports, __webpack_require__) {
 
 					"use strict";
+					/*eslint new-cap: "off"*/
 
 					function mag(v) {
 						return Math.sqrt(Math.pow(v[0], 2) + Math.pow(v[1], 2));
@@ -14969,7 +15403,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							ctx.lineTo(x2, x1);
 							return;
 						}
-						phi = phi * (Math.PI / 180.0);
+						phi *= Math.PI / 180.0;
 						rx = Math.abs(rx);
 						ry = Math.abs(ry);
 						var xPrime = rotClockwise(midPoint(x1, x2), phi); // F.6.5.1
@@ -15005,7 +15439,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					}
 
 					var PathCommands = function PathCommands(ctx) {
-						var _this97 = this;
+						var _this101 = this;
 
 						_classCallCheck(this, PathCommands);
 
@@ -15029,42 +15463,42 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							lx = px;
 							ly = py;
 							lastCommand = 'M';
-							return _this97;
+							return _this101;
 						};
 						this.m = function (px, py) {
-							return _this97.M(px + lx, py + ly);
+							return _this101.M(px + lx, py + ly);
 						};
 						this.L = function (px, py) {
 							ctx.lineTo(px, py);
 							lx = px;
 							ly = py;
 							lastCommand = 'L';
-							return _this97;
+							return _this101;
 						};
 						this.l = function (px, py) {
-							return _this97.L(px + lx, py + ly);
+							return _this101.L(px + lx, py + ly);
 						};
 						this.H = function (px) {
-							return _this97.L(px, ly);
+							return _this101.L(px, ly);
 						};
 						this.h = function (px) {
-							return _this97.H(px + lx);
+							return _this101.H(px + lx);
 						};
 						this.V = function (py) {
-							return _this97.L(lx, py);
+							return _this101.L(lx, py);
 						};
 						this.v = function (py) {
-							return _this97.V(py + ly);
+							return _this101.V(py + ly);
 						};
 						this.Z = function () {
 							ctx.closePath();
 							lx = lMx;
 							ly = lMy;
 							lastCommand = 'Z';
-							return _this97;
+							return _this101;
 						};
 						this.z = function () {
-							return _this97.Z();
+							return _this101.Z();
 						};
 						//C x1 y1, x2 y2, x y (or c dx1 dy1, dx2 dy2, dx dy)
 						this.C = function (cp1x, cp1y, cp2x, cp2y, px, py) {
@@ -15076,10 +15510,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								y: 2 * py - cp2y
 							};
 							lastCommand = 'C';
-							return _this97;
+							return _this101;
 						};
 						this.c = function (cp1x, cp1y, cp2x, cp2y, px, py) {
-							return _this97.C(cp1x + lx, cp1y + ly, cp2x + lx, cp2y + ly, px + lx, py + ly);
+							return _this101.C(cp1x + lx, cp1y + ly, cp2x + lx, cp2y + ly, px + lx, py + ly);
 						};
 						//S x2 y2, x y (or s dx2 dy2, dx dy)
 						this.S = function (cpx, cpy, px, py) {
@@ -15087,10 +15521,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							    cp1x = _makeReflected.x,
 							    cp1y = _makeReflected.y;
 
-							return _this97.C(cp1x, cp1y, cpx, cpy, px, py);
+							return _this101.C(cp1x, cp1y, cpx, cpy, px, py);
 						};
 						this.s = function (cpx, cpy, px, py) {
-							return _this97.S(cpx + lx, cpy + ly, px + lx, py + ly);
+							return _this101.S(cpx + lx, cpy + ly, px + lx, py + ly);
 						};
 						//Q x1 y1, x y (or q dx1 dy1, dx dy)
 						this.Q = function (cpx, cpy, px, py) {
@@ -15102,10 +15536,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 								y: 2 * py - cpy
 							};
 							lastCommand = 'Q';
-							return _this97;
+							return _this101;
 						};
 						this.q = function (cpx, cpy, px, py) {
-							return _this97.Q(cpx + lx, cpy + ly, px + lx, py + ly);
+							return _this101.Q(cpx + lx, cpy + ly, px + lx, py + ly);
 						};
 						//T x y (or t dx dy)
 						this.T = function (px, py) {
@@ -15113,10 +15547,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							    cpx = _makeReflected2.x,
 							    cpy = _makeReflected2.y;
 
-							return _this97.Q(cpx, cpy, px, py);
+							return _this101.Q(cpx, cpy, px, py);
 						};
 						this.t = function (px, py) {
-							return _this97.T(px + lx, py + ly);
+							return _this101.T(px + lx, py + ly);
 						};
 						//A rx ry x-axis-rotation large-arc-flag sweep-flag x y
 						this.A = function (rx, ry, xAxisRotation, largeArcFlag, sweepFlag, px, py) {
@@ -15128,11 +15562,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							lx = px;
 							ly = py;
 							lastCommand = 'A';
-							return _this97;
+							return _this101;
 						};
 						//a rx ry x-axis-rotation large-arc-flag sweep-flag dx dy
 						this.a = function (rx, ry, xAxisRotation, largeArcFlag, sweepFlag, px, py) {
-							return _this97.A(rx, ry, xAxisRotation, largeArcFlag, sweepFlag, px + lx, py + ly);
+							return _this101.A(rx, ry, xAxisRotation, largeArcFlag, sweepFlag, px + lx, py + ly);
 						};
 					};
 
@@ -15224,18 +15658,18 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					var PathCommandsParser = function () {
 						function PathCommandsParser() {
-							var _this98 = this;
+							var _this102 = this;
 
 							_classCallCheck(this, PathCommandsParser);
 
 							this._commands = new PathCommands(this);
 							canvasOperations.forEach(function (op) {
-								_this98[op] = function () {
+								_this102[op] = function () {
 									for (var _len11 = arguments.length, args = Array(_len11), _key11 = 0; _key11 < _len11; _key11++) {
 										args[_key11] = arguments[_key11];
 									}
 
-									_this98._ops.push({
+									_this102._ops.push({
 										op: op,
 										args: args
 									});
@@ -15254,14 +15688,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 								args = args || [];
 								for (var i = 0; i < args.length; i++) {
-									args[i] = args[i] - 0;
+									args[i] -= 0;
 								}
 								(_commands = this._commands)[name].apply(_commands, _toConsumableArray(args));
 							}
 						}, {
 							key: 'parse',
 							value: function parse(d) {
-								var _this99 = this;
+								var _this103 = this;
 
 								var ops = this._ops = [];
 								var tokens = pathTokens(d);
@@ -15282,10 +15716,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 															return tokens.next();
 														}
 													};
-													subsequentCommand = command(_this99, subsequentCommand, argsProvider);
+													subsequentCommand = command(_this103, subsequentCommand, argsProvider);
 												})();
 											} else {
-												subsequentCommand = command(_this99, cmd, tokens);
+												subsequentCommand = command(_this103, cmd, tokens);
 											}
 										}
 									})();
@@ -15319,14 +15753,14 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					function computeStyle(font) {
 						return [{
-							display: 'block',
-							position: 'absolute',
-							top: '-9999px',
-							left: '-9999px',
-							width: 'auto',
-							height: 'auto',
-							margin: '0',
-							padding: '0',
+							'display': 'block',
+							'position': 'absolute',
+							'top': '-9999px',
+							'left': '-9999px',
+							'width': 'auto',
+							'height': 'auto',
+							'margin': '0',
+							'padding': '0',
 							'white-space': 'nowrap',
 							font: font
 						}, {
@@ -15403,7 +15837,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							key: 'load',
 							value: function load(font, testStr, activeCallback, inactiveCallback) {
 								var c = watchRunners[font] || (watchRunners[font] = {});
-								testStr = testStr + '';
+								testStr += '';
 								var runner = void 0;
 								if (c[testStr]) {
 									runner = c[testStr];
@@ -15456,7 +15890,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						}, {
 							key: 'check_',
 							value: function check_() {
-								var _this100 = this;
+								var _this104 = this;
 
 								var widthA = this.fontRulerA_.getWidth();
 								var widthB = this.fontRulerB_.getWidth();
@@ -15473,7 +15907,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 										}
 									} else {
 										setTimeout(function () {
-											_this100.check_();
+											_this104.check_();
 										}, 50);
 									}
 								} else {
@@ -15511,11 +15945,11 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						}, {
 							key: 'finish_',
 							value: function finish_(callbacks) {
-								var _this101 = this;
+								var _this105 = this;
 
 								setTimeout(function () {
-									_this101.fontRulerA_.remove();
-									_this101.fontRulerB_.remove();
+									_this105.fontRulerA_.remove();
+									_this105.fontRulerB_.remove();
 									callbacks.forEach(function (cb) {
 										return cb();
 									});
@@ -15701,6 +16135,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							}
 							return new Promise(function (resolve) {
 								var length = array.length;
+
 								var plist = [];
 
 								var _loop4 = function _loop4(i) {
@@ -15722,8 +16157,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 							});
 						};
 
-						var _webpack_require__66 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
-						    isPromise = _webpack_require__66.isPromise;
+						var _webpack_require__69 = __webpack_require__( /*! ./utils */"./internal/utils.js"),
+						    isPromise = _webpack_require__69.isPromise;
 
 						var sort = {
 							sort: function sort(get, set, length, compare, getField) {
@@ -16152,6 +16587,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									} else {
 										arrayFindIndex = function arrayFindIndex(arr, predicate) {
 											var length = arr.length;
+
 											for (var i = 0; i < length; i++) {
 												var value = arr[i];
 												if (predicate(value, i, arr)) {
@@ -16231,8 +16667,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 					"use strict";
 
-					var _webpack_require__67 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-					    extend = _webpack_require__67.extend;
+					var _webpack_require__70 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+					    extend = _webpack_require__70.extend;
 
 					var DrawGrid = __webpack_require__( /*! ../core/DrawGrid */"./core/DrawGrid.js");
 					var EVENT_TYPE = extend(DrawGrid.EVENT_TYPE, {
@@ -16391,9 +16827,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 					"use strict";
 
 					{
-						var _webpack_require__68 = __webpack_require__( /*! ./internal/utils */"./internal/utils.js"),
-						    extend = _webpack_require__68.extend,
-						    getIgnoreCase = _webpack_require__68.getIgnoreCase;
+						var _webpack_require__71 = __webpack_require__( /*! ./internal/utils */"./internal/utils.js"),
+						    extend = _webpack_require__71.extend,
+						    getIgnoreCase = _webpack_require__71.getIgnoreCase;
 
 						var theme = __webpack_require__( /*! ./themes/theme */"./themes/theme.js");
 						var plugins = __webpack_require__( /*! ./plugins/themes */"./plugins/themes.js");
@@ -16679,8 +17115,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
        */
 
 
-						var _webpack_require__69 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
-						    getChainSafe = _webpack_require__69.getChainSafe;
+						var _webpack_require__72 = __webpack_require__( /*! ../internal/utils */"./internal/utils.js"),
+						    getChainSafe = _webpack_require__72.getChainSafe;
 
 						var defaultTheme = __webpack_require__( /*! ./MATERIAL_DESIGN */"./themes/MATERIAL_DESIGN.js");
 
@@ -16792,10 +17228,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						};
 
 						var fillTextRect = function fillTextRect(ctx, text, left, top, width, height) {
-							var _ref71 = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : {},
-							    _ref71$offset = _ref71.offset,
-							    offset = _ref71$offset === undefined ? 2 : _ref71$offset,
-							    padding = _ref71.padding;
+							var _ref70 = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : {},
+							    _ref70$offset = _ref70.offset,
+							    offset = _ref70$offset === undefined ? 2 : _ref70$offset,
+							    padding = _ref70.padding;
 
 							var rect = {
 								left: left,
@@ -16825,10 +17261,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 						};
 
 						var drawInlineImageRect = function drawInlineImageRect(ctx, image, srcLeft, srcTop, srcWidth, srcHeight, destWidth, destHeight, left, top, width, height) {
-							var _ref72 = arguments.length > 12 && arguments[12] !== undefined ? arguments[12] : {},
-							    _ref72$offset = _ref72.offset,
-							    offset = _ref72$offset === undefined ? 2 : _ref72$offset,
-							    padding = _ref72.padding;
+							var _ref71 = arguments.length > 12 && arguments[12] !== undefined ? arguments[12] : {},
+							    _ref71$offset = _ref71.offset,
+							    offset = _ref71$offset === undefined ? 2 : _ref71$offset,
+							    padding = _ref71.padding;
 
 							var rect = {
 								left: left,
@@ -16867,7 +17303,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 						var measureCheckbox = function measureCheckbox(ctx) {
 							return {
-								width: ctx.measureText('あ').width
+								width: getFontSize(ctx, null).width
 							};
 						};
 
@@ -16884,15 +17320,15 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 
 						var drawCheckbox = function drawCheckbox(ctx, x, y, check) {
-							var _ref73 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {},
-							    _ref73$uncheckBgColor = _ref73.uncheckBgColor,
-							    uncheckBgColor = _ref73$uncheckBgColor === undefined ? '#FFF' : _ref73$uncheckBgColor,
-							    _ref73$checkBgColor = _ref73.checkBgColor,
-							    checkBgColor = _ref73$checkBgColor === undefined ? 'rgb(76, 73, 72)' : _ref73$checkBgColor,
-							    _ref73$borderColor = _ref73.borderColor,
-							    borderColor = _ref73$borderColor === undefined ? '#000' : _ref73$borderColor,
-							    _ref73$boxSize = _ref73.boxSize,
-							    boxSize = _ref73$boxSize === undefined ? measureCheckbox(ctx).width : _ref73$boxSize;
+							var _ref72 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {},
+							    _ref72$uncheckBgColor = _ref72.uncheckBgColor,
+							    uncheckBgColor = _ref72$uncheckBgColor === undefined ? '#FFF' : _ref72$uncheckBgColor,
+							    _ref72$checkBgColor = _ref72.checkBgColor,
+							    checkBgColor = _ref72$checkBgColor === undefined ? 'rgb(76, 73, 72)' : _ref72$checkBgColor,
+							    _ref72$borderColor = _ref72.borderColor,
+							    borderColor = _ref72$borderColor === undefined ? '#000' : _ref72$borderColor,
+							    _ref72$boxSize = _ref72.boxSize,
+							    boxSize = _ref72$boxSize === undefined ? measureCheckbox(ctx).width : _ref72$boxSize;
 
 							var checkPoint = typeof check === 'number' ? check > 1 ? 1 : check : 1;
 
@@ -16913,7 +17349,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									var leftTopPos = y + boxSize / 2;
 
 									if (checkPoint < 0.5) {
-										leftWidth = leftWidth * (checkPoint * 2);
+										leftWidth *= checkPoint * 2;
 									}
 
 									ctx.beginPath();
@@ -16921,7 +17357,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									ctx.lineTo(leftLeftPos + leftWidth, leftTopPos + leftWidth);
 									if (checkPoint > 0.5) {
 										if (checkPoint < 1) {
-											rightWidth = rightWidth * ((checkPoint - 0.5) * 2);
+											rightWidth *= (checkPoint - 0.5) * 2;
 										}
 										ctx.lineTo(leftLeftPos + leftWidth + rightWidth, leftTopPos + leftWidth - rightWidth);
 									}
@@ -16983,9 +17419,10 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
        */
 
 
-						var _webpack_require__70 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
-						    calcBasePosition = _webpack_require__70.calcBasePosition,
-						    calcStartPosition = _webpack_require__70.calcStartPosition;
+						var _webpack_require__73 = __webpack_require__( /*! ../internal/canvases */"./internal/canvases.js"),
+						    calcBasePosition = _webpack_require__73.calcBasePosition,
+						    calcStartPosition = _webpack_require__73.calcStartPosition,
+						    getFontSize = _webpack_require__73.getFontSize;
 
 						var ceil = Math.ceil,
 						    PI = Math.PI;
