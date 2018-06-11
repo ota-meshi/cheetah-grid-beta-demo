@@ -10254,10 +10254,13 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 									_this69._isComposition = false;
 									_this69._input.classList.remove('composition');
 									_this69._input.style.font = '';
-									if (!_this69._input.readOnly) {
-										_this69.fireListeners('input', _this69._input.value);
-									}
+									var value = _this69._input.value;
+
 									setSafeInputValue(_this69._input, '');
+
+									if (!_this69._input.readOnly) {
+										_this69.fireListeners('input', value);
+									}
 
 									if (_this69._compositionEnd) {
 										clearTimeout(_this69._compositionEnd);
